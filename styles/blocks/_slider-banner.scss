@@ -2,18 +2,18 @@
     position: relative;
 
     &__slide {
-        background-image: url(/images/section-slider/slide.jpg);
+        background-image: url(../images/section-slider/slide.jpg);
         background-color: rgba(255, 255, 255, 0.7);
         background-blend-mode: overlay;
         background-repeat: no-repeat;
         background-size: cover;
 
         &--active {
-            background-image: url(/images/section-slider/slide-active.jpg);
+            background-image: url(../images/section-slider/slide-active.jpg);
         }
 
         &--promo {
-            background-image: url(/images/section-slider/slide-promo.jpg);
+            background-image: url(../images/section-slider/slide-promo.jpg);
         }
     }
 

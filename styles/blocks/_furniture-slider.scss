@@ -19,10 +19,9 @@
     left: -7px;
 
     @include mobile {
-        background: url(/images/arrow/arrow-prev-light.svg) 0 0 no-repeat;
+        background: url(../images/arrow/arrow-prev-light.svg) 0 0 no-repeat;
         background-color: var(--color-blue);
         background-position: center center;
-
     }
 }
 
@@ -30,7 +29,7 @@
     right: -7px;
 
     @include mobile {
-        background: url(/images/arrow/arrow-next-light.svg) 0 0 no-repeat;
+        background: url(../images/arrow/arrow-next-light.svg) 0 0 no-repeat;
         background-color: var(--color-blue);
         background-position: center center;
 
