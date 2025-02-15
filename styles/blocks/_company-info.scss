@@ -1,0 +1,30 @@
+.company-info {
+    display: flex;
+    min-width: 0;
+    justify-content: space-between;
+    column-gap: 45px;
+
+    @include mobile {
+        flex-direction: column;
+        row-gap: 20px;
+        align-items: center;
+    }
+
+    &__inner {
+        display: flex;
+        flex-direction: column;
+        row-gap: 20px;
+    }
+
+    &__slider {
+        max-width: 488px;
+
+        @include tablet {
+            max-width: 400px;
+        }
+
+        @include mobile-s {
+            max-width: 335px;
+        }
+    }
+}

@@ -1,0 +1,21 @@
+.filter-slider {
+    &__menu {
+        &-list {
+            display: flex;
+            column-gap: 35px;
+            flex-wrap: wrap;
+            row-gap: 20px;
+        }
+
+        &-item {
+            color: rgb(0, 0, 0, 0.6);
+            padding-bottom: 5px;
+        }
+    }
+}
+
+.filter li.active {
+    color: var(--color-dark);
+    border-bottom: 1px solid var(--color-dark);
+    font-weight: 600;
+}

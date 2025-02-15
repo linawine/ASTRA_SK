@@ -1,0 +1,55 @@
+.advantage-feedback {
+    background-image: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%), url(/images/advantage/advantage-feedback-bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    &__inner {
+        display: flex;
+        flex-direction: column;
+        row-gap: 20px;
+        padding-top: 40px;
+
+        @include mobile {
+            padding-top: 20px;
+            padding-bottom: 30px;
+        }
+    }
+
+    &__slider {
+        position: relative;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(335px, 1fr));
+    }
+
+    &__slide {
+        height: 100%;
+        box-sizing: border-box;
+        padding-bottom: 20px;
+        padding-inline: 10px;
+    }
+}
+
+.advantage-feedback__slider .slick-arrow.slick-prev {
+    left: -10000px;
+    background: url(/images/arrow/arrow-prev-blue.svg) 0 0 no-repeat;
+    background-color: var(--color-grey-alt);
+    background-position: center center;
+
+    @include mobile {
+        top: 100%;
+        left: 38%
+    }
+}
+
+.advantage-feedback__slider .slick-arrow.slick-next {
+    right: -10000px;
+    background: url(/images/arrow/arrow-next-blue.svg) 0 0 no-repeat;
+    background-color: var(--color-grey-alt);
+    background-position: center center;
+
+    @include mobile {
+        top: 100%;
+        right: 38%;
+    }
+}

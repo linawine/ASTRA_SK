@@ -1,0 +1,7 @@
+.section {
+    padding-block: var(--section-padding-y);
+
+    @include mobile {
+        padding-block: var(--section-padding-mobile-y)
+    }
+}

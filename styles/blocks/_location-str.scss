@@ -1,0 +1,22 @@
+.location-str {
+    display: flex;
+    column-gap: 22px;
+    margin-bottom: 20px;
+    font-size: 16px;
+
+    &-base {
+        position: relative;
+    }
+
+    &-base::after {
+        content: url(/images/location/location.svg);
+        height: 24px;
+        width: 22px;
+        position: absolute;
+        top: -3px
+    }
+
+    &-accent {
+        font-weight: 450;
+    }
+}

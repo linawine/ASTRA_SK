@@ -1,0 +1,2121 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./styles/styles.css">
+    <title>Astra-SK</title>
+</head>
+
+<body>
+    <div class="content">
+        <header class="header">
+            <div class="header__inner container">
+                <a href="./index.html" class="header__logo logo">
+                    <img class="logo__image" src="./images/header/logo.svg" alt="Astra-SK" width="207" height="20"
+                        loading="lazy">
+                </a>
+                <nav class="header__menu hidden-desctop">
+                    <ul class="header__menu-list header__menu-list--main">
+                        <li class="header__menu-item">
+                            <a href="./company.html" class="header__menu-link">
+                                О компании
+                            </a>
+                        </li>
+                        <li class="header__menu-item">
+                            <a href="./object.html" class="header__menu-link">
+                                Объекты
+                            </a>
+                        </li>
+                        <li class="header__menu-item">
+                            <a href="./contact.html" class="header__menu-link">
+                                Контакты
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+                <nav class="header__menu hidden-desctop">
+                    <ul class="header__menu-list">
+                        <li class="header__menu-item">
+                            <a href="tel:+79195698988" class="header__menu-link">
+                                <span class="header__menu-icon">
+                                    <img src="./images/header/icon-phone.svg" alt="">
+                                </span>
+                                8 (919) 569 8988
+                            </a>
+                        </li>
+                        <li class="header__menu-item">
+                            <a href="mailto:zsmstroika@mail.ru" class="header__menu-link">
+                                <span class="header__menu-icon">
+                                    <img src="./images/header/icon-letter.svg" alt="">
+                                </span>
+                                zsmstroika@mail.ru
+                            </a>
+                        </li>
+                        <li class="header__menu-item">
+                            <button type="button" class="header__menu-link header__menu-link--call reset-button"
+                                onclick="feedbackFormPhone.showModal()">
+                                Заказать звонок
+                            </button>
+                        </li>
+                    </ul>
+                </nav>
+                <button class="button__burger-menu reset-button visually-desctop" type="button"
+                    onclick="mobileOverlay.showModal()">
+                    <span class="visually-hidden">Open navigation menu</span>
+                    <img src="./images/header/open-button.svg" alt="Open navigation menu" width="30" height="30"
+                        loading="lazy">
+                </button>
+            </div>
+        </header>
+
+        <main class="section">
+            <div class="company-tab" id="company-tab-1">
+                <div class="location-str container">
+                    <div class="location-str-base">
+                        <a href="index.html">Главная</a>
+                    </div>
+                    <div class="location-str-accent">
+                        <a href="company.html">О компании</a>
+                    </div>
+                </div>
+                <div class="company-tab__nav tabs tabs--company-tab container">
+                    <button type="button" class="reset-button tab-btn tab-btn-active" data-target-id="aboutCompany">О
+                        компании</button>
+                    <button type="button" class="reset-button tab-btn" data-target-id="ourTeam">Наша команда</button>
+                    <button type="button" class="reset-button tab-btn" data-target-id="vacancy">Вакансии</button>
+                    <button type="button" class="reset-button tab-btn" data-target-id="news">Новости</button>
+                    <button type="button" class="reset-button tab-btn" data-target-id="cert">Лицензии и
+                        сертификаты</button>
+                </div>
+                <div class="company-tab__content">
+                    <div class="company-tab__pane company-tab__pane--show" data-id="aboutCompany">
+                        <section class="section container company-info">
+                            <div class="company-info__inner">
+                                <h2 class="company-info__title">
+                                    О компании
+                                </h2>
+                                <div class="company-info__description">
+                                    <p>СК «Астра» работает в сфере строительства 2015 года.  За это время мы
+                                        собрали
+                                        команду специалистов. Создали обширную материально-техническую базу и
+                                        накопили большой опыт. Всё вместе это позволяет  нам успешно
+                                        реализовывать
+                                        даже самые сложные и нестандартные проекты.
+                                    </p>
+                                    <p>На сегодняшний день СК «Астра»- это динамично развивающаяся копания, за
+                                        плечами которой участия более чем десятке крупных проектов по
+                                        строительству
+                                        и реконструкции объектов в Кургане и Курганской обл., Тюмени, Тобольске,
+                                        Екатеринбургская обл..
+                                    </p>
+                                    <p>Мы гордимся своими достижениями и стремимся к дальнейшему развитию  и
+                                        партнёрству.</p>
+                                </div>
+                            </div>
+                            <div class="company-info__slider">
+                                <div class="company-slider">
+                                    <div class="company-slider__slide">
+                                        <img class="company-slider__image" src="./images/company/company-slider.svg"
+                                            alt="Astra-SK">
+                                    </div>
+                                    <div class="company-slider__slide">
+                                        <img class="company-slider__image" src="./images/company/company-slider.svg"
+                                            alt="Astra-SK">
+                                    </div>
+                                    <div class="company-slider__slide">
+                                        <img class="company-slider__image" src="./images/company/company-slider.svg"
+                                            alt="Astra-SK">
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+
+                        <div class="production">
+                            <div class="production__container">
+                                <div class="production__block-container--prev">
+                                    <div class="production__block-prev">
+                                        <h2 class="block-prev__title">
+                                            Производство
+                                        </h2>
+                                        <div class="block-prev__text">
+                                            <p>
+                                                Собственное производство и штат высококвалифицированных сотрудников
+                                                различного профиля –
+                                                это позволяет вести строительство надежных и экономичных объектов в
+                                                сжатые
+                                                сроки.
+                                            </p>
+                                            <p>
+                                                У нас имеется собственный отдел ОТК, поэтому мы гарантируем качество
+                                                наших
+                                                конструкций на всех
+                                                этапах их строительства.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="production__block-container--next">
+                                    <div class="production__block-next">
+                                        <div class="production__block-next-info">
+                                            <div class="production__block-next-title">
+                                                20 000 м2
+                                            </div>
+                                            <div class="production__block-next-description">
+                                                территория собственного производства
+                                            </div>
+                                        </div>
+                                        <div class="production__block-next-info">
+                                            <div class="production__block-next-title">
+                                                1000 тонн
+                                            </div>
+                                            <div class="production__block-next-description">
+                                                в месяц производственные мощности завода
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <section class="section container">
+                            <div class="special">
+                                <div class="special__inner">
+                                    <h2 class="special__title">
+                                        Высококвалифицированные специалисты
+                                    </h2>
+                                    <div class="special__description">
+                                        <div class="special__description-text">
+                                            <p>
+                                                Наш штат высококвалифицированных сотрудников различного профиля
+                                                – позволяет вести строительство надежных и экономичных объектов в
+                                                сжатые сроки.
+                                            </p>
+                                        </div>
+                                        <button class="button special__description-button button--accent">
+                                            Посмотреть всю команду
+                                        </button>
+                                    </div>
+                                    <div class="special__special-slider">
+                                        <div class="special-slider">
+                                            <div class="special-slider__slide">
+                                                <div class="special-card">
+                                                    <h5 class="special-card__title">
+                                                        Инженер
+                                                    </h5>
+                                                    <div class="special-card__image">
+                                                        <img src="./images/special-card/special-card.svg"
+                                                            alt="Фотография специалиста" width="160" height="160">
+                                                    </div>
+                                                    <div class="special-card__description">
+                                                        <div class="special-card__description-name">
+                                                            Александр
+                                                        </div>
+                                                        <div class="special-card__description-info">
+                                                            <p>
+                                                                32+ реализованных проектов
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="special-slider__slide">
+                                                <div class="special-card">
+                                                    <h5 class="special-card__title">
+                                                        Инженер
+                                                    </h5>
+                                                    <div class="special-card__image">
+                                                        <img src="./images/special-card/special-card.svg"
+                                                            alt="Фотография специалиста" width="160" height="160">
+                                                    </div>
+                                                    <div class="special-card__description">
+                                                        <div class="special-card__description-name">
+                                                            Александр
+                                                        </div>
+                                                        <div class="special-card__description-info">
+                                                            <p>
+                                                                32+ реализованных проектов
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="special-slider__slide">
+                                                <div class="special-card">
+                                                    <h5 class="special-card__title">
+                                                        Инженер
+                                                    </h5>
+                                                    <div class="special-card__image">
+                                                        <img src="./images/special-card/special-card.svg"
+                                                            alt="Фотография специалиста" width="160" height="160">
+                                                    </div>
+                                                    <div class="special-card__description">
+                                                        <div class="special-card__description-name">
+                                                            Александр
+                                                        </div>
+                                                        <div class="special-card__description-info">
+                                                            <p>
+                                                                32+ реализованных проектов
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="special-slider__slide">
+                                                <div class="special-card">
+                                                    <h5 class="special-card__title">
+                                                        Инженер
+                                                    </h5>
+                                                    <div class="special-card__image">
+                                                        <img src="./images/special-card/special-card.svg"
+                                                            alt="Фотография специалиста" width="160" height="160">
+                                                    </div>
+                                                    <div class="special-card__description">
+                                                        <div class="special-card__description-name">
+                                                            Александр
+                                                        </div>
+                                                        <div class="special-card__description-info">
+                                                            <p>
+                                                                32+ реализованных проектов
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="special-slider__slide">
+                                                <div class="special-card">
+                                                    <h5 class="special-card__title">
+                                                        Инженер
+                                                    </h5>
+                                                    <div class="special-card__image">
+                                                        <img src="./images/special-card/special-card.svg"
+                                                            alt="Фотография специалиста" width="160" height="160">
+                                                    </div>
+                                                    <div class="special-card__description">
+                                                        <div class="special-card__description-name">
+                                                            Александр
+                                                        </div>
+                                                        <div class="special-card__description-info">
+                                                            <p>
+                                                                32+ реализованных проектов
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="special-slider__slide">
+                                                <div class="special-card">
+                                                    <h5 class="special-card__title">
+                                                        Инженер
+                                                    </h5>
+                                                    <div class="special-card__image">
+                                                        <img src="./images/special-card/special-card.svg"
+                                                            alt="Фотография специалиста" width="160" height="160">
+                                                    </div>
+                                                    <div class="special-card__description">
+                                                        <div class="special-card__description-name">
+                                                            Александр
+                                                        </div>
+                                                        <div class="special-card__description-info">
+                                                            <p>
+                                                                32+ реализованных проектов
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+
+                        <section class="section advantage">
+                            <div class="container">
+                                <div class="advantage__inner">
+                                    <h2 class="advantage__title">
+                                        Почему ASTRACK
+                                    </h2>
+
+                                    <div class="advantage-slider">
+                                        <div class="advantage-slider__slide">
+                                            <div class="advantage-card">
+                                                <h5 class="advantage-card__title">
+                                                    Преимущество
+                                                </h5>
+                                                <div class="advantage-card__description">
+                                                    <p>Задача организации, в особенности же новая модель организационной
+                                                        деятельности
+                                                        обеспечивает актуальность кластеризации усилий.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="advantage-slider__slide">
+                                            <div class="advantage-card">
+                                                <h5 class="advantage-card__title">
+                                                    Преимущество
+                                                </h5>
+                                                <div class="advantage-card__description">
+                                                    <p>Задача организации, в особенности же новая модель организационной
+                                                        деятельности
+                                                        обеспечивает актуальность кластеризации усилий.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="advantage-slider__slide">
+                                            <div class="advantage-card">
+                                                <h5 class="advantage-card__title">
+                                                    Преимущество
+                                                </h5>
+                                                <div class="advantage-card__description">
+                                                    <p>Задача организации, в особенности же новая модель организационной
+                                                        деятельности
+                                                        обеспечивает актуальность кластеризации усилий.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="advantage-slider__slide">
+                                            <div class="advantage-card">
+                                                <h5 class="advantage-card__title">
+                                                    Преимущество
+                                                </h5>
+                                                <div class="advantage-card__description">
+                                                    <p>Задача организации, в особенности же новая модель организационной
+                                                        деятельности
+                                                        обеспечивает актуальность кластеризации усилий.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="advantage-slider__slide">
+                                            <div class="advantage-card">
+                                                <h5 class="advantage-card__title">
+                                                    Преимущество
+                                                </h5>
+                                                <div class="advantage-card__description">
+                                                    <p>Задача организации, в особенности же новая модель организационной
+                                                        деятельности
+                                                        обеспечивает актуальность кластеризации усилий.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="advantage-slider__slide">
+                                            <div class="advantage-card">
+                                                <h5 class="advantage-card__title">
+                                                    Преимущество
+                                                </h5>
+                                                <div class="advantage-card__description">
+                                                    <p>Задача организации, в особенности же новая модель организационной
+                                                        деятельности
+                                                        обеспечивает актуальность кластеризации усилий.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="advantage-slider__slide">
+                                            <div class="advantage-card">
+                                                <h5 class="advantage-card__title">
+                                                    Преимущество
+                                                </h5>
+                                                <div class="advantage-card__description">
+                                                    <p>Задача организации, в особенности же новая модель организационной
+                                                        деятельности
+                                                        обеспечивает актуальность кластеризации усилий.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="advantage-slider__slide">
+                                            <div class="advantage-card">
+                                                <h5 class="advantage-card__title">
+                                                    Преимущество
+                                                </h5>
+                                                <div class="advantage-card__description">
+                                                    <p>Задача организации, в особенности же новая модель организационной
+                                                        деятельности
+                                                        обеспечивает актуальность кластеризации усилий.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="advantage-slider__slide">
+                                            <div class="advantage-card">
+                                                <h5 class="advantage-card__title">
+                                                    Преимущество
+                                                </h5>
+                                                <div class="advantage-card__description">
+                                                    <p>Задача организации, в особенности же новая модель организационной
+                                                        деятельности
+                                                        обеспечивает актуальность кластеризации усилий.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="advantage-slider__slide">
+                                            <div class="advantage-card">
+                                                <h5 class="advantage-card__title">
+                                                    Преимущество
+                                                </h5>
+                                                <div class="advantage-card__description">
+                                                    <p>Задача организации, в особенности же новая модель организационной
+                                                        деятельности
+                                                        обеспечивает актуальность кластеризации усилий.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                    <div class="company-tab__pane" data-id="ourTeam">
+                        <section class="section container">
+                            <div class="special">
+                                <div class="special__inner">
+                                    <h2 class="special__title">
+                                        Высококвалифицированные специалисты
+                                    </h2>
+                                    <div class="special__description">
+                                        <div class="special__description-text">
+                                            <p>
+                                                Наш штат высококвалифицированных сотрудников различного профиля
+                                                – позволяет вести строительство надежных и экономичных объектов в
+                                                сжатые сроки.
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="special__special-slider">
+                                        <div class="special-slider special-slider--arrow">
+                                            <div class="special-slider__slide">
+                                                <div class="special-card">
+                                                    <h5 class="special-card__title">
+                                                        Инженер
+                                                    </h5>
+                                                    <div class="special-card__image">
+                                                        <img src="./images/special-card/special-card.svg"
+                                                            alt="Фотография специалиста" width="160" height="160">
+                                                    </div>
+                                                    <div class="special-card__description">
+                                                        <div class="special-card__description-name">
+                                                            Александр
+                                                        </div>
+                                                        <div class="special-card__description-info">
+                                                            <p>
+                                                                32+ реализованных проектов
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="special-slider__slide">
+                                                <div class="special-card">
+                                                    <h5 class="special-card__title">
+                                                        Инженер
+                                                    </h5>
+                                                    <div class="special-card__image">
+                                                        <img src="./images/special-card/special-card.svg"
+                                                            alt="Фотография специалиста" width="160" height="160">
+                                                    </div>
+                                                    <div class="special-card__description">
+                                                        <div class="special-card__description-name">
+                                                            Александр
+                                                        </div>
+                                                        <div class="special-card__description-info">
+                                                            <p>
+                                                                32+ реализованных проектов
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="special-slider__slide">
+                                                <div class="special-card">
+                                                    <h5 class="special-card__title">
+                                                        Инженер
+                                                    </h5>
+                                                    <div class="special-card__image">
+                                                        <img src="./images/special-card/special-card.svg"
+                                                            alt="Фотография специалиста" width="160" height="160">
+                                                    </div>
+                                                    <div class="special-card__description">
+                                                        <div class="special-card__description-name">
+                                                            Александр
+                                                        </div>
+                                                        <div class="special-card__description-info">
+                                                            <p>
+                                                                32+ реализованных проектов
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="special-slider__slide">
+                                                <div class="special-card">
+                                                    <h5 class="special-card__title">
+                                                        Инженер
+                                                    </h5>
+                                                    <div class="special-card__image">
+                                                        <img src="./images/special-card/special-card.svg"
+                                                            alt="Фотография специалиста" width="160" height="160">
+                                                    </div>
+                                                    <div class="special-card__description">
+                                                        <div class="special-card__description-name">
+                                                            Александр
+                                                        </div>
+                                                        <div class="special-card__description-info">
+                                                            <p>
+                                                                32+ реализованных проектов
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="special-slider__slide">
+                                                <div class="special-card">
+                                                    <h5 class="special-card__title">
+                                                        Инженер
+                                                    </h5>
+                                                    <div class="special-card__image">
+                                                        <img src="./images/special-card/special-card.svg"
+                                                            alt="Фотография специалиста" width="160" height="160">
+                                                    </div>
+                                                    <div class="special-card__description">
+                                                        <div class="special-card__description-name">
+                                                            Александр
+                                                        </div>
+                                                        <div class="special-card__description-info">
+                                                            <p>
+                                                                32+ реализованных проектов
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="special-slider__slide">
+                                                <div class="special-card">
+                                                    <h5 class="special-card__title">
+                                                        Инженер
+                                                    </h5>
+                                                    <div class="special-card__image">
+                                                        <img src="./images/special-card/special-card.svg"
+                                                            alt="Фотография специалиста" width="160" height="160">
+                                                    </div>
+                                                    <div class="special-card__description">
+                                                        <div class="special-card__description-name">
+                                                            Александр
+                                                        </div>
+                                                        <div class="special-card__description-info">
+                                                            <p>
+                                                                32+ реализованных проектов
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+
+                        <section class="section container visually-mobile">
+                            <div class="special">
+                                <div class="special__inner">
+                                    <h2 class="special__title">
+                                        Лучшие сотрудники месяца
+                                    </h2>
+                                    <div class="special__description">
+                                        <p>
+                                            Наш штат высококвалифицированных сотрудников различного профиля
+                                            – позволяет вести строительство надежных и экономичных объектов в
+                                            сжатые сроки.
+                                        </p>
+                                    </div>
+                                    <div class="special__special-slider">
+                                        <div class="special-slider special-slider--arrow">
+                                            <div class="special-slider__slide">
+                                                <div class="special-card special-card--background">
+                                                    <div class="special-card__image">
+                                                        <img src="./images/special-card/special-card.svg"
+                                                            alt="Фотография специалиста" width="160" height="160">
+                                                    </div>
+                                                    <div class="special-card__info">
+                                                        <h5 class="special-card__title">
+                                                            Инженер
+                                                        </h5>
+                                                        <div class="special-card__description-name">
+                                                            Александр
+                                                        </div>
+                                                        <div class="special-card__description-info">
+                                                            <p>
+                                                                32+ реализованных проектов
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="special-card__description">
+                                                        <div class="special-card__description-info">
+                                                            <p>
+                                                                Мы вынуждены отталкиваться от того, что выбранный нами
+                                                                инновационный
+                                                                путь однозначно фиксирует необходимость существующих
+                                                                финансовых и
+                                                                административных условий. Наше дело не так однозначно,
+                                                                как
+                                                                может
+                                                                показаться: высокотехнологичная концепция общественного
+                                                                уклада создаёт
+                                                                предпосылки для соответствующих условий активизации.
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="special-slider__slide">
+                                                <div class="special-card special-card--background">
+                                                    <div class="special-card__image">
+                                                        <img src="./images/special-card/special-card.svg"
+                                                            alt="Фотография специалиста" width="160" height="160">
+                                                    </div>
+                                                    <div class="special-card__info">
+                                                        <h5 class="special-card__title">
+                                                            Инженер
+                                                        </h5>
+                                                        <div class="special-card__description-name">
+                                                            Александр
+                                                        </div>
+                                                        <div class="special-card__description-info">
+                                                            <p>
+                                                                32+ реализованных проектов
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="special-card__description">
+                                                        <div class="special-card__description-info">
+                                                            <p>
+                                                                Мы вынуждены отталкиваться от того, что выбранный нами
+                                                                инновационный
+                                                                путь однозначно фиксирует необходимость существующих
+                                                                финансовых и
+                                                                административных условий. Наше дело не так однозначно,
+                                                                как
+                                                                может
+                                                                показаться: высокотехнологичная концепция общественного
+                                                                уклада создаёт
+                                                                предпосылки для соответствующих условий активизации.
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="special-slider__slide">
+                                                <div class="special-card special-card--background">
+                                                    <div class="special-card__image">
+                                                        <img src="./images/special-card/special-card.svg"
+                                                            alt="Фотография специалиста" width="160" height="160">
+                                                    </div>
+                                                    <div class="special-card__info">
+                                                        <h5 class="special-card__title">
+                                                            Инженер
+                                                        </h5>
+                                                        <div class="special-card__description-name">
+                                                            Александр
+                                                        </div>
+                                                        <div class="special-card__description-info">
+                                                            <p>
+                                                                32+ реализованных проектов
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="special-card__description">
+                                                        <div class="special-card__description-info">
+                                                            <p>
+                                                                Мы вынуждены отталкиваться от того, что выбранный нами
+                                                                инновационный
+                                                                путь однозначно фиксирует необходимость существующих
+                                                                финансовых и
+                                                                административных условий. Наше дело не так однозначно,
+                                                                как
+                                                                может
+                                                                показаться: высокотехнологичная концепция общественного
+                                                                уклада создаёт
+                                                                предпосылки для соответствующих условий активизации.
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="special-slider__slide">
+                                                <div class="special-card special-card--background">
+                                                    <div class="special-card__image">
+                                                        <img src="./images/special-card/special-card.svg"
+                                                            alt="Фотография специалиста" width="160" height="160">
+                                                    </div>
+                                                    <div class="special-card__info">
+                                                        <h5 class="special-card__title">
+                                                            Инженер
+                                                        </h5>
+                                                        <div class="special-card__description-name">
+                                                            Александр
+                                                        </div>
+                                                        <div class="special-card__description-info">
+                                                            <p>
+                                                                32+ реализованных проектов
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="special-card__description">
+                                                        <div class="special-card__description-info">
+                                                            <p>
+                                                                Мы вынуждены отталкиваться от того, что выбранный нами
+                                                                инновационный
+                                                                путь однозначно фиксирует необходимость существующих
+                                                                финансовых и
+                                                                административных условий. Наше дело не так однозначно,
+                                                                как
+                                                                может
+                                                                показаться: высокотехнологичная концепция общественного
+                                                                уклада создаёт
+                                                                предпосылки для соответствующих условий активизации.
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="special-slider__slide">
+                                                <div class="special-card special-card--background">
+                                                    <div class="special-card__image">
+                                                        <img src="./images/special-card/special-card.svg"
+                                                            alt="Фотография специалиста" width="160" height="160">
+                                                    </div>
+                                                    <div class="special-card__info">
+                                                        <h5 class="special-card__title">
+                                                            Инженер
+                                                        </h5>
+                                                        <div class="special-card__description-name">
+                                                            Александр
+                                                        </div>
+                                                        <div class="special-card__description-info">
+                                                            <p>
+                                                                32+ реализованных проектов
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="special-card__description">
+                                                        <div class="special-card__description-info">
+                                                            <p>
+                                                                Мы вынуждены отталкиваться от того, что выбранный нами
+                                                                инновационный
+                                                                путь однозначно фиксирует необходимость существующих
+                                                                финансовых и
+                                                                административных условий. Наше дело не так однозначно,
+                                                                как
+                                                                может
+                                                                показаться: высокотехнологичная концепция общественного
+                                                                уклада создаёт
+                                                                предпосылки для соответствующих условий активизации.
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="special-slider__slide">
+                                                <div class="special-card special-card--background">
+                                                    <div class="special-card__image">
+                                                        <img src="./images/special-card/special-card.svg"
+                                                            alt="Фотография специалиста" width="160" height="160">
+                                                    </div>
+                                                    <div class="special-card__info">
+                                                        <h5 class="special-card__title">
+                                                            Инженер
+                                                        </h5>
+                                                        <div class="special-card__description-name">
+                                                            Александр
+                                                        </div>
+                                                        <div class="special-card__description-info">
+                                                            <p>
+                                                                32+ реализованных проектов
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="special-card__description">
+                                                        <div class="special-card__description-info">
+                                                            <p>
+                                                                Мы вынуждены отталкиваться от того, что выбранный нами
+                                                                инновационный
+                                                                путь однозначно фиксирует необходимость существующих
+                                                                финансовых и
+                                                                административных условий. Наше дело не так однозначно,
+                                                                как
+                                                                может
+                                                                показаться: высокотехнологичная концепция общественного
+                                                                уклада создаёт
+                                                                предпосылки для соответствующих условий активизации.
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+
+                        <section class="section container hidden-mobile">
+                            <div class="special">
+                                <div class="special__inner">
+                                    <h2 class="special__title">
+                                        Лучшие сотрудники месяца
+                                    </h2>
+                                    <div class="special__description">
+                                        <p>
+                                            Наш штат высококвалифицированных сотрудников различного профиля
+                                            – позволяет вести строительство надежных и экономичных объектов в
+                                            сжатые сроки.
+                                        </p>
+                                    </div>
+                                    <div class="special-card__container">
+                                        <div class="special-card special-card--background special-card--alt">
+                                            <div class="special-card__image">
+                                                <img src="./images/special-card/special-card.svg"
+                                                    alt="Фотография специалиста" width="160" height="160">
+                                            </div>
+                                            <div class="special-card__info special-card__info--alt">
+                                                <h5 class="special-card__title">
+                                                    Инженер
+                                                </h5>
+                                                <div class="special-card__description-name">
+                                                    Александр
+                                                </div>
+                                                <div class="special-card__description-info">
+                                                    <p>
+                                                        32+ реализованных проектов
+                                                    </p>
+                                                </div>
+                                                <div class="special-card__description-info">
+                                                    <p>
+                                                        Мы вынуждены отталкиваться от того, что выбранный нами
+                                                        инновационный
+                                                        путь однозначно фиксирует необходимость существующих финансовых
+                                                        и
+                                                        административных условий. Наше дело не так однозначно, как может
+                                                        показаться: высокотехнологичная концепция общественного уклада
+                                                        создаёт
+                                                        предпосылки для соответствующих условий активизации.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="special-card special-card--background special-card--alt">
+                                            <div class="special-card__image">
+                                                <img src="./images/special-card/special-card.svg"
+                                                    alt="Фотография специалиста" width="160" height="160">
+                                            </div>
+                                            <div class="special-card__info special-card__info--alt">
+                                                <h5 class="special-card__title">
+                                                    Инженер
+                                                </h5>
+                                                <div class="special-card__description-name">
+                                                    Александр
+                                                </div>
+                                                <div class="special-card__description-info">
+                                                    <p>
+                                                        32+ реализованных проектов
+                                                    </p>
+                                                </div>
+                                                <div class="special-card__description-info">
+                                                    <p>
+                                                        Мы вынуждены отталкиваться от того, что выбранный нами
+                                                        инновационный
+                                                        путь однозначно фиксирует необходимость существующих финансовых
+                                                        и
+                                                        административных условий. Наше дело не так однозначно, как может
+                                                        показаться: высокотехнологичная концепция общественного уклада
+                                                        создаёт
+                                                        предпосылки для соответствующих условий активизации.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="special-card special-card--background special-card--alt">
+                                            <div class="special-card__image">
+                                                <img src="./images/special-card/special-card.svg"
+                                                    alt="Фотография специалиста" width="160" height="160">
+                                            </div>
+                                            <div class="special-card__info special-card__info--alt">
+                                                <h5 class="special-card__title">
+                                                    Инженер
+                                                </h5>
+                                                <div class="special-card__description-name">
+                                                    Александр
+                                                </div>
+                                                <div class="special-card__description-info">
+                                                    <p>
+                                                        32+ реализованных проектов
+                                                    </p>
+                                                </div>
+                                                <div class="special-card__description-info">
+                                                    <p>
+                                                        Мы вынуждены отталкиваться от того, что выбранный нами
+                                                        инновационный
+                                                        путь однозначно фиксирует необходимость существующих финансовых
+                                                        и
+                                                        административных условий. Наше дело не так однозначно, как может
+                                                        показаться: высокотехнологичная концепция общественного уклада
+                                                        создаёт
+                                                        предпосылки для соответствующих условий активизации.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </section>
+                    </div>
+                    <div class="company-tab__pane" data-id="vacancy">
+
+                        <section class="section container">
+                            <div class="vacancy">
+                                <div class="vacancy__slider">
+                                    <div data-target="#block1" class="vacancy__slide slick-slide active"
+                                        role="tabpanel" aria-label="Слайд 1" tabindex="0">
+                                        <div class="vacancy-slide">
+                                            <div class="vacancy__slide-inner">
+                                                <div class="vacancy__slide-title">
+                                                    Строитель
+                                                </div>
+                                                <div class="vacancy__slide-description">
+                                                    Курган
+                                                </div>
+                                                <div class="vacancy__slide-text">
+                                                    <p>
+                                                        Обновлено 16.07.2024
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div data-target="#block2" class="vacancy__slide slick-slide"
+                                        role="tabpanel" aria-label="Слайд 1" tabindex="0">
+                                        <div class="vacancy__slide-inner">
+                                            <div class="vacancy__slide-title">
+                                                Строитель
+                                            </div>
+                                            <div class="vacancy__slide-description">
+                                                Курган
+                                            </div>
+                                            <div class="vacancy__slide-text">
+                                                <p>
+                                                    Обновлено 16.07.2024
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div data-target="#block3" class="vacancy__slide slick-slide"
+                                        role="tabpanel" aria-label="Слайд 1" tabindex="0">
+                                        <div class="vacancy__slide-inner">
+                                            <div class="vacancy__slide-title">
+                                                Строитель
+                                            </div>
+                                            <div class="vacancy__slide-description">
+                                                Курган
+                                            </div>
+                                            <div class="vacancy__slide-text">
+                                                <p>
+                                                    Обновлено 16.07.2024
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div data-target="#block4" class="vacancy__slide slick-slide"
+                                        role="tabpanel" aria-label="Слайд 1" tabindex="0">
+                                        <div class="vacancy__slide-inner">
+                                            <div class="vacancy__slide-title">
+                                                Строитель
+                                            </div>
+                                            <div class="vacancy__slide-description">
+                                                Курган
+                                            </div>
+                                            <div class="vacancy__slide-text">
+                                                <p>
+                                                    Обновлено 16.07.2024
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div data-target="#block5" class="vacancy__slide slick-slide"
+                                        role="tabpanel" aria-label="Слайд 1" tabindex="0">
+                                        <div class="vacancy__slide-inner">
+                                            <div class="vacancy__slide-title">
+                                                Строитель
+                                            </div>
+                                            <div class="vacancy__slide-description">
+                                                Курган
+                                            </div>
+                                            <div class="vacancy__slide-text">
+                                                <p>
+                                                    Обновлено 16.07.2024
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div data-target="#block6" class="vacancy__slide slick-slide"
+                                        role="tabpanel" aria-label="Слайд 1" tabindex="0">
+                                        <div class="vacancy__slide-inner">
+                                            <div class="vacancy__slide-title">
+                                                Строитель
+                                            </div>
+                                            <div class="vacancy__slide-description">
+                                                Курган
+                                            </div>
+                                            <div class="vacancy__slide-text">
+                                                <p>
+                                                    Обновлено 16.07.2024
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div data-target="#block7" class="vacancy__slide slick-slide"
+                                        role="tabpanel" aria-label="Слайд 1" tabindex="0">
+                                        <div class="vacancy__slide-inner">
+                                            <div class="vacancy__slide-title">
+                                                Строитель
+                                            </div>
+                                            <div class="vacancy__slide-description">
+                                                Курган
+                                            </div>
+                                            <div class="vacancy__slide-text">
+                                                <p>
+                                                    Обновлено 16.07.2024
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="vacancy__content">
+                                    <div id="block1" class="vacancy__content-block hidden-block" aria-hidden="false" tabindex="-1">
+                                        <div class="vacancy__content-image">
+                                            <img src="./images/vacancy/vacancy-content.jpg" alt="Фотография вакансии"
+                                                loading="lazy" width="894" height="300">
+                                            <button class="button button--accent vacancy__content-button">
+                                                Откликнуться
+                                            </button>
+                                        </div>
+                                        <div class="vacancy__vacancy-info vacancy-info">
+                                            <div class="vacancy-info__inner">
+                                                <div class="vacancy-info__title">
+                                                    Строитель
+                                                </div>
+                                                <div class="vacancy-info__block">
+                                                    <div class="vacancy-info__block-title">
+                                                        Что вам предстоит делать:
+                                                    </div>
+                                                    <ul class="vacancy-info__block-list">
+                                                        <li class="vacancy-info__block-item">Задача организации, в
+                                                            особенности же новая модель организационной
+                                                            деятельности
+                                                            обеспечивает актуальность кластеризации усилий.</li>
+                                                        <li class="vacancy-info__block-item">Задача организации, в
+                                                            особенности же новая модель организационной
+                                                            деятельности
+                                                            обеспечивает актуальность кластеризации усилий.</li>
+                                                    </ul>
+                                                </div>
+                                                <div class="vacancy-info__block">
+                                                    <div class="vacancy-info__block-title">
+                                                        Что нужно знать и уметь:
+                                                    </div>
+                                                    <ul class="vacancy-info__block-list">
+                                                        <li class="vacancy-info__block-item">Задача организации, в
+                                                            особенности же новая модель организационной
+                                                            деятельности
+                                                            обеспечивает актуальность кластеризации усилий.</li>
+                                                    </ul>
+                                                </div>
+                                                <div class="vacancy-info__block">
+                                                    <div class="vacancy-info__block-title">
+                                                        Что мы предлагаем:
+                                                    </div>
+                                                    <ul class="vacancy-info__block-list">
+                                                        <li class="vacancy-info__block-item">Задача организации, в
+                                                            особенности же новая модель организационной
+                                                            деятельности
+                                                            обеспечивает актуальность кластеризации усилий.</li>
+                                                        <li class="vacancy-info__block-item">Задача организации, в
+                                                            особенности же новая модель организационной
+                                                            деятельности
+                                                            обеспечивает актуальность кластеризации усилий.</li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div id="block2" class="vacancy__content-block hidden-block" aria-hidden="true"
+                                        inert tabindex="-1">
+                                        <div class="vacancy__content-image">
+                                            <img src="./images/vacancy/vacancy-content.jpg" alt="Фотография вакансии"
+                                                loading="lazy" width="894" height="300">
+                                            <button class="button button--accent vacancy__content-button">
+                                                Откликнуться
+                                            </button>
+                                        </div>
+                                        <div class="vacancy__vacancy-info vacancy-info">
+                                            <div class="vacancy-info__inner">
+                                                <div class="vacancy-info__title">
+                                                    Строитель
+                                                </div>
+                                                <div class="vacancy-info__block">
+                                                    <div class="vacancy-info__block-title">
+                                                        Что вам предстоит делать:
+                                                    </div>
+                                                    <ul class="vacancy-info__block-list">
+                                                        <li class="vacancy-info__block-item">Задача организации, в
+                                                            особенности же новая модель организационной
+                                                            деятельности
+                                                            обеспечивает актуальность кластеризации усилий.</li>
+                                                        <li class="vacancy-info__block-item">Задача организации, в
+                                                            особенности же новая модель организационной
+                                                            деятельности
+                                                            обеспечивает актуальность кластеризации усилий.</li>
+                                                    </ul>
+                                                </div>
+                                                <div class="vacancy-info__block">
+                                                    <div class="vacancy-info__block-title">
+                                                        Что нужно знать и уметь:
+                                                    </div>
+                                                    <ul class="vacancy-info__block-list">
+                                                        <li class="vacancy-info__block-item">Задача организации, в
+                                                            особенности же новая модель организационной
+                                                            деятельности
+                                                            обеспечивает актуальность кластеризации усилий.</li>
+                                                    </ul>
+                                                </div>
+                                                <div class="vacancy-info__block">
+                                                    <div class="vacancy-info__block-title">
+                                                        Что мы предлагаем:
+                                                    </div>
+                                                    <ul class="vacancy-info__block-list">
+                                                        <li class="vacancy-info__block-item">Задача организации, в
+                                                            особенности же новая модель организационной
+                                                            деятельности
+                                                            обеспечивает актуальность кластеризации усилий.</li>
+                                                        <li class="vacancy-info__block-item">Задача организации, в
+                                                            особенности же новая модель организационной
+                                                            деятельности
+                                                            обеспечивает актуальность кластеризации усилий.</li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div id="block3" class="vacancy__content-block hidden-block" aria-hidden="true"
+                                        inert tabindex="-1">
+                                        <div class="vacancy__content-image">
+                                            <img src="./images/vacancy/vacancy-content.jpg" alt="Фотография вакансии"
+                                                loading="lazy" width="894" height="300">
+                                            <button class="button button--accent vacancy__content-button">
+                                                Откликнуться
+                                            </button>
+                                        </div>
+                                        <div class="vacancy__vacancy-info vacancy-info">
+                                            <div class="vacancy-info__inner">
+                                                <div class="vacancy-info__title">
+                                                    Строитель
+                                                </div>
+                                                <div class="vacancy-info__block">
+                                                    <div class="vacancy-info__block-title">
+                                                        Что вам предстоит делать:
+                                                    </div>
+                                                    <ul class="vacancy-info__block-list">
+                                                        <li class="vacancy-info__block-item">Задача организации, в
+                                                            особенности же новая модель организационной
+                                                            деятельности
+                                                            обеспечивает актуальность кластеризации усилий.</li>
+                                                        <li class="vacancy-info__block-item">Задача организации, в
+                                                            особенности же новая модель организационной
+                                                            деятельности
+                                                            обеспечивает актуальность кластеризации усилий.</li>
+                                                    </ul>
+                                                </div>
+                                                <div class="vacancy-info__block">
+                                                    <div class="vacancy-info__block-title">
+                                                        Что нужно знать и уметь:
+                                                    </div>
+                                                    <ul class="vacancy-info__block-list">
+                                                        <li class="vacancy-info__block-item">Задача организации, в
+                                                            особенности же новая модель организационной
+                                                            деятельности
+                                                            обеспечивает актуальность кластеризации усилий.</li>
+                                                    </ul>
+                                                </div>
+                                                <div class="vacancy-info__block">
+                                                    <div class="vacancy-info__block-title">
+                                                        Что мы предлагаем:
+                                                    </div>
+                                                    <ul class="vacancy-info__block-list">
+                                                        <li class="vacancy-info__block-item">Задача организации, в
+                                                            особенности же новая модель организационной
+                                                            деятельности
+                                                            обеспечивает актуальность кластеризации усилий.</li>
+                                                        <li class="vacancy-info__block-item">Задача организации, в
+                                                            особенности же новая модель организационной
+                                                            деятельности
+                                                            обеспечивает актуальность кластеризации усилий.</li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div id="block4" class="vacancy__content-block hidden-block" aria-hidden="true"
+                                        inert tabindex="-1">
+                                        <div class="vacancy__content-image">
+                                            <img src="./images/vacancy/vacancy-content.jpg" alt="Фотография вакансии"
+                                                loading="lazy" width="894" height="300">
+                                            <button class="button button--accent vacancy__content-button">
+                                                Откликнуться
+                                            </button>
+                                        </div>
+                                        <div class="vacancy__vacancy-info vacancy-info">
+                                            <div class="vacancy-info__inner">
+                                                <div class="vacancy-info__title">
+                                                    Строитель
+                                                </div>
+                                                <div class="vacancy-info__block">
+                                                    <div class="vacancy-info__block-title">
+                                                        Что вам предстоит делать:
+                                                    </div>
+                                                    <ul class="vacancy-info__block-list">
+                                                        <li class="vacancy-info__block-item">Задача организации, в
+                                                            особенности же новая модель организационной
+                                                            деятельности
+                                                            обеспечивает актуальность кластеризации усилий.</li>
+                                                        <li class="vacancy-info__block-item">Задача организации, в
+                                                            особенности же новая модель организационной
+                                                            деятельности
+                                                            обеспечивает актуальность кластеризации усилий.</li>
+                                                    </ul>
+                                                </div>
+                                                <div class="vacancy-info__block">
+                                                    <div class="vacancy-info__block-title">
+                                                        Что нужно знать и уметь:
+                                                    </div>
+                                                    <ul class="vacancy-info__block-list">
+                                                        <li class="vacancy-info__block-item">Задача организации, в
+                                                            особенности же новая модель организационной
+                                                            деятельности
+                                                            обеспечивает актуальность кластеризации усилий.</li>
+                                                    </ul>
+                                                </div>
+                                                <div class="vacancy-info__block">
+                                                    <div class="vacancy-info__block-title">
+                                                        Что мы предлагаем:
+                                                    </div>
+                                                    <ul class="vacancy-info__block-list">
+                                                        <li class="vacancy-info__block-item">Задача организации, в
+                                                            особенности же новая модель организационной
+                                                            деятельности
+                                                            обеспечивает актуальность кластеризации усилий.</li>
+                                                        <li class="vacancy-info__block-item">Задача организации, в
+                                                            особенности же новая модель организационной
+                                                            деятельности
+                                                            обеспечивает актуальность кластеризации усилий.</li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div id="block5" class="vacancy__content-block hidden-block" aria-hidden="true"
+                                        inert tabindex="-1">
+                                        <div class="vacancy__content-image">
+                                            <img src="./images/vacancy/vacancy-content.jpg" alt="Фотография вакансии"
+                                                loading="lazy" width="894" height="300">
+                                            <button class="button button--accent vacancy__content-button">
+                                                Откликнуться
+                                            </button>
+                                        </div>
+                                        <div class="vacancy__vacancy-info vacancy-info">
+                                            <div class="vacancy-info__inner">
+                                                <div class="vacancy-info__title">
+                                                    Строитель
+                                                </div>
+                                                <div class="vacancy-info__block">
+                                                    <div class="vacancy-info__block-title">
+                                                        Что вам предстоит делать:
+                                                    </div>
+                                                    <ul class="vacancy-info__block-list">
+                                                        <li class="vacancy-info__block-item">Задача организации, в
+                                                            особенности же новая модель организационной
+                                                            деятельности
+                                                            обеспечивает актуальность кластеризации усилий.</li>
+                                                        <li class="vacancy-info__block-item">Задача организации, в
+                                                            особенности же новая модель организационной
+                                                            деятельности
+                                                            обеспечивает актуальность кластеризации усилий.</li>
+                                                    </ul>
+                                                </div>
+                                                <div class="vacancy-info__block">
+                                                    <div class="vacancy-info__block-title">
+                                                        Что нужно знать и уметь:
+                                                    </div>
+                                                    <ul class="vacancy-info__block-list">
+                                                        <li class="vacancy-info__block-item">Задача организации, в
+                                                            особенности же новая модель организационной
+                                                            деятельности
+                                                            обеспечивает актуальность кластеризации усилий.</li>
+                                                    </ul>
+                                                </div>
+                                                <div class="vacancy-info__block">
+                                                    <div class="vacancy-info__block-title">
+                                                        Что мы предлагаем:
+                                                    </div>
+                                                    <ul class="vacancy-info__block-list">
+                                                        <li class="vacancy-info__block-item">Задача организации, в
+                                                            особенности же новая модель организационной
+                                                            деятельности
+                                                            обеспечивает актуальность кластеризации усилий.</li>
+                                                        <li class="vacancy-info__block-item">Задача организации, в
+                                                            особенности же новая модель организационной
+                                                            деятельности
+                                                            обеспечивает актуальность кластеризации усилий.</li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div id="block6" class="vacancy__content-block hidden-block" aria-hidden="true"
+                                        inert tabindex="-1">
+                                        <div class="vacancy__content-image">
+                                            <img src="./images/vacancy/vacancy-content.jpg" alt="Фотография вакансии"
+                                                loading="lazy" width="894" height="300">
+                                            <button class="button button--accent vacancy__content-button">
+                                                Откликнуться
+                                            </button>
+                                        </div>
+                                        <div class="vacancy__vacancy-info vacancy-info">
+                                            <div class="vacancy-info__inner">
+                                                <div class="vacancy-info__title">
+                                                    Строитель
+                                                </div>
+                                                <div class="vacancy-info__block">
+                                                    <div class="vacancy-info__block-title">
+                                                        Что вам предстоит делать:
+                                                    </div>
+                                                    <ul class="vacancy-info__block-list">
+                                                        <li class="vacancy-info__block-item">Задача организации, в
+                                                            особенности же новая модель организационной
+                                                            деятельности
+                                                            обеспечивает актуальность кластеризации усилий.</li>
+                                                        <li class="vacancy-info__block-item">Задача организации, в
+                                                            особенности же новая модель организационной
+                                                            деятельности
+                                                            обеспечивает актуальность кластеризации усилий.</li>
+                                                    </ul>
+                                                </div>
+                                                <div class="vacancy-info__block">
+                                                    <div class="vacancy-info__block-title">
+                                                        Что нужно знать и уметь:
+                                                    </div>
+                                                    <ul class="vacancy-info__block-list">
+                                                        <li class="vacancy-info__block-item">Задача организации, в
+                                                            особенности же новая модель организационной
+                                                            деятельности
+                                                            обеспечивает актуальность кластеризации усилий.</li>
+                                                    </ul>
+                                                </div>
+                                                <div class="vacancy-info__block">
+                                                    <div class="vacancy-info__block-title">
+                                                        Что мы предлагаем:
+                                                    </div>
+                                                    <ul class="vacancy-info__block-list">
+                                                        <li class="vacancy-info__block-item">Задача организации, в
+                                                            особенности же новая модель организационной
+                                                            деятельности
+                                                            обеспечивает актуальность кластеризации усилий.</li>
+                                                        <li class="vacancy-info__block-item">Задача организации, в
+                                                            особенности же новая модель организационной
+                                                            деятельности
+                                                            обеспечивает актуальность кластеризации усилий.</li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div id="block7" class="vacancy__content-block hidden-block" aria-hidden="true"
+                                        inert tabindex="-1">
+                                        <div class="vacancy__content-image">
+                                            <img src="./images/vacancy/vacancy-content.jpg" alt="Фотография вакансии"
+                                                loading="lazy" width="894" height="300">
+                                            <button class="button button--accent vacancy__content-button">
+                                                Откликнуться
+                                            </button>
+                                        </div>
+                                        <div class="vacancy__vacancy-info vacancy-info">
+                                            <div class="vacancy-info__inner">
+                                                <div class="vacancy-info__title">
+                                                    Строитель
+                                                </div>
+                                                <div class="vacancy-info__block">
+                                                    <div class="vacancy-info__block-title">
+                                                        Что вам предстоит делать:
+                                                    </div>
+                                                    <ul class="vacancy-info__block-list">
+                                                        <li class="vacancy-info__block-item">Задача организации, в
+                                                            особенности же новая модель организационной
+                                                            деятельности
+                                                            обеспечивает актуальность кластеризации усилий.</li>
+                                                        <li class="vacancy-info__block-item">Задача организации, в
+                                                            особенности же новая модель организационной
+                                                            деятельности
+                                                            обеспечивает актуальность кластеризации усилий.</li>
+                                                    </ul>
+                                                </div>
+                                                <div class="vacancy-info__block">
+                                                    <div class="vacancy-info__block-title">
+                                                        Что нужно знать и уметь:
+                                                    </div>
+                                                    <ul class="vacancy-info__block-list">
+                                                        <li class="vacancy-info__block-item">Задача организации, в
+                                                            особенности же новая модель организационной
+                                                            деятельности
+                                                            обеспечивает актуальность кластеризации усилий.</li>
+                                                    </ul>
+                                                </div>
+                                                <div class="vacancy-info__block">
+                                                    <div class="vacancy-info__block-title">
+                                                        Что мы предлагаем:
+                                                    </div>
+                                                    <ul class="vacancy-info__block-list">
+                                                        <li class="vacancy-info__block-item">Задача организации, в
+                                                            особенности же новая модель организационной
+                                                            деятельности
+                                                            обеспечивает актуальность кластеризации усилий.</li>
+                                                        <li class="vacancy-info__block-item">Задача организации, в
+                                                            особенности же новая модель организационной
+                                                            деятельности
+                                                            обеспечивает актуальность кластеризации усилий.</li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                    <div class="company-tab__pane" data-id="news">
+                        <section class="section container">
+                            <div class="news">
+                                <div class="news__inner">
+                                    <div class="news-card">
+                                        <div class="news-card__inner">
+                                            <div class="news-card__image">
+                                                <a href="./news.html">
+                                                    <img class="news-card__img"
+                                                        src="./images/news-card/news-card-image.svg" alt="Новость">
+                                                </a>
+                                            </div>
+                                            <h4 class="news-card__title">
+                                                <a href="/">Название новости</a>
+                                            </h4>
+                                            <div class="news-card__info">
+                                                <p>Задача организации, в особенности же новая модель организационной...
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="news-card__data">
+                                            14.07.2024
+                                        </div>
+                                    </div>
+                                    <div class="news-card">
+                                        <div class="news-card__inner">
+                                            <div class="news-card__image">
+                                                <a href="">
+                                                    <img class="news-card__img"
+                                                        src="./images/news-card/news-card-image.svg" alt="Новость">
+                                                </a>
+                                            </div>
+                                            <h5 class="news-card__title">
+                                                <a href="/">Название новости</a>
+                                            </h5>
+                                            <div class="news-card__info">
+                                                <p>Задача организации, в особенности же новая модель организационной...
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="news-card__data">
+                                            14.07.2024
+                                        </div>
+                                    </div>
+                                    <div class="news-card">
+                                        <div class="news-card__inner">
+                                            <div class="news-card__image">
+                                                <a href="">
+                                                    <img class="news-card__img"
+                                                        src="./images/news-card/news-card-image.svg" alt="Новость">
+                                                </a>
+                                            </div>
+                                            <h5 class="news-card__title">
+                                                <a href="/">Название новости</a>
+                                            </h5>
+                                            <div class="news-card__info">
+                                                <p>Задача организации, в особенности же новая модель организационной...
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="news-card__data">
+                                            14.07.2024
+                                        </div>
+                                    </div>
+                                    <div class="news-card">
+                                        <div class="news-card__inner">
+                                            <div class="news-card__image">
+                                                <a href="">
+                                                    <img class="news-card__img"
+                                                        src="./images/news-card/news-card-image.svg" alt="Новость">
+                                                </a>
+                                            </div>
+                                            <h5 class="news-card__title">
+                                                <a href="/">Название новости</a>
+                                            </h5>
+                                            <div class="news-card__info">
+                                                <p>Задача организации, в особенности же новая модель организационной...
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="news-card__data">
+                                            14.07.2024
+                                        </div>
+                                    </div>
+                                    <div class="news-card">
+                                        <div class="news-card__inner">
+                                            <div class="news-card__image">
+                                                <a href="">
+                                                    <img class="news-card__img"
+                                                        src="./images/news-card/news-card-image.svg" alt="Новость">
+                                                </a>
+                                            </div>
+                                            <h5 class="news-card__title">
+                                                <a href="/">Название новости</a>
+                                            </h5>
+                                            <div class="news-card__info">
+                                                <p>Задача организации, в особенности же новая модель организационной...
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="news-card__data">
+                                            14.07.2024
+                                        </div>
+                                    </div>
+                                    <div class="news-card">
+                                        <div class="news-card__inner">
+                                            <div class="news-card__image">
+                                                <a href="">
+                                                    <img class="news-card__img"
+                                                        src="./images/news-card/news-card-image.svg" alt="Новость">
+                                                </a>
+                                            </div>
+                                            <h4 class="news-card__title">
+                                                <a href="/">Название новости</a>
+                                            </h4>
+                                            <div class="news-card__info">
+                                                <p>Задача организации, в особенности же новая модель организационной...
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="news-card__data">
+                                            14.07.2024
+                                        </div>
+                                    </div>
+                                    <div class="news-card">
+                                        <div class="news-card__inner">
+                                            <div class="news-card__image">
+                                                <a href="">
+                                                    <img class="news-card__img"
+                                                        src="./images/news-card/news-card-image.svg" alt="Новость">
+                                                </a>
+                                            </div>
+                                            <h5 class="news-card__title">
+                                                <a href="/">Название новости</a>
+                                            </h5>
+                                            <div class="news-card__info">
+                                                <p>Задача организации, в особенности же новая модель организационной...
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="news-card__data">
+                                            14.07.2024
+                                        </div>
+                                    </div>
+                                    <div class="news-card">
+                                        <div class="news-card__inner">
+                                            <div class="news-card__image">
+                                                <a href="">
+                                                    <img class="news-card__img"
+                                                        src="./images/news-card/news-card-image.svg" alt="Новость">
+                                                </a>
+                                            </div>
+                                            <h5 class="news-card__title">
+                                                <a href="/">Название новости</a>
+                                            </h5>
+                                            <div class="news-card__info">
+                                                <p>Задача организации, в особенности же новая модель организационной...
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="news-card__data">
+                                            14.07.2024
+                                        </div>
+                                    </div>
+                                    <div class="news-card">
+                                        <div class="news-card__inner">
+                                            <div class="news-card__image">
+                                                <a href="">
+                                                    <img class="news-card__img"
+                                                        src="./images/news-card/news-card-image.svg" alt="Новость">
+                                                </a>
+                                            </div>
+                                            <h5 class="news-card__title">
+                                                <a href="/">Название новости</a>
+                                            </h5>
+                                            <div class="news-card__info">
+                                                <p>Задача организации, в особенности же новая модель организационной...
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="news-card__data">
+                                            14.07.2024
+                                        </div>
+                                    </div>
+                                    <div class="news-card">
+                                        <div class="news-card__inner">
+                                            <div class="news-card__image">
+                                                <a href="">
+                                                    <img class="news-card__img"
+                                                        src="./images/news-card/news-card-image.svg" alt="Новость">
+                                                </a>
+                                            </div>
+                                            <h5 class="news-card__title">
+                                                <a href="/">Название новости</a>
+                                            </h5>
+                                            <div class="news-card__info">
+                                                <p>Задача организации, в особенности же новая модель организационной...
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="news-card__data">
+                                            14.07.2024
+                                        </div>
+                                    </div>
+                                    <div class="news-card">
+                                        <div class="news-card__inner">
+                                            <div class="news-card__image">
+                                                <a href="">
+                                                    <img class="news-card__img"
+                                                        src="./images/news-card/news-card-image.svg" alt="Новость">
+                                                </a>
+                                            </div>
+                                            <h5 class="news-card__title">
+                                                <a href="/">Название новости</a>
+                                            </h5>
+                                            <div class="news-card__info">
+                                                <p>Задача организации, в особенности же новая модель организационной...
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="news-card__data">
+                                            14.07.2024
+                                        </div>
+                                    </div>
+                                    <div class="news-card">
+                                        <div class="news-card__inner">
+                                            <div class="news-card__image">
+                                                <a href="">
+                                                    <img class="news-card__img"
+                                                        src="./images/news-card/news-card-image.svg" alt="Новость">
+                                                </a>
+                                            </div>
+                                            <h5 class="news-card__title">
+                                                <a href="/">Название новости</a>
+                                            </h5>
+                                            <div class="news-card__info">
+                                                <p>Задача организации, в особенности же новая модель организационной...
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="news-card__data">
+                                            14.07.2024
+                                        </div>
+                                    </div>
+                                    <div class="news-card visually-hidden">
+                                        <div class="news-card__inner">
+                                            <div class="news-card__image">
+                                                <a href="">
+                                                    <img class="news-card__img"
+                                                        src="./images/news-card/news-card-image.svg" alt="Новость">
+                                                </a>
+                                            </div>
+                                            <h5 class="news-card__title">
+                                                <a href="/">Название новости</a>
+                                            </h5>
+                                            <div class="news-card__info">
+                                                <p>Задача организации, в особенности же новая модель организационной...
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="news-card__data">
+                                            14.07.2024
+                                        </div>
+                                    </div>
+                                    <div class="news-card visually-hidden">
+                                        <div class="news-card__inner">
+                                            <div class="news-card__image">
+                                                <a href="">
+                                                    <img class="news-card__img"
+                                                        src="./images/news-card/news-card-image.svg" alt="Новость">
+                                                </a>
+                                            </div>
+                                            <h5 class="news-card__title">
+                                                <a href="/">Название новости</a>
+                                            </h5>
+                                            <div class="news-card__info">
+                                                <p>Задача организации, в особенности же новая модель организационной...
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="news-card__data">
+                                            14.07.2024
+                                        </div>
+                                    </div>
+                                    <div class="news-card visually-hidden">
+                                        <div class="news-card__inner">
+                                            <div class="news-card__image">
+                                                <a href="">
+                                                    <img class="news-card__img"
+                                                        src="./images/news-card/news-card-image.svg" alt="Новость">
+                                                </a>
+                                            </div>
+                                            <h5 class="news-card__title">
+                                                <a href="/">Название новости</a>
+                                            </h5>
+                                            <div class="news-card__info">
+                                                <p>Задача организации, в особенности же новая модель организационной...
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="news-card__data">
+                                            14.07.2024
+                                        </div>
+                                    </div>
+                                    <div class="news-card visually-hidden">
+                                        <div class="news-card__inner">
+                                            <div class="news-card__image">
+                                                <a href="">
+                                                    <img class="news-card__img"
+                                                        src="./images/news-card/news-card-image.svg" alt="Новость">
+                                                </a>
+                                            </div>
+                                            <h5 class="news-card__title">
+                                                <a href="/">Название новости</a>
+                                            </h5>
+                                            <div class="news-card__info">
+                                                <p>Задача организации, в особенности же новая модель организационной...
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="news-card__data">
+                                            14.07.2024
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="news__button">
+                                    <button class="show-more-button news__btn-show button--accent button">Смотреть
+                                        больше</button>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                    <div class="company-tab__pane" data-id="cert">
+                        <section class="section container">
+                            <div class="standard">
+                                <div class="standard__inner">
+                                    <h2 class="standard__title">
+                                        Работаем по стандартам
+                                    </h2>
+                                    <div class="standard__description">
+                                        <p>
+                                            А также сторонники тоталитаризма в науке, которые представляют собой яркий
+                                            пример
+                                            континентально-европейского типа политической культуры, будут разоблачены.
+                                            Есть
+                                            над чем
+                                            задуматься: стремящиеся вытеснить традиционное производство, нанотехнологии,
+                                            вне
+                                            зависимости
+                                            от их уровня, должны быть призваны к ответу.
+                                        </p>
+                                    </div>
+                                    <div class="standard__slider">
+                                        <div class="standard__slider-slide">
+                                            <img class="company-slider__image"
+                                                src="./images/standart-slider/standart-slider-image.svg" alt="Astra-SK">
+                                        </div>
+                                        <div class="standard__slider-slide">
+                                            <img class="company-slider__image"
+                                                src="./images/standart-slider/standart-slider-image.svg" alt="Astra-SK">
+                                        </div>
+                                        <div class="standard__slider-slide">
+                                            <img class="company-slider__image"
+                                                src="./images/standart-slider/standart-slider-image.svg" alt="Astra-SK">
+                                        </div>
+                                        <div class="standard__slider-slide">
+                                            <img class="company-slider__image"
+                                                src="./images/standart-slider/standart-slider-image.svg" alt="Astra-SK">
+                                        </div>
+                                        <div class="standard__slider-slide">
+                                            <img class="company-slider__image"
+                                                src="./images/standart-slider/standart-slider-image.svg" alt="Astra-SK">
+                                        </div>
+                                        <div class="standard__slider-slide">
+                                            <img class="company-slider__image"
+                                                src="./images/standart-slider/standart-slider-image.svg" alt="Astra-SK">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__inner section">
+                <div class="footer__nav">
+                    <div class="footer__logo">
+                        <a href="./index.html" class="footer__logo logo">
+                            <img class="logo__image" src="./images/header/logo.svg" alt="Astra-SK" width="207"
+                                height="20" loading="lazy">
+                        </a>
+                    </div>
+                    <nav class="footer__menu">
+                        <ul class="footer__menu-list">
+                            <li class="footer__menu-item">
+                                <a href="./company.html" class="footer__menu-link">
+                                    О компании
+                                </a>
+                            </li>
+                            <li class="footer__menu-item">
+                                <a href="./object.html" class="header__menu-link">
+                                    Объекты
+                                </a>
+                            </li>
+                            <li class="footer__menu-item">
+                                <a href="./contact.html" class="header__menu-link">
+                                    Контакты
+                                </a>
+                            </li>
+                            <li class="footer__menu-item">
+                                <a href="./furniture.html" class="header__menu-link">
+                                    Производство мебели
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <nav class="footer__menu">
+                        <ul class="footer__menu-list  footer__menu-list--main">
+                            <li class="footer__menu-item">
+                                <a href="tel:+79195698988" class="footer__menu-link">
+                                    <span class="footer__menu-icon">
+                                        <img src="./images/header/icon-phone.svg" alt="">
+                                    </span>
+                                    8 (919) 569 8988
+                                </a>
+                            </li>
+                            <li class="footer__menu-item">
+                                <a href="mailto:zsmstroika@mail.ru" class="footer__menu-link">
+                                    <span class="footer__menu-icon">
+                                        <img src="./images/header/icon-letter.svg" alt="">
+                                    </span>
+                                    zsmstroika@mail.ru
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+
+                <div class="footer__text">
+                    <p>Все права защищены. Политика конфиденциальности.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <dialog class="mobile-overlay visible-mobile" id="mobileOverlay">
+        <form method="dialog" class="mobile-overlay__close-button-wrapper">
+            <a href="./index.html" class="header__logo logo">
+                <img class="logo__image" src="./images/header/logo.svg" alt="Astra-SK" width="207" height="20"
+                    loading="lazy">
+            </a>
+            <button class="mobile-overlay__close-button reset-button" type="submit">
+                <span class="visually-hidden">Close navigation menu</span>
+                <img src="./images/header/close-button.svg" alt="Close navigation menu" width="30" height="30"
+                    loading="lazy">
+            </button>
+        </form>
+        <div class="mobile-overlay__body">
+            <ul class="mobile-overlay__list">
+                <li class="mobile-overlay__item">
+                    <a href="./company.html" class="mobile-overlay__link">О компании</a>
+                </li>
+                <li class="mobile-overlay__item">
+                    <a href="./object.html" class="mobile-overlay__link">Объекты</a>
+                </li>
+                <li class="mobile-overlay__item">
+                    <a href="./contact.html" class="mobile-overlay__link">Контакты</a>
+                </li>
+            </ul>
+            <ul class="mobile-overlay__list">
+                <li class="mobile-overlay__item">
+                    <a href="tel:+79195698988" class="mobile-overlay__link"><span class="header__menu-icon">
+                            <img src="./images/header/icon-phone.svg" alt="">
+                        </span>
+                        8 (919) 569 8988</a>
+                </li>
+                <li class="mobile-overlay__item">
+                    <a href="mailto:zsmstroika@mail.ru" class="mobile-overlay__link"><span class="header__menu-icon">
+                            <img src="./images/header/icon-letter.svg" alt="">
+                        </span>
+                        zsmstroika@mail.ru</a>
+                </li>
+                <li class="mobile-overlay__item">
+                    <button type="button" class="mobile-overlay__link mobile-overlay__link--call reset-button"
+                        onclick="feedbackFormPhone.showModal()">
+                        Заказать звонок
+                    </button>
+                </li>
+            </ul>
+            <ul class="mobile-overlay__list">
+                <li class="mobile-overlay__item">
+                    <a href="/" class="mobile-overlay__link--contacts">Вконтакте</a>
+                </li>
+                <li class="mobile-overlay__item">
+                    <a href="/" class="mobile-overlay__link--contacts">Telegram</a>
+                </li>
+                <li class="mobile-overlay__item">
+                    <a href="/" class="mobile-overlay__link--contacts">WhatsApp</a>
+                </li>
+            </ul>
+        </div>
+    </dialog>
+
+    <dialog class="feedback-form feedback-form--phone" id="feedbackFormPhone">
+        <form method="dialog">
+            <button class="feedback-form__close-button feedback-form__close-button--phone reset-button" type="submit"
+                id="closeButton">
+                <span class="visually-hidden">Close navigation menu</span>
+            </button>
+        </form>
+        <div class="feedback-form__body feedback-form__body--phone">
+            <h3 class="feedback-form__title">
+                Заказать обратный звонок
+            </h3>
+            <div class="feedback-form__description">
+                <p>Укажите данные и наш менеджер свяжется с Вами в ближайшее время.</p>
+            </div>
+        </div>
+
+        <form class="feedback-form__form" id="FormEntryPhone" action="/registration" method="post" novalidate
+            data-js-form>
+            <p class="field">
+                <label class="field__label visually-hidden" for="userName">Ваше имя</label>
+                <input class="field__control" id="userName" name="userName" type="text" placeholder="Ваше имя" required
+                    minlength="3" maxlength="12" aria-errormessage="userName-errors" title="Введите корректное имя">
+                <span class="field__errors" id="userName-errors" data-js-form-field-errors></span>
+            </p>
+            <p class="field">
+                <label class="field__label visually-hidden" for="userPhone">Номер телефона</label>
+                <input class="field__control" id="userPhone" name="userPhone" type="tel"
+                    placeholder="+7 (000) 000 00-00" required minlength="10" maxlength="16" pattern="\d+"
+                    title="Введите корректный номер телефона" aria-errormessage="userPhone-errors">
+                <span class="field__errors" id="userPhone-errors" data-js-form-field-errors></span>
+            </p>
+            <p class="field">
+                <label class="field__label visually-hidden" for="userEmail">Почта</label>
+                <input class="field__control" id="userEmail" name="userEmail" type="email"
+                    placeholder="Example@gmail.com" required minlength="5" maxlength="50"
+                    pattern="[a-z0-9._%+\-]+@[a-z0-9.\-]+\.[a-z]{2,}$" title="Введите корректную почту"
+                    aria-errormessage="userEmail-errors">
+                <span class="field__errors" id="userEmail-errors" data-js-form-field-errors></span>
+            </p>
+            <p class="field">
+                <label class="field__label visually-hidden" for="about">Комментарий</label>
+                <textarea class="field__control" id="about" name="about" placeholder="Комментарий"></textarea>
+            </p>
+            <div class="field checkbox">
+                <input class="checkbox__control" id="agreement" name="agreement" type="checkbox" required
+                    aria-errormessage="agreement-errors">
+                <label class="field__label checkbox__label" for="agreement">Я ознакомлен и согласен с политикой
+                    конфиденциальности</label>
+                <span class="field__errors" id="agreement-errors" data-js-form-field-errors></span>
+            </div>
+            <button class="feedback-form__button button--accent" type="submit">Отправить</button>
+        </form>
+    </dialog>
+
+    <dialog class="feedback-form feedback-form--advice" id="feedbackFormAdvice">
+        <form method="dialog">
+            <button class="feedback-form__close-button reset-button closeButton" type="submit" id="closeButtonAdvice">
+                <span class="visually-hidden">Close navigation menu</span>
+            </button>
+        </form>
+        <div class="feedback-form__body">
+            <h3 class="feedback-form__title">
+                Записаться на консультацию
+            </h3>
+            <div class="feedback-form__description">
+                <p>Укажите данные и наш менеджер свяжется с Вами в ближайшее время.</p>
+            </div>
+        </div>
+
+        <form class="feedback-form__form" id="FormEntryConsult" action="/registration" method="post" novalidate
+            data-js-form>
+            <p class="field">
+                <label class="field__label visually-hidden" for="userName">Ваше имя</label>
+                <input class="field__control" id="userName" name="userName" type="text" placeholder="Ваше имя" required
+                    minlength="3" maxlength="12" aria-errormessage="userName-errors" title="Введите корректное имя">
+                <span class="field__errors" id="userName-errors" data-js-form-field-errors></span>
+            </p>
+            <p class="field">
+                <label class="field__label visually-hidden" for="userPhone">Номер телефона</label>
+                <input class="field__control" id="userPhone" name="userPhone" type="tel"
+                    placeholder="+7 (000) 000 00-00" required minlength="10" maxlength="16" pattern="\d+"
+                    title="Введите корректный номер телефона" aria-errormessage="userPhone-errors">
+                <span class="field__errors" id="userPhone-errors" data-js-form-field-errors></span>
+            </p>
+            <div class="field checkbox">
+                <input class="checkbox__control" id="agreement" name="agreement" type="checkbox" required
+                    aria-errormessage="agreement-errors">
+                <label class="field__label checkbox__label" for="agreement">Я ознакомлен и согласен с политикой
+                    конфиденциальности</label>
+                <span class="field__errors" id="agreement-errors" data-js-form-field-errors></span>
+            </div>
+            <button class="feedback-form__button button--accent" type="submit">Отправить</button>
+        </form>
+    </dialog>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+    <script src="js/company-slider.js"></script>
+    <script src="js/special-slider.js"></script>
+    <script src="js/standard-slider.js"></script>
+    <script src="js/advantage-slider.js"></script>
+    <script src="js/news.js"></script>
+    <script src="js/vacancy.js"></script>
+    <script src="js/feedback-form.js"></script>
+    <script src="js/company-tab.js"></script>
+    <script src="js/slick.min.js"></script>
+
+</body>
+
+</html>

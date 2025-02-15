@@ -1,0 +1,40 @@
+.button {
+    @include flex-center(true);
+
+    height: var(--button-height);
+    padding-inline: 20px;
+    @include fluid-text (20, 16);
+    background-color: var(--color-light);
+    border: var(--border);
+    border-radius: var(--border-radius);
+    cursor: pointer;
+
+    @include mobile {
+        height: var(--button-height-media);
+    }
+
+    @include hover {
+        color: var(--color-light);
+        background-color: var(--color-blue);
+    }
+
+    &--accent {
+        color: var(--color-light);
+        background-color: var(--color-blue);
+
+        @include hover {
+            color: var(--color-dark);
+            background-color: var(--color-light-blue);
+        }
+    }
+}
+
+.button:focus {
+    background-color: var(--color-light-blue);
+    color: var(--color-black);
+}
+
+.button[disabled] {
+    color: var(--color-black);
+    background-color: var(--color-grey);
+}

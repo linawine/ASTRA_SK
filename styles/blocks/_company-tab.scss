@@ -1,0 +1,23 @@
+.tab-btn {
+    color: rgb(0, 0, 0, 0.6);
+    padding-bottom: 5px;
+}
+
+.tab-btn-active {
+    order: -1;
+    pointer-events: none;
+    color: var(--color-dark);
+    border-bottom: 1px solid var(--color-dark);
+    font-weight: 600;
+    opacity: 1;
+}
+
+.company-tab__pane:not(.company-tab__pane--show) {
+    display: none;
+}
+
+.tabs--company-tab {
+    flex-direction: row;
+    column-gap: 35px;
+    flex-wrap: wrap;
+}

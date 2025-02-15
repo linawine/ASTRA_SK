@@ -1,0 +1,817 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./styles/styles.css">
+    <title>Astra-SK</title>
+</head>
+
+<body>
+    <div class="content">
+        <header class="header header--index">
+            <div class="header__inner container">
+                <a href="./index.html" class="header__logo logo">
+                    <img class="logo__image" src="./images/header/logo.svg" alt="Astra-SK" width="207" height="20"
+                        loading="lazy">
+                </a>
+                <nav class="header__menu hidden-desctop">
+                    <ul class="header__menu-list header__menu-list--main">
+                        <li class="header__menu-item">
+                            <a href="./company.html" class="header__menu-link">
+                                О компании
+                            </a>
+                        </li>
+                        <li class="header__menu-item">
+                            <a href="./object.html" class="header__menu-link">
+                                Объекты
+                            </a>
+                        </li>
+                        <li class="header__menu-item">
+                            <a href="./contact.html" class="header__menu-link">
+                                Контакты
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+                <nav class="header__menu hidden-desctop">
+                    <ul class="header__menu-list">
+                        <li class="header__menu-item">
+                            <a href="tel:+79195698988" class="header__menu-link">
+                                <span class="header__menu-icon">
+                                    <img src="./images/header/icon-phone.svg" alt="">
+                                </span>
+                                8 (919) 569 8988
+                            </a>
+                        </li>
+                        <li class="header__menu-item">
+                            <a href="mailto:zsmstroika@mail.ru" class="header__menu-link">
+                                <span class="header__menu-icon">
+                                    <img src="./images/header/icon-letter.svg" alt="">
+                                </span>
+                                zsmstroika@mail.ru
+                            </a>
+                        </li>
+                        <li class="header__menu-item">
+                            <button type="button" class="header__menu-link header__menu-link--call reset-button"
+                                onclick="feedbackFormPhone.showModal()">
+                                Заказать звонок
+                            </button>
+                        </li>
+                    </ul>
+                </nav>
+                <button class="button__burger-menu reset-button visually-desctop" type="button"
+                    onclick="mobileOverlay.showModal()">
+                    <span class="visually-hidden">Open navigation menu</span>
+                    <img src="./images/header/open-button.svg" alt="Open navigation menu" width="30" height="30"
+                        loading="lazy">
+                </button>
+            </div>
+        </header>
+
+        <main class="section-banner">
+            <div class="section contact">
+                <ul class="contact__list">
+                    <li class="contact__item">
+                        <a href="#" class="contact__link">Вконтакте</a>
+                    </li>
+                    <li class="contact__item">
+                        <a href="#" class="contact__link">Telegram</a>
+                    </li>
+                    <li class="contact__item">
+                        <a href="#" class="contact__link">WhatsApp</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="slider-banner">
+                <div class="slider-banner__slide slider-banner__slide--active">
+                    <div class="content-banner">
+                        <div class="content-banner__inner">
+                            <h1 class="content-banner__title">
+                                Строим ваше будущее <span class="content-banner__title--accent">уже сейчас</span>
+                            </h1>
+                            <div class="content-banner__description">
+                                <p>СК «Астра» работает в сфере строительства 2015 года.  За это время мы собрали команду
+                                    специалистов. Создали обширную материально-техническую базу и накопили большой опыт.
+                                    Всё
+                                    вместе это позволяет  нам успешно реализовывать даже самые сложные и нестандартные
+                                    проекты.</p>
+                            </div>
+                            <button class="content-banner__button button" type="button"
+                                onclick="feedbackFormAdvice.showModal()">
+                                Записаться на консультацию
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="slider-banner__slide">
+                    <div class="content-banner">
+                        <div class="content-banner__inner">
+                            <h1 class="content-banner__title">
+                                Строим ваше будущее <span class="content-banner__title--accent">уже сейчас</span>
+                            </h1>
+                            <div class="content-banner__description">
+                                <p>СК «Астра» работает в сфере строительства 2015 года.  За это время мы собрали команду
+                                    специалистов. Создали обширную материально-техническую базу и накопили большой опыт.
+                                    Всё
+                                    вместе это позволяет  нам успешно реализовывать даже самые сложные и нестандартные
+                                    проекты.</p>
+                            </div>
+                            <button class="content-banner__button button" type="button"
+                                onclick="feedbackFormAdvice.showModal()">
+                                Записаться на консультацию
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="slider-banner__slide slider-banner__slide--promo">
+                    <div class="content-banner">
+                        <div class="content-banner__inner">
+                            <h1 class="content-banner__title">
+                                Строим ваше будущее <span class="content-banner__title--accent">уже сейчас</span>
+                            </h1>
+                            <div class="content-banner__description">
+                                <p>СК «Астра» работает в сфере строительства 2015 года.  За это время мы собрали команду
+                                    специалистов. Создали обширную материально-техническую базу и накопили большой опыт.
+                                    Всё
+                                    вместе это позволяет  нам успешно реализовывать даже самые сложные и нестандартные
+                                    проекты.</p>
+                            </div>
+                            <button class="content-banner__button button" type="button"
+                                onclick="feedbackFormAdvice.showModal()">
+                                Записаться на консультацию
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <section class="section container">
+            <div class="company">
+                <div class="company__inner">
+                    <div class="company__info">
+                        <div id="tabs" class="tabs tabs-up">
+                            <h2 class="company-tabs__title">О компании</h2>
+                            <ul class="tabs__list">
+                                <li class="tabs__item"><a href="#tabs-1">О нас</a></li>
+                                <li class="tabs__item"><a href="#tabs-2">История</a></li>
+                                <li class="tabs__item"><a href="#tabs-3">Команда</a></li>
+                            </ul>
+                            <div class="info__block" id="tabs-1">
+                                <p>
+                                    СК «Астра» работает в сфере строительства 2015 года.  За это
+                                    время мы собрали команду специалистов. Создали обширную
+                                    материально-техническую базу и накопили большой опыт. Всё вместе
+                                    это позволяет  нам успешно реализовывать даже самые сложные и
+                                    нестандартные проекты.
+                                </p>
+                                <p>
+                                    На сегодняшний день СК «Астра»- это динамично развивающаяся
+                                    копания, за плечами которой участия более чем десятке крупных
+                                    проектов по строительству и реконструкции объектов в Кургане и
+                                    Курганской обл., Тюмени, Тобольске, Екатеринбургская обл..
+                                </p>
+                                <button class="info__button button button--accent" type="button">
+                                    Больше информации о команде
+                                </button>
+                            </div>
+                            <div class="info__block" id="tabs-2">
+                                <p>
+                                    СК «Астра» работает в сфере строительства 2015 года.  За это
+                                    время мы собрали команду специалистов. Создали обширную
+                                    материально-техническую базу и накопили большой опыт. Всё вместе
+                                    это позволяет  нам успешно реализовывать даже самые сложные и
+                                    нестандартные проекты.
+                                </p>
+                                <p>
+                                    На сегодняшний день СК «Астра»- это динамично развивающаяся
+                                    копания, за плечами которой участия более чем десятке крупных
+                                    проектов по строительству и реконструкции объектов в Кургане и
+                                    Курганской обл., Тюмени, Тобольске, Екатеринбургская обл..
+                                </p>
+                                <button class="info__button button button--accent" type="button">
+                                    Больше информации о команде
+                                </button>
+                            </div>
+                            <div class="info__block" id="tabs-3">
+                                <p>
+                                    СК «Астра» работает в сфере строительства 2015 года.  За это
+                                    время мы собрали команду специалистов. Создали обширную
+                                    материально-техническую базу и накопили большой опыт. Всё вместе
+                                    это позволяет  нам успешно реализовывать даже самые сложные и
+                                    нестандартные проекты.
+                                </p>
+                                <p>
+                                    На сегодняшний день СК «Астра»- это динамично развивающаяся
+                                    копания, за плечами которой участия более чем десятке крупных
+                                    проектов по строительству и реконструкции объектов в Кургане и
+                                    Курганской обл., Тюмени, Тобольске, Екатеринбургская обл..
+                                </p>
+                                <p>
+                                    Мы гордимся своими достижениями и стремимся к дальнейшему
+                                    развитии и партнерству.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="company__company-slider-inner">
+                        <div class="company-slider">
+                            <div class="company-slider__slide">
+                                <img class="company-slider__image" src="./images/company/company-slider.svg"
+                                    alt="Astra-SK">
+                            </div>
+                            <div class="company-slider__slide">
+                                <img class="company-slider__image" src="./images/company/company-slider.svg"
+                                    alt="Astra-SK">
+                            </div>
+                            <div class="company-slider__slide">
+                                <img class="company-slider__image" src="./images/company/company-slider.svg"
+                                    alt="Astra-SK">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section container">
+            <div class="object">
+                <div class="object filter-slider">
+                    <ul class="filter filter-slider__menu-list clearfix">
+                        <li data-filter="commerce" class="commerce  filter-slider__menu-item active">Коммерческая недвижимость</li>
+                        <li data-filter="lowrise" class="lowrise filter-slider__menu-item">Малоэтажные дома</li>
+                        <li data-filter="all" class="all  filter-slider__menu-item">Все проекты
+                        </li>
+                    </ul>
+
+                    <ul class="object-slider">
+                        <li class="commerce object-slider__slide">
+                            <div class="place-card">
+                                <div class="place-card__inner">
+                                    <div class="place-card__image">
+                                        <a href="./card-object.html">
+                                            <img class="place-card__img"
+                                                src="./images/place-card/place-card-1.svg"
+                                                alt="Ледовая арена “Юность”">
+                                        </a>
+                                    </div>
+                                    <h4 class="place-card__title">
+                                        <a href="/">Ледовая арена “Юность”</a>
+                                    </h4>
+                                    <div class="plase-card__info">
+                                        <ul class="plase-card__info-list">
+                                            <li class="place-card__item">
+                                                594 кв.м.
+                                            </li>
+                                            <li class="place-card__item">
+                                                Длина: 39,6 м; Ширина: 15 м; Высота: 5,5 м
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="place-card__location">
+                                    <button class="place-card__location-button reset-button">
+                                        Курган
+                                    </button>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="lowrise object-slider__slide">
+                            <div class="place-card">
+                                <div class="place-card__inner">
+                                    <div class="place-card__image">
+                                        <a href="">
+                                            <img class="place-card__img"
+                                                src="./images/place-card/place-card-2.svg"
+                                                alt="Ледовая арена “Юность”">
+                                        </a>
+                                    </div>
+                                    <h4 class="place-card__title">
+                                        <a href="/">Ледовая арена “Юность”</a>
+                                    </h4>
+                                    <div class="plase-card__info">
+                                        <ul class="plase-card__info-list">
+                                            <li class="place-card__item">
+                                                594 кв.м.
+                                            </li>
+                                            <li class="place-card__item">
+                                                Длина: 39,6 м; Ширина: 15 м; Высота: 5,5 м
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="place-card__location">
+                                    <button class="place-card__location-button reset-button">
+                                        Курган
+                                    </button>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="commerce object-slider__slide">
+                            <div class="place-card">
+                                <div class="place-card__inner">
+                                    <div class="place-card__image">
+                                        <a href="">
+                                            <img class="place-card__img"
+                                                src="./images/place-card/place-card-3.svg"
+                                                alt="Ледовая арена “Юность”">
+                                        </a>
+                                    </div>
+                                    <h4 class="place-card__title">
+                                        <a href="/">Ледовая арена “Юность”</a>
+                                    </h4>
+                                    <div class="plase-card__info">
+                                        <ul class="plase-card__info-list">
+                                            <li class="place-card__item">
+                                                594 кв.м.
+                                            </li>
+                                            <li class="place-card__item">
+                                                Длина: 39,6 м; Ширина: 15 м; Высота: 5,5 м
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="place-card__location">
+                                    <button class="place-card__location-button reset-button">
+                                        Курган
+                                    </button>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="commerce object-slider__slide">
+                            <div class="place-card">
+                                <div class="place-card__inner">
+                                    <div class="place-card__image">
+                                        <a href="">
+                                            <img class="place-card__img"
+                                                src="./images/place-card/place-card-1.svg"
+                                                alt="Ледовая арена “Юность”">
+                                        </a>
+                                    </div>
+                                    <h4 class="place-card__title">
+                                        <a href="/">Ледовая арена “Юность”</a>
+                                    </h4>
+                                    <div class="plase-card__info">
+                                        <ul class="plase-card__info-list">
+                                            <li class="place-card__item">
+                                                594 кв.м.
+                                            </li>
+                                            <li class="place-card__item">
+                                                Длина: 39,6 м; Ширина: 15 м; Высота: 5,5 м
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="place-card__location">
+                                    <button class="place-card__location-button reset-button">
+                                        Курган
+                                    </button>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="lowrise object-slider__slide">
+                            <div class="place-card">
+                                <div class="place-card__inner">
+                                    <div class="place-card__image">
+                                        <a href="">
+                                            <img class="place-card__img"
+                                                src="./images/place-card/place-card-2.svg"
+                                                alt="Ледовая арена “Юность”">
+                                        </a>
+                                    </div>
+                                    <h4 class="place-card__title">
+                                        <a href="/">Ледовая арена “Юность”</a>
+                                    </h4>
+                                    <div class="plase-card__info">
+                                        <ul class="plase-card__info-list">
+                                            <li class="place-card__item">
+                                                594 кв.м.
+                                            </li>
+                                            <li class="place-card__item">
+                                                Длина: 39,6 м; Ширина: 15 м; Высота: 5,5 м
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="place-card__location">
+                                    <button class="place-card__location-button reset-button">
+                                        Курган
+                                    </button>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="commerce object-slider__slide">
+                            <div class="place-card">
+                                <div class="place-card__inner">
+                                    <div class="place-card__image">
+                                        <a href="">
+                                            <img class="place-card__img"
+                                                src="./images/place-card/place-card-3.svg"
+                                                alt="Ледовая арена “Юность”">
+                                        </a>
+                                    </div>
+                                    <h4 class="place-card__title">
+                                        <a href="/">Ледовая арена “Юность”</a>
+                                    </h4>
+                                    <div class="plase-card__info">
+                                        <ul class="plase-card__info-list">
+                                            <li class="place-card__item">
+                                                594 кв.м.
+                                            </li>
+                                            <li class="place-card__item">
+                                                Длина: 39,6 м; Ширина: 15 м; Высота: 5,5 м
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="place-card__location">
+                                    <button class="place-card__location-button reset-button">
+                                        Курган
+                                    </button>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="commerce object-slider__slide">
+                            <div class="place-card">
+                                <div class="place-card__inner">
+                                    <div class="place-card__image">
+                                        <a href="">
+                                            <img class="place-card__img"
+                                                src="./images/place-card/place-card-1.svg"
+                                                alt="Ледовая арена “Юность”">
+                                        </a>
+                                    </div>
+                                    <h4 class="place-card__title">
+                                        <a href="/">Ледовая арена “Юность”</a>
+                                    </h4>
+                                    <div class="plase-card__info">
+                                        <ul class="plase-card__info-list">
+                                            <li class="place-card__item">
+                                                594 кв.м.
+                                            </li>
+                                            <li class="place-card__item">
+                                                Длина: 39,6 м; Ширина: 15 м; Высота: 5,5 м
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="place-card__location">
+                                    <button class="place-card__location-button reset-button">
+                                        Курган
+                                    </button>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="lowrise object-slider__slide">
+                            <div class="place-card">
+                                <div class="place-card__inner">
+                                    <div class="place-card__image">
+                                        <a href="">
+                                            <img class="place-card__img"
+                                                src="./images/place-card/place-card-2.svg"
+                                                alt="Ледовая арена “Юность”">
+                                        </a>
+                                    </div>
+                                    <h4 class="place-card__title">
+                                        <a href="/">Ледовая арена “Юность”</a>
+                                    </h4>
+                                    <div class="plase-card__info">
+                                        <ul class="plase-card__info-list">
+                                            <li class="place-card__item">
+                                                594 кв.м.
+                                            </li>
+                                            <li class="place-card__item">
+                                                Длина: 39,6 м; Ширина: 15 м; Высота: 5,5 м
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="place-card__location">
+                                    <button class="place-card__location-button reset-button">
+                                        Курган
+                                    </button>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="commerce object-slider__slide">
+                            <div class="place-card">
+                                <div class="place-card__inner">
+                                    <div class="place-card__image">
+                                        <a href="">
+                                            <img class="place-card__img"
+                                                src="./images/place-card/place-card-3.svg"
+                                                alt="Ледовая арена “Юность”">
+                                        </a>
+                                    </div>
+                                    <h4 class="place-card__title">
+                                        <a href="/">Ледовая арена “Юность”</a>
+                                    </h4>
+                                    <div class="plase-card__info">
+                                        <ul class="plase-card__info-list">
+                                            <li class="place-card__item">
+                                                594 кв.м.
+                                            </li>
+                                            <li class="place-card__item">
+                                                Длина: 39,6 м; Ширина: 15 м; Высота: 5,5 м
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="place-card__location">
+                                    <button class="place-card__location-button reset-button">
+                                        Курган
+                                    </button>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section class="section container">
+            <section class="feedback-section">
+                <div class="feedback-section__inner">
+                    <div class="feedback-section__forma">
+                        <h3 class="feedback-section__title">
+                            Свяжитесь с нами
+                        </h3>
+                        <div class="feedback-section__description">
+                            <p>Мы перезвоним и расскажем о направлениях недвижимости.</p>
+                        </div>
+                        <form class="feedback-section__form feedback-form__form" id="RegForm" action="/registration"
+                            method="post" novalidate data-js-form>
+                            <p class="field">
+                                <label class="field__label visually-hidden" for="userName">Ваше имя</label>
+                                <input class="field__control" id="userName" name="userName" type="text"
+                                    placeholder="Ваше имя" required minlength="3" maxlength="12"
+                                    aria-errormessage="userName-errors" title="Введите корректное имя">
+                                <span class="field__errors" id="userName-errors" data-js-form-field-errors></span>
+                            </p>
+                            <p class="field">
+                                <label class="field__label visually-hidden" for="userPhone">Номер телефона</label>
+                                <input class="field__control" id="userPhone" name="userPhone" type="tel"
+                                    placeholder="+7 (000) 000 00-00" required minlength="10" maxlength="16"
+                                    pattern="\d+" title="Введите корректный номер телефона"
+                                    aria-errormessage="userPhone-errors">
+                                <span class="field__errors" id="userPhone-errors" data-js-form-field-errors></span>
+                            </p>
+                            <p class="field">
+                                <label class="field__label visually-hidden" for="about">Комментарий</label>
+                                <textarea class="field__control" id="about" name="about"
+                                    placeholder="Комментарий"></textarea>
+                            </p>
+                            <button class="feedback-form__button button button--accent" type="submit">Отправить</button>
+                            <div class="field checkbox hidden-mobile">
+                                <input class="checkbox__control" id="agreement" name="agreement" type="checkbox"
+                                    required aria-errormessage="agreement-errors" checked="checked">
+                                <label class="field__label checkbox__label feedback-section__checkbox" for="agreement">Я
+                                    ознакомлен и согласен с политикой
+                                    конфиденциальности</label>
+                                <span class="field__errors" id="agreement-errors" data-js-form-field-errors></span>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="feedback-section__image">
+                        <img src="./images/feedback-section/feedback-section-logo.svg" alt="Astra-SK" width="430"
+                            height="44" loading="lazy">
+                        <img src="./images/feedback-section/feedback-section.svg" alt="Astra-SK" width="430"
+                            height="282" loading="lazy">
+                    </div>
+                </div>
+            </section>
+        </section>
+    </div>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__inner section">
+                <div class="footer__nav">
+                    <div class="footer__logo">
+                        <a href="./index.html" class="footer__logo logo">
+                            <img class="logo__image" src="./images/header/logo.svg" alt="Astra-SK" width="207"
+                                height="20" loading="lazy">
+                        </a>
+                    </div>
+                    <nav class="footer__menu">
+                        <ul class="footer__menu-list">
+                            <li class="footer__menu-item">
+                                <a href="./company.html" class="footer__menu-link">
+                                    О компании
+                                </a>
+                            </li>
+                            <li class="footer__menu-item">
+                                <a href="./object.html" class="header__menu-link">
+                                    Объекты
+                                </a>
+                            </li>
+                            <li class="footer__menu-item">
+                                <a href="./contact.html" class="header__menu-link">
+                                    Контакты
+                                </a>
+                            </li>
+                            <li class="footer__menu-item">
+                                <a href="./furniture.html" class="header__menu-link">
+                                    Производство мебели
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <nav class="footer__menu">
+                        <ul class="footer__menu-list  footer__menu-list--main">
+                            <li class="footer__menu-item">
+                                <a href="tel:+79195698988" class="footer__menu-link">
+                                    <span class="footer__menu-icon">
+                                        <img src="./images/header/icon-phone.svg" alt="">
+                                    </span>
+                                    8 (919) 569 8988
+                                </a>
+                            </li>
+                            <li class="footer__menu-item">
+                                <a href="mailto:zsmstroika@mail.ru" class="footer__menu-link">
+                                    <span class="footer__menu-icon">
+                                        <img src="./images/header/icon-letter.svg" alt="">
+                                    </span>
+                                    zsmstroika@mail.ru
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+
+                <div class="footer__text">
+                    <p>Все права защищены. Политика конфиденциальности.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <dialog class="mobile-overlay visible-mobile" id="mobileOverlay">
+        <form method="dialog" class="mobile-overlay__close-button-wrapper">
+            <a href="./index.html" class="header__logo logo">
+                <img class="logo__image" src="./images/header/logo.svg" alt="Astra-SK" width="207" height="20"
+                    loading="lazy">
+            </a>
+            <button class="mobile-overlay__close-button reset-button" type="submit">
+                <span class="visually-hidden">Close navigation menu</span>
+                <img src="./images/header/close-button.svg" alt="Close navigation menu" width="30" height="30"
+                    loading="lazy">
+            </button>
+        </form>
+        <div class="mobile-overlay__body">
+            <ul class="mobile-overlay__list">
+                <li class="mobile-overlay__item">
+                    <a href="./company.html" class="mobile-overlay__link">О компании</a>
+                </li>
+                <li class="mobile-overlay__item">
+                    <a href="./object.html" class="mobile-overlay__link">Объекты</a>
+                </li>
+                <li class="mobile-overlay__item">
+                    <a href="./contact.html" class="mobile-overlay__link">Контакты</a>
+                </li>
+            </ul>
+            <ul class="mobile-overlay__list">
+                <li class="mobile-overlay__item">
+                    <a href="tel:+79195698988" class="mobile-overlay__link"><span class="header__menu-icon">
+                            <img src="./images/header/icon-phone.svg" alt="">
+                        </span>
+                        8 (919) 569 8988</a>
+                </li>
+                <li class="mobile-overlay__item">
+                    <a href="mailto:zsmstroika@mail.ru" class="mobile-overlay__link"><span class="header__menu-icon">
+                            <img src="./images/header/icon-letter.svg" alt="">
+                        </span>
+                        zsmstroika@mail.ru</a>
+                </li>
+                <li class="mobile-overlay__item">
+                    <button type="button" class="mobile-overlay__link mobile-overlay__link--call reset-button"
+                        onclick="feedbackFormPhone.showModal()">
+                        Заказать звонок
+                    </button>
+                </li>
+            </ul>
+            <ul class="mobile-overlay__list">
+                <li class="mobile-overlay__item">
+                    <a href="/" class="mobile-overlay__link--contacts">Вконтакте</a>
+                </li>
+                <li class="mobile-overlay__item">
+                    <a href="/" class="mobile-overlay__link--contacts">Telegram</a>
+                </li>
+                <li class="mobile-overlay__item">
+                    <a href="/" class="mobile-overlay__link--contacts">WhatsApp</a>
+                </li>
+            </ul>
+        </div>
+    </dialog>
+
+    <dialog class="feedback-form feedback-form--phone" id="feedbackFormPhone">
+        <form method="dialog">
+            <button class="feedback-form__close-button feedback-form__close-button--phone reset-button" type="submit"
+                id="closeButton">
+                <span class="visually-hidden">Close navigation menu</span>
+            </button>
+        </form>
+        <div class="feedback-form__body feedback-form__body--phone">
+            <h3 class="feedback-form__title">
+                Заказать обратный звонок
+            </h3>
+            <div class="feedback-form__description">
+                <p>Укажите данные и наш менеджер свяжется с Вами в ближайшее время.</p>
+            </div>
+        </div>
+
+        <form class="feedback-form__form" id="FormEntryPhone" action="/registration" method="post" novalidate
+            data-js-form>
+            <p class="field">
+                <label class="field__label visually-hidden" for="userName">Ваше имя</label>
+                <input class="field__control" id="userName" name="userName" type="text" placeholder="Ваше имя" required
+                    minlength="3" maxlength="12" aria-errormessage="userName-errors" title="Введите корректное имя">
+                <span class="field__errors" id="userName-errors" data-js-form-field-errors></span>
+            </p>
+            <p class="field">
+                <label class="field__label visually-hidden" for="userPhone">Номер телефона</label>
+                <input class="field__control" id="userPhone" name="userPhone" type="tel"
+                    placeholder="+7 (000) 000 00-00" required minlength="10" maxlength="16" pattern="\d+"
+                    title="Введите корректный номер телефона" aria-errormessage="userPhone-errors">
+                <span class="field__errors" id="userPhone-errors" data-js-form-field-errors></span>
+            </p>
+            <p class="field">
+                <label class="field__label visually-hidden" for="userEmail">Почта</label>
+                <input class="field__control" id="userEmail" name="userEmail" type="email"
+                    placeholder="Example@gmail.com" required minlength="5" maxlength="50"
+                    pattern="[a-z0-9._%+\-]+@[a-z0-9.\-]+\.[a-z]{2,}$" title="Введите корректную почту"
+                    aria-errormessage="userEmail-errors">
+                <span class="field__errors" id="userEmail-errors" data-js-form-field-errors></span>
+            </p>
+            <p class="field">
+                <label class="field__label visually-hidden" for="about">Комментарий</label>
+                <textarea class="field__control" id="about" name="about" placeholder="Комментарий"></textarea>
+            </p>
+            <div class="field checkbox">
+                <input class="checkbox__control" id="agreement" name="agreement" type="checkbox" required
+                    aria-errormessage="agreement-errors">
+                <label class="field__label checkbox__label" for="agreement">Я ознакомлен и согласен с политикой
+                    конфиденциальности</label>
+                <span class="field__errors" id="agreement-errors" data-js-form-field-errors></span>
+            </div>
+            <button class="feedback-form__button button--accent" type="submit">Отправить</button>
+        </form>
+    </dialog>
+
+    <dialog class="feedback-form feedback-form--advice" id="feedbackFormAdvice">
+        <form method="dialog">
+            <button class="feedback-form__close-button reset-button closeButton" type="submit" id="closeButtonAdvice">
+                <span class="visually-hidden">Close navigation menu</span>
+            </button>
+        </form>
+        <div class="feedback-form__body">
+            <h3 class="feedback-form__title">
+                Записаться на консультацию
+            </h3>
+            <div class="feedback-form__description">
+                <p>Укажите данные и наш менеджер свяжется с Вами в ближайшее время.</p>
+            </div>
+        </div>
+
+        <form class="feedback-form__form" id="FormEntryConsult" action="/registration" method="post" novalidate
+            data-js-form>
+            <p class="field">
+                <label class="field__label visually-hidden" for="userName">Ваше имя</label>
+                <input class="field__control" id="userName" name="userName" type="text" placeholder="Ваше имя" required
+                    minlength="3" maxlength="12" aria-errormessage="userName-errors" title="Введите корректное имя">
+                <span class="field__errors" id="userName-errors" data-js-form-field-errors></span>
+            </p>
+            <p class="field">
+                <label class="field__label visually-hidden" for="userPhone">Номер телефона</label>
+                <input class="field__control" id="userPhone" name="userPhone" type="tel"
+                    placeholder="+7 (000) 000 00-00" required minlength="10" maxlength="16" pattern="\d+"
+                    title="Введите корректный номер телефона" aria-errormessage="userPhone-errors">
+                <span class="field__errors" id="userPhone-errors" data-js-form-field-errors></span>
+            </p>
+            <div class="field checkbox">
+                <input class="checkbox__control" id="agreement" name="agreement" type="checkbox" required
+                    aria-errormessage="agreement-errors">
+                <label class="field__label checkbox__label" for="agreement">Я ознакомлен и согласен с политикой
+                    конфиденциальности</label>
+                <span class="field__errors" id="agreement-errors" data-js-form-field-errors></span>
+            </div>
+            <button class="feedback-form__button button--accent" type="submit">Отправить</button>
+        </form>
+    </dialog>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+    <script src="https://code.jquery.com/ui/1.14.0/jquery-ui.js"></script>
+    <script src="js/tab.js"></script>
+    <script src="js/feedback-form.js"></script>
+    <script src="js/slider-banner.js"></script>
+    <script src="js/company-slider.js"></script>
+    <script src="js/object-slider.js"></script>
+    <script src="js/slick.min.js"></script>
+</body>
+
+</html>

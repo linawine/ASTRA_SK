@@ -1,0 +1,41 @@
+.contact {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    width: 100px;
+    height: 100vh;
+    background-color: var(--color-light-alt);
+    z-index: 100;
+
+    @include desktop-l {
+        display: none;
+    }
+
+    &__list {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: absolute;
+        height: 100vh;
+        justify-content: center;
+        left: 0;
+        right: 0;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    &__item {
+        writing-mode: vertical-rl;
+        text-orientation: sideways;
+        margin: 20px 0;
+        padding: 0 16px;
+        transform: rotate(180deg);
+    }
+
+    &__link {
+        color: rgba(45, 45, 45, 0.6);
+        font-weight: 400;
+    }
+}

@@ -1,0 +1,39 @@
+.object-info {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+
+    &__inner {
+        display: grid;
+        column-gap: 20px;
+        grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+        flex-wrap: wrap;
+        row-gap: 20px;
+
+        @include mobile {
+            grid-template-columns: repeat(auto-fill, minmax(335px, 1fr));
+        }
+    }
+
+    &__block-image {
+        position: relative;
+        background-image: url(/images/object-info/object-info.svg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        min-height: 335px;
+    }
+
+    &__block-information {
+        background-color: var(--color-light-alt);
+        border: var(--border);
+        border-left: 2px solid var(--color-blue);
+        border-radius: var(--border-radius);
+        width: 100%;
+        padding: 20px;
+
+        display: flex;
+        flex-direction: column;
+        row-gap: 20px;
+    }
+}

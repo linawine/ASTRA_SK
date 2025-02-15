@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./styles/styles.css">
+    <title>Astra-SK</title>
+</head>
+
+<body>
+    <div class="content">
+        <header class="header">
+            <div class="header__inner container">
+                <a href="./index.html" class="header__logo logo">
+                    <img class="logo__image" src="./images/header/logo.svg" alt="Astra-SK" width="207" height="20"
+                        loading="lazy">
+                </a>
+                <nav class="header__menu hidden-desctop">
+                    <ul class="header__menu-list header__menu-list--main">
+                        <li class="header__menu-item">
+                            <a href="./company.html" class="header__menu-link">
+                                О компании
+                            </a>
+                        </li>
+                        <li class="header__menu-item">
+                            <a href="./object.html" class="header__menu-link">
+                                Объекты
+                            </a>
+                        </li>
+                        <li class="header__menu-item">
+                            <a href="./contact.html" class="header__menu-link">
+                                Контакты
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+                <nav class="header__menu hidden-desctop">
+                    <ul class="header__menu-list">
+                        <li class="header__menu-item">
+                            <a href="tel:+79195698988" class="header__menu-link">
+                                <span class="header__menu-icon">
+                                    <img src="./images/header/icon-phone.svg" alt="">
+                                </span>
+                                8 (919) 569 8988
+                            </a>
+                        </li>
+                        <li class="header__menu-item">
+                            <a href="mailto:zsmstroika@mail.ru" class="header__menu-link">
+                                <span class="header__menu-icon">
+                                    <img src="./images/header/icon-letter.svg" alt="">
+                                </span>
+                                zsmstroika@mail.ru
+                            </a>
+                        </li>
+                        <li class="header__menu-item">
+                            <button type="button" class="header__menu-link header__menu-link--call reset-button"
+                                onclick="feedbackFormPhone.showModal()">
+                                Заказать звонок
+                            </button>
+                        </li>
+                    </ul>
+                </nav>
+                <button class="button__burger-menu reset-button visually-desctop" type="button"
+                    onclick="mobileOverlay.showModal()">
+                    <span class="visually-hidden">Open navigation menu</span>
+                    <img src="./images/header/open-button.svg" alt="Open navigation menu" width="30" height="30"
+                        loading="lazy">
+                </button>
+            </div>
+        </header>
+
+        <section class="section container">
+            <div class="location-str">
+                <div class="location-str-base">
+                    <a href="./index.html">Главная</a>
+                </div>
+                <div class="location-str-accent">
+                    <a href="./furniture.html">Производство мебели</a>
+                </div>
+            </div>
+            <div class="furniture">
+                <h2 class="furniture__title">
+                    Производство мебели
+                </h2>
+                <div class="furniture__description">
+                    <p>
+                        В настоящий момент наша компания уверенно реализует себя в сфере производства современной мебели
+                        для детских садов, школьной и офисной мебели. Наши постоянные оптовые покупатели – это
+                        образовательные учреждения Российской Федерации, оптовые торговые и строительные компании РФ.
+                    </p>
+                </div>
+                <div class="furniture filter-slider">
+                    <ul class="filter filter-slider__menu-list clearfix">
+                        <li data-filter="school" class="school  filter-slider__menu-item active">Для дошкольных
+                            учреждений</li>
+                        <li data-filter="education" class="education  filter-slider__menu-item">Для образовательных
+                            учреждений</li>
+                        <li data-filter="office" class="office filter-slider__menu-item">Для офисов</li>
+                        <li data-filter="medical" class="medical  filter-slider__menu-item">Для медицинских учреждений
+                        </li>
+                    </ul>
+
+                    <ul class="furniture-slider">
+                        <li class="school furniture-slider__slide"><img class="furniture-slider__image"
+                                src="./images/furniture-slider/furniture-slide-1.svg"
+                                alt="Элемент слайдера 'Для дошкольных учреждений'" width="333" height="333">
+                        </li>
+                        <li class="school furniture-slider__slide"><img class="furniture-slider__image"
+                                src="./images/furniture-slider/furniture-slide-2.svg"
+                                alt="Элемент слайдера 'Для дошкольных учреждений'" width="333" height="333"></li>
+                        <li class="school furniture-slider__slide"><img class="furniture-slider__image"
+                                src="./images/furniture-slider/furniture-slide-3.svg"
+                                alt="Элемент слайдера 'Для дошкольных учреждений'" width="333" height="333"></li>
+                        <li class="school furniture-slider__slide"><img class="furniture-slider__image"
+                                src="./images/furniture-slider/furniture-slide-4.svg"
+                                alt="Элемент слайдера 'Для дошкольных учреждений'" width="333" height="333"></li>
+                        <li class="school furniture-slider__slide"><img class="furniture-slider__image"
+                                src="./images/furniture-slider/furniture-slide-1.svg"
+                                alt="Элемент слайдера 'Для дошкольных учреждений'" width="333" height="333">
+                        </li>
+                        <li class="education furniture-slider__slide"><img class="furniture-slider__image"
+                                src="./images/furniture-slider/furniture-slide-1.svg"
+                                alt="Элемент слайдера 'Для образовательных учреждений'" width="333" height="333"></li>
+                        <li class="education furniture-slider__slide"><img class="furniture-slider__image"
+                                src="./images/furniture-slider/furniture-slide-2.svg"
+                                alt="Элемент слайдера 'Для образовательных учреждений'" width="333" height="333"></li>
+                        <li class="education furniture-slider__slide"><img class="furniture-slider__image"
+                                src="./images/furniture-slider/furniture-slide-3.svg"
+                                alt="Элемент слайдера 'Для образовательных учреждений'" width="333" height="333"></li>
+                        <li class="education furniture-slider__slide"><img class="furniture-slider__image"
+                                src="./images/furniture-slider/furniture-slide-4.svg"
+                                alt="Элемент слайдера 'Для образовательных учреждений'" width="333" height="333"></li>
+                        <li class="education furniture-slider__slide"><img class="furniture-slider__image"
+                                src="./images/furniture-slider/furniture-slide-1.svg"
+                                alt="Элемент слайдера 'Для образовательных учреждений'" width="333" height="333"></li>
+                        <li class="office furniture-slider__slide"><img class="furniture-slider__image"
+                                src="./images/furniture-slider/furniture-slide-1.svg"
+                                alt="Элемент слайдера 'Для офисов'" width="333" height="333"></li>
+                        <li class="office furniture-slider__slide"><img class="furniture-slider__image"
+                                src="./images/furniture-slider/furniture-slide-2.svg"
+                                alt="Элемент слайдера 'Для офисов'" width="333" height="333"></li>
+                        <li class="office furniture-slider__slide"><img class="furniture-slider__image"
+                                src="./images/furniture-slider/furniture-slide-3.svg"
+                                alt="Элемент слайдера 'Для офисов'" width="333" height="333"></li>
+                        <li class="office furniture-slider__slide"><img class="furniture-slider__image"
+                                src="./images/furniture-slider/furniture-slide-4.svg"
+                                alt="Элемент слайдера 'Для офисов'" width="333" height="333"></li>
+                        <li class="office furniture-slider__slide"><img class="furniture-slider__image"
+                                src="./images/furniture-slider/furniture-slide-1.svg"
+                                alt="Элемент слайдера 'Для офисов'" width="333" height="333"></li>
+                        <li class="medical furniture-slider__slide"><img class="furniture-slider__image"
+                                src="./images/furniture-slider/furniture-slide-1.svg"
+                                alt="Элемент слайдера 'Для медицинских учреждений'" width="333" height="333"></li>
+                        <li class="medical furniture-slider__slide"><img class="furniture-slider__image"
+                                src="./images/furniture-slider/furniture-slide-2.svg"
+                                alt="Элемент слайдера 'Для медицинских учреждений'" width="333" height="333"></li>
+                        <li class="medical furniture-slider__slide"><img class="furniture-slider__image"
+                                src="./images/furniture-slider/furniture-slide-3.svg"
+                                alt="Элемент слайдера 'Для медицинских учреждений'" width="333" height="333"></li>
+                        <li class="medical furniture-slider__slide"><img class="furniture-slider__image"
+                                src="./images/furniture-slider/furniture-slide-4.svg"
+                                alt="Элемент слайдера 'Для медицинских учреждений'" width="333" height="333"></li>
+                        <li class="medical furniture-slider__slide"><img class="furniture-slider__image"
+                                src="./images/furniture-slider/furniture-slide-1.svg"
+                                alt="Элемент слайдера 'Для медицинских учреждений'" width="333" height="333"></li>
+                    </ul>
+                </div>
+                <div class="furniture__description-lower">
+                    <p>Но социально-экономическое развитие предопределяет высокую востребованность укрепления моральных
+                        ценностей. А ещё представители современных социальных резервов представляют собой не что иное,
+                        как квинтэссенцию победы маркетинга над разумом и должны быть своевременно верифицированы.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="section advantage-feedback">
+            <div class="container">
+                <div class="advantage-feedback__inner">
+                    <h2 class="advantage-feedback__title">
+                        Все наши клиенты высоко оценили все плюсы работы с нами:
+                    </h2>
+
+                    <div class="advantage-feedback__slider">
+                        <div class="advantage-feedback__slide">
+                            <div class="advantage-card advantage-card--feedback">
+                                <img class="logo__image" src="./images/advantage/icon-advant.svg" alt="Astra-SK элемент слайдера" width="21"
+                                    height="21" loading="lazy">
+                                <div class="advantage-card__description">
+                                    <p>отлаженная система отгрузки с возможностью самовывоза или отправкой ТК</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="advantage-feedback__slide">
+                            <div class="advantage-card advantage-card--feedback">
+                                <img class="logo__image" src="./images/advantage/icon-advant.svg" alt="Astra-SK элемент слайдера" width="21"
+                                    height="21" loading="lazy">
+                                <div class="advantage-card__description">
+                                    <p>опытный высококвалифицированный персонал</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="advantage-feedback__slide">
+                            <div class="advantage-card advantage-card--feedback">
+                                <img class="logo__image" src="./images/advantage/icon-advant.svg" alt="Astra-SK элемент слайдера" width="21"
+                                    height="21" loading="lazy">
+                                <div class="advantage-card__description">
+                                    <p>минимальные отпускные цены и очень гибкая система фиксированных и индивидуальных скидок</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="advantage-feedback__slide">
+                            <div class="advantage-card advantage-card--feedback">
+                                <img class="logo__image" src="./images/advantage/icon-advant.svg" alt="Astra-SK элемент слайдера" width="21"
+                                    height="21" loading="lazy">
+                                <div class="advantage-card__description">
+                                    <p>гибкая система привилегий для постоянных клиентов и дилеров</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="advantage-feedback__slide">
+                            <div class="advantage-card advantage-card--feedback">
+                                <img class="logo__image" src="./images/advantage/icon-advant.svg" alt="Astra-SK элемент слайдера" width="21"
+                                    height="21" loading="lazy">
+                                <div class="advantage-card__description">
+                                    <p>продукция сертифицирована на соответствие действующим ГОСТ, ТР/ТС и СанПиН.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="advantage-feedback__slide">
+                            <div class="advantage-card advantage-card--feedback">
+                                <img class="logo__image" src="./images/advantage/icon-advant.svg" alt="Astra-SK элемент слайдера" width="21"
+                                    height="21" loading="lazy">
+                                <div class="advantage-card__description">
+                                    <p>постоянные низкие цены на товары собственного производства</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="advantage-feedback__slide">
+                            <div class="advantage-card advantage-card--feedback">
+                                <img class="logo__image" src="./images/advantage/icon-advant.svg" alt="Astra-SK элемент слайдера" width="21"
+                                    height="21" loading="lazy">
+                                <div class="advantage-card__description">
+                                    <p>отлаженная система отгрузки с возможностью самовывоза или отправкой ТК</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="advantage-feedback__slide">
+                            <div class="advantage-card advantage-card--feedback">
+                                <img class="logo__image" src="./images/advantage/icon-advant.svg" alt="Astra-SK элемент слайдера" width="21"
+                                    height="21" loading="lazy">
+                                <div class="advantage-card__description">
+                                    <p>опытный высококвалифицированный персонал</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__inner section">
+                <div class="footer__nav">
+                    <div class="footer__logo">
+                        <a href="./index.html" class="footer__logo logo">
+                            <img class="logo__image" src="./images/header/logo.svg" alt="Astra-SK" width="207"
+                                height="20" loading="lazy">
+                        </a>
+                    </div>
+                    <nav class="footer__menu">
+                        <ul class="footer__menu-list">
+                            <li class="footer__menu-item">
+                                <a href="./company.html" class="footer__menu-link">
+                                    О компании
+                                </a>
+                            </li>
+                            <li class="footer__menu-item">
+                                <a href="./object.html" class="header__menu-link">
+                                    Объекты
+                                </a>
+                            </li>
+                            <li class="footer__menu-item">
+                                <a href="./contact.html" class="header__menu-link">
+                                    Контакты
+                                </a>
+                            </li>
+                            <li class="footer__menu-item">
+                                <a href="./furniture.html" class="header__menu-link">
+                                    Производство мебели
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <nav class="footer__menu">
+                        <ul class="footer__menu-list  footer__menu-list--main">
+                            <li class="footer__menu-item">
+                                <a href="tel:+79195698988" class="footer__menu-link">
+                                    <span class="footer__menu-icon">
+                                        <img src="./images/header/icon-phone.svg" alt="">
+                                    </span>
+                                    8 (919) 569 8988
+                                </a>
+                            </li>
+                            <li class="footer__menu-item">
+                                <a href="mailto:zsmstroika@mail.ru" class="footer__menu-link">
+                                    <span class="footer__menu-icon">
+                                        <img src="./images/header/icon-letter.svg" alt="">
+                                    </span>
+                                    zsmstroika@mail.ru
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+
+                <div class="footer__text">
+                    <p>Все права защищены. Политика конфиденциальности.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <dialog class="mobile-overlay visible-mobile" id="mobileOverlay">
+        <form method="dialog" class="mobile-overlay__close-button-wrapper">
+            <a href="./index.html" class="header__logo logo">
+                <img class="logo__image" src="./images/header/logo.svg" alt="Astra-SK" width="207" height="20"
+                    loading="lazy">
+            </a>
+            <button class="mobile-overlay__close-button reset-button" type="submit">
+                <span class="visually-hidden">Close navigation menu</span>
+                <img src="./images/header/close-button.svg" alt="Close navigation menu" width="30" height="30"
+                    loading="lazy">
+            </button>
+        </form>
+        <div class="mobile-overlay__body">
+            <ul class="mobile-overlay__list">
+                <li class="mobile-overlay__item">
+                    <a href="./company.html" class="mobile-overlay__link">О компании</a>
+                </li>
+                <li class="mobile-overlay__item">
+                    <a href="./object.html" class="mobile-overlay__link">Объекты</a>
+                </li>
+                <li class="mobile-overlay__item">
+                    <a href="./contact.html" class="mobile-overlay__link">Контакты</a>
+                </li>
+            </ul>
+            <ul class="mobile-overlay__list">
+                <li class="mobile-overlay__item">
+                    <a href="tel:+79195698988" class="mobile-overlay__link"><span class="header__menu-icon">
+                            <img src="./images/header/icon-phone.svg" alt="">
+                        </span>
+                        8 (919) 569 8988</a>
+                </li>
+                <li class="mobile-overlay__item">
+                    <a href="mailto:zsmstroika@mail.ru" class="mobile-overlay__link"><span class="header__menu-icon">
+                            <img src="./images/header/icon-letter.svg" alt="">
+                        </span>
+                        zsmstroika@mail.ru</a>
+                </li>
+                <li class="mobile-overlay__item">
+                    <button type="button" class="mobile-overlay__link mobile-overlay__link--call reset-button"
+                        onclick="feedbackFormPhone.showModal()">
+                        Заказать звонок
+                    </button>
+                </li>
+            </ul>
+            <ul class="mobile-overlay__list">
+                <li class="mobile-overlay__item">
+                    <a href="/" class="mobile-overlay__link--contacts">Вконтакте</a>
+                </li>
+                <li class="mobile-overlay__item">
+                    <a href="/" class="mobile-overlay__link--contacts">Telegram</a>
+                </li>
+                <li class="mobile-overlay__item">
+                    <a href="/" class="mobile-overlay__link--contacts">WhatsApp</a>
+                </li>
+            </ul>
+        </div>
+    </dialog>
+
+    <dialog class="feedback-form feedback-form--phone" id="feedbackFormPhone">
+        <form method="dialog">
+            <button class="feedback-form__close-button feedback-form__close-button--phone reset-button" type="submit"
+                id="closeButton">
+                <span class="visually-hidden">Close navigation menu</span>
+            </button>
+        </form>
+        <div class="feedback-form__body feedback-form__body--phone">
+            <h3 class="feedback-form__title">
+                Заказать обратный звонок
+            </h3>
+            <div class="feedback-form__description">
+                <p>Укажите данные и наш менеджер свяжется с Вами в ближайшее время.</p>
+            </div>
+        </div>
+
+        <form class="feedback-form__form" id="FormEntryPhone" action="/registration" method="post" novalidate
+            data-js-form>
+            <p class="field">
+                <label class="field__label visually-hidden" for="userName">Ваше имя</label>
+                <input class="field__control" id="userName" name="userName" type="text" placeholder="Ваше имя" required
+                    minlength="3" maxlength="12" aria-errormessage="userName-errors" title="Введите корректное имя">
+                <span class="field__errors" id="userName-errors" data-js-form-field-errors></span>
+            </p>
+            <p class="field">
+                <label class="field__label visually-hidden" for="userPhone">Номер телефона</label>
+                <input class="field__control" id="userPhone" name="userPhone" type="tel"
+                    placeholder="+7 (000) 000 00-00" required minlength="10" maxlength="16" pattern="\d+"
+                    title="Введите корректный номер телефона" aria-errormessage="userPhone-errors">
+                <span class="field__errors" id="userPhone-errors" data-js-form-field-errors></span>
+            </p>
+            <p class="field">
+                <label class="field__label visually-hidden" for="userEmail">Почта</label>
+                <input class="field__control" id="userEmail" name="userEmail" type="email"
+                    placeholder="Example@gmail.com" required minlength="5" maxlength="50"
+                    pattern="[a-z0-9._%+\-]+@[a-z0-9.\-]+\.[a-z]{2,}$" title="Введите корректную почту"
+                    aria-errormessage="userEmail-errors">
+                <span class="field__errors" id="userEmail-errors" data-js-form-field-errors></span>
+            </p>
+            <p class="field">
+                <label class="field__label visually-hidden" for="about">Комментарий</label>
+                <textarea class="field__control" id="about" name="about" placeholder="Комментарий"></textarea>
+            </p>
+            <div class="field checkbox">
+                <input class="checkbox__control" id="agreement" name="agreement" type="checkbox" required
+                    aria-errormessage="agreement-errors">
+                <label class="field__label checkbox__label" for="agreement">Я ознакомлен и согласен с политикой
+                    конфиденциальности</label>
+                <span class="field__errors" id="agreement-errors" data-js-form-field-errors></span>
+            </div>
+            <button class="feedback-form__button button--accent" type="submit">Отправить</button>
+        </form>
+    </dialog>
+
+    <dialog class="feedback-form feedback-form--advice" id="feedbackFormAdvice">
+        <form method="dialog">
+            <button class="feedback-form__close-button reset-button closeButton" type="submit" id="closeButtonAdvice">
+                <span class="visually-hidden">Close navigation menu</span>
+            </button>
+        </form>
+        <div class="feedback-form__body">
+            <h3 class="feedback-form__title">
+                Записаться на консультацию
+            </h3>
+            <div class="feedback-form__description">
+                <p>Укажите данные и наш менеджер свяжется с Вами в ближайшее время.</p>
+            </div>
+        </div>
+
+        <form class="feedback-form__form" id="FormEntryConsult" action="/registration" method="post" novalidate
+            data-js-form>
+            <p class="field">
+                <label class="field__label visually-hidden" for="userName">Ваше имя</label>
+                <input class="field__control" id="userName" name="userName" type="text" placeholder="Ваше имя" required
+                    minlength="3" maxlength="12" aria-errormessage="userName-errors" title="Введите корректное имя">
+                <span class="field__errors" id="userName-errors" data-js-form-field-errors></span>
+            </p>
+            <p class="field">
+                <label class="field__label visually-hidden" for="userPhone">Номер телефона</label>
+                <input class="field__control" id="userPhone" name="userPhone" type="tel"
+                    placeholder="+7 (000) 000 00-00" required minlength="10" maxlength="16" pattern="\d+"
+                    title="Введите корректный номер телефона" aria-errormessage="userPhone-errors">
+                <span class="field__errors" id="userPhone-errors" data-js-form-field-errors></span>
+            </p>
+            <div class="field checkbox">
+                <input class="checkbox__control" id="agreement" name="agreement" type="checkbox" required
+                    aria-errormessage="agreement-errors">
+                <label class="field__label checkbox__label" for="agreement">Я ознакомлен и согласен с политикой
+                    конфиденциальности</label>
+                <span class="field__errors" id="agreement-errors" data-js-form-field-errors></span>
+            </div>
+            <button class="feedback-form__button button--accent" type="submit">Отправить</button>
+        </form>
+    </dialog>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+    <script src="js/feedback-form.js"></script>
+    <script src="js/special-slider.js"></script>
+    <script src="js/advantage-feedback-slider.js"></script>
+    <script src="js/furniture-slider.js"></script>
+    <script src="js/slick.min.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,35 @@
+.news-section {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+
+    &__inner {
+        display: flex;
+        justify-content: space-between;
+        column-gap: 20px;
+
+        @include tablet-s {
+            flex-direction: column;
+            align-items: center;
+            row-gap: 20px;
+        }
+    }
+
+    &__image {
+        position: relative;
+    }
+
+    &__image img {
+        min-width: 487px;
+
+        @include tablet {
+            min-width: 400px;
+            height: auto;
+        }
+
+        @include mobile {
+            min-width: 335px;
+            height: auto;
+        }
+    }
+}

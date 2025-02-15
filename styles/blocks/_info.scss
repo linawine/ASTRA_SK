@@ -1,0 +1,11 @@
+.info {
+    @include mobile-s {
+        &__button {
+            width: 100%;
+        }
+    }
+
+    &__block p {
+        text-align: justify;
+    }
+}

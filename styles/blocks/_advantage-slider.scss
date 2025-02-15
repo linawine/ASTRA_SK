@@ -1,0 +1,36 @@
+.advantage-slider {
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(285px, 1fr));
+
+    &__slide {
+        height: 100%;
+        box-sizing: border-box;
+        padding-bottom: 20px;
+        padding-inline: 10px;
+    }
+}
+
+.advantage-slider .slick-arrow.slick-prev {
+    left: -10000px;
+    background: url(/images/arrow/arrow-prev-blue.svg) 0 0 no-repeat;
+    background-color: var(--color-grey-alt);
+    background-position: center center;
+
+    @include mobile {
+        top: 100%;
+        left: 38%
+    }
+}
+
+.advantage-slider .slick-arrow.slick-next {
+    right: -10000px;
+    background: url(/images/arrow/arrow-next-blue.svg) 0 0 no-repeat;
+    background-color: var(--color-grey-alt);
+    background-position: center center;
+
+    @include mobile {
+        top: 100%;
+        right: 38%;
+    }
+}

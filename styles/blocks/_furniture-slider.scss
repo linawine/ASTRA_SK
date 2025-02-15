@@ -1,0 +1,38 @@
+.furniture-slider {
+    position: relative;
+    width: 100%;
+}
+
+.furniture-slider .slick-slide {
+    margin-inline: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.furniture-slider .slick-slide img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.furniture-slider .slick-arrow.slick-prev {
+    left: -7px;
+
+    @include mobile {
+        background: url(/images/arrow/arrow-prev-light.svg) 0 0 no-repeat;
+        background-color: var(--color-blue);
+        background-position: center center;
+
+    }
+}
+
+.furniture-slider .slick-arrow.slick-next {
+    right: -7px;
+
+    @include mobile {
+        background: url(/images/arrow/arrow-next-light.svg) 0 0 no-repeat;
+        background-color: var(--color-blue);
+        background-position: center center;
+
+    }
+}

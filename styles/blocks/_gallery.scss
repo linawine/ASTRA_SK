@@ -1,0 +1,32 @@
+.gallery {
+
+    &__inner {
+        display: flex;
+        flex-direction: column;
+        row-gap: 20px;
+    }
+
+    &__slider {
+        position: relative;
+
+        &-slide {
+            margin-inline: 10px;
+            display: flex;
+            justify-content: center;
+        }
+    }
+}
+
+.gallery__slider .slick-arrow.slick-prev {
+    background: url(/images/arrow/arrow-prev-light.svg) 0 0 no-repeat;
+    background-color: var(--color-blue);
+    background-position: center center;
+    left: -7px;
+}
+
+.gallery__slider .slick-arrow.slick-next {
+    background: url(/images/arrow/arrow-next-light.svg) 0 0 no-repeat;
+    background-color: var(--color-blue);
+    background-position: center center;
+    right: -7px;
+}

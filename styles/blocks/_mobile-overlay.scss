@@ -1,0 +1,56 @@
+.mobile-overlay {
+    width: 100%;
+    margin: 0;
+    border: none;
+    padding-top: 17px;
+
+    &:modal {
+        max-width: 100%;
+        padding: 0;
+    }
+
+    &__close-button-wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 17px 20px 20px 20px;
+        border-bottom: 1px solid rgb(0, 66, 164, 0.1);
+    }
+
+    &__body {
+        padding: 0 20px 20px 20px;
+    }
+
+    &__list {
+        @include flex-center;
+
+        flex-direction: column;
+        align-items: start;
+        row-gap: 10px;
+        padding-top: 10px;
+        font-size: 16px;
+    }
+
+    &__list:not(:last-child) {
+        padding-bottom: 10px;
+        border-bottom: 1px solid rgb(0, 66, 164, 0.1);
+    }
+
+    &__link {
+        display: flex;
+        width: 100%;
+
+        &--call {
+            font-weight: 600;
+        }
+
+        &--contacts {
+            color: #2D2D2D;
+            opacity: 0.6;
+        }
+
+        @include hover {
+            color: var(--color-blue);
+        }
+    }
+}

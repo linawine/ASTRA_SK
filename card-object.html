@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./styles/styles.css">
+    <title>Astra-SK</title>
+</head>
+
+<body>
+    <div class="content">
+        <header class="header">
+            <div class="header__inner container">
+                <a href="./index.html" class="header__logo logo">
+                    <img class="logo__image" src="./images/header/logo.svg" alt="Astra-SK" width="207" height="20"
+                        loading="lazy">
+                </a>
+                <nav class="header__menu hidden-desctop">
+                    <ul class="header__menu-list header__menu-list--main">
+                        <li class="header__menu-item">
+                            <a href="./company.html" class="header__menu-link">
+                                О компании
+                            </a>
+                        </li>
+                        <li class="header__menu-item">
+                            <a href="./object.html" class="header__menu-link">
+                                Объекты
+                            </a>
+                        </li>
+                        <li class="header__menu-item">
+                            <a href="./contact.html" class="header__menu-link">
+                                Контакты
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+                <nav class="header__menu hidden-desctop">
+                    <ul class="header__menu-list">
+                        <li class="header__menu-item">
+                            <a href="tel:+79195698988" class="header__menu-link">
+                                <span class="header__menu-icon">
+                                    <img src="./images/header/icon-phone.svg" alt="">
+                                </span>
+                                8 (919) 569 8988
+                            </a>
+                        </li>
+                        <li class="header__menu-item">
+                            <a href="mailto:zsmstroika@mail.ru" class="header__menu-link">
+                                <span class="header__menu-icon">
+                                    <img src="./images/header/icon-letter.svg" alt="">
+                                </span>
+                                zsmstroika@mail.ru
+                            </a>
+                        </li>
+                        <li class="header__menu-item">
+                            <button type="button" class="header__menu-link header__menu-link--call reset-button"
+                                onclick="feedbackFormPhone.showModal()">
+                                Заказать звонок
+                            </button>
+                        </li>
+                    </ul>
+                </nav>
+                <button class="button__burger-menu reset-button visually-desctop" type="button"
+                    onclick="mobileOverlay.showModal()">
+                    <span class="visually-hidden">Open navigation menu</span>
+                    <img src="./images/header/open-button.svg" alt="Open navigation menu" width="30" height="30"
+                        loading="lazy">
+                </button>
+            </div>
+        </header>
+
+        <section class="section container">
+            <div class="location-str">
+                <div class="location-str-base">
+                    <a href="./index.html">Главная</a>
+                </div>
+                <div class="location-str-base">
+                    <a href="./object.html">Объекты</a>
+                </div>
+                <div class="location-str-accent">
+                    <a href="./card-object.html">Ледовая арена “Юность”</a>
+                </div>
+            </div>
+            <div class="object-info">
+                <h2 class="object-info__title">
+                    Ледовая арена “Юность”
+                </h2>
+                <div class="object-info__description">
+                    <p>В городе Кургане была построена ледовая арена “Юность” из ЛСТК. Его площадь составит 504 кв.м.
+                    </p>
+                </div>
+                <div class="object-info__inner">
+                    <div class="object-info__block-image">
+                        <div class="place-card__location">
+                            <button class="place-card__location-button reset-button">
+                                Курган
+                            </button>
+                        </div>
+                    </div>
+                    <div class="object-info__block-information">
+                        <div class="block-information">
+                            <h4 class="block-information__title">
+                                Объем работы:
+                            </h4>
+                            <div class="block-information__description">
+                                <p>Проектирование, производство металлоконструкций</p>
+                            </div>
+                        </div>
+                        <div class="block-information">
+                            <h4 class="block-information__title">
+                                Параметры:
+                            </h4>
+                            <div class="block-information__description">
+                                <p>Длина: 39,6 м; Ширина: 15 м; Высота: 5,5 м</p>
+                            </div>
+                        </div>
+                        <div class="block-information">
+                            <h4 class="block-information__title">
+                                Сроки строительства:
+                            </h4>
+                            <div class="block-information__description">
+                                <p>Проектирование: 20 дней; Изготовление: 20 дней;</p>
+                            </div>
+                        </div>
+                        <div class="block-information__button">
+                            <button class="button button--accent block-information__button">
+                                Заказать проект
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section container">
+            <div class="gallery">
+                <div class="gallery__inner">
+                    <h2 class="gallery__title">
+                        Галерея проекта
+                    </h2>
+                    <div class="gallery__slider">
+                        <div class="gallery__slider-slide">
+                            <img class="company-slider__image" src="./images/gallery/gallery-slider.svg"
+                                alt="Элемент слайдера галерии проектов Astra-SK" width="285" height="285">
+                        </div>
+                        <div class="gallery__slider-slide">
+                            <img class="company-slider__image" src="./images/gallery/gallery-slider.svg"
+                                alt="Элемент слайдера галерии проектов Astra-SK" width="285" height="285">
+                        </div>
+                        <div class="gallery__slider-slide">
+                            <img class="company-slider__image" src="./images/gallery/gallery-slider.svg"
+                                alt="Элемент слайдера галерии проектов Astra-SK" width="285" height="285">
+                        </div>
+                        <div class="gallery__slider-slide">
+                            <img class="company-slider__image" src="./images/gallery/gallery-slider.svg"
+                                alt="Элемент слайдера галерии проектов Astra-SK" width="285" height="285">
+                        </div>
+                        <div class="gallery__slider-slide">
+                            <img class="company-slider__image" src="./images/gallery/gallery-slider.svg"
+                                alt="Элемент слайдера галерии проектов Astra-SK" width="285" height="285">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section container">
+            <div class="company">
+                <div class="company__inner">
+                    <div class="company__info">
+                        <div id="tabs" class="tabs tabs-up">
+                            <h2 class="company-tabs__title">Описание и характеристики</h2>
+                            <ul class="tabs__list">
+                                <li class="tabs__item"><a href="#tabs-1">Описание</a></li>
+                                <li class="tabs__item"><a href="#tabs-2">Характеристика</a></li>
+                            </ul>
+                            <div id="tabs-1">
+                                <p>
+                                    Современные технологии достигли такого уровня, что экономическая повестка
+                                    сегодняшнего дня в значительной степени обусловливает важность прогресса
+                                    профессионального сообщества. Ясность нашей позиции очевидна: новая модель
+                                    организационной деятельности представляет собой интересный эксперимент проверки
+                                    позиций, занимаемых участниками в отношении поставленных задач. В рамках
+                                    спецификации современных стандартов, активно развивающиеся страны третьего мира
+                                    освещают чрезвычайно интересные особенности картины в целом, однако конкретные
+                                    выводы, разумеется, превращены в посмешище, хотя само их существование приносит
+                                    несомненную пользу обществу.
+                                </p>
+                            </div>
+                            <div id="tabs-2">
+                                <p>
+                                    Современные технологии достигли такого уровня, что экономическая повестка
+                                    сегодняшнего дня в значительной степени обусловливает важность прогресса
+                                    профессионального сообщества. Ясность нашей позиции очевидна: новая модель
+                                    организационной деятельности представляет собой интересный эксперимент проверки
+                                    позиций, занимаемых участниками в отношении поставленных задач. В рамках
+                                    спецификации современных стандартов, активно развивающиеся страны третьего мира
+                                    освещают чрезвычайно интересные особенности картины в целом, однако конкретные
+                                    выводы, разумеется, превращены в посмешище, хотя само их существование приносит
+                                    несомненную пользу обществу.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section container">
+            <section class="feedback-section">
+                <div class="feedback-section__inner">
+                    <div class="feedback-section__forma">
+                        <h3 class="feedback-section__title">
+                            Свяжитесь с нами
+                        </h3>
+                        <div class="feedback-section__description">
+                            <p>Мы перезвоним и расскажем о направлениях недвижимости.</p>
+                        </div>
+                        <form class="feedback-section__form feedback-form__form" id="RegForm" action="/registration"
+                            method="post" novalidate data-js-form>
+                            <p class="field">
+                                <label class="field__label visually-hidden" for="userName">Ваше имя</label>
+                                <input class="field__control" id="userName" name="userName" type="text"
+                                    placeholder="Ваше имя" required minlength="3" maxlength="12"
+                                    aria-errormessage="userName-errors" title="Введите корректное имя">
+                                <span class="field__errors" id="userName-errors" data-js-form-field-errors></span>
+                            </p>
+                            <p class="field">
+                                <label class="field__label visually-hidden" for="userPhone">Номер телефона</label>
+                                <input class="field__control" id="userPhone" name="userPhone" type="tel"
+                                    placeholder="+7 (000) 000 00-00" required minlength="10" maxlength="16"
+                                    pattern="\d+" title="Введите корректный номер телефона"
+                                    aria-errormessage="userPhone-errors">
+                                <span class="field__errors" id="userPhone-errors" data-js-form-field-errors></span>
+                            </p>
+                            <p class="field">
+                                <label class="field__label visually-hidden" for="about">Комментарий</label>
+                                <textarea class="field__control" id="about" name="about"
+                                    placeholder="Комментарий"></textarea>
+                            </p>
+                            <button class="feedback-form__button button button--accent" type="submit">Отправить</button>
+                        </form>
+                    </div>
+                    <div class="feedback-section__image">
+                        <img src="./images/feedback-section/feedback-section-logo.svg" alt="Astra-SK" width="430"
+                            height="44" loading="lazy">
+                        <img src="./images/feedback-section/feedback-section.svg" alt="Astra-SK" width="430"
+                            height="282" loading="lazy">
+                    </div>
+                </div>
+            </section>
+        </section>
+    </div>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__inner section">
+                <div class="footer__nav">
+                    <div class="footer__logo">
+                        <a href="./index.html" class="footer__logo logo">
+                            <img class="logo__image" src="./images/header/logo.svg" alt="Astra-SK" width="207"
+                                height="20" loading="lazy">
+                        </a>
+                    </div>
+                    <nav class="footer__menu">
+                        <ul class="footer__menu-list">
+                            <li class="footer__menu-item">
+                                <a href="./company.html" class="footer__menu-link">
+                                    О компании
+                                </a>
+                            </li>
+                            <li class="footer__menu-item">
+                                <a href="./object.html" class="header__menu-link">
+                                    Объекты
+                                </a>
+                            </li>
+                            <li class="footer__menu-item">
+                                <a href="./contact.html" class="header__menu-link">
+                                    Контакты
+                                </a>
+                            </li>
+                            <li class="footer__menu-item">
+                                <a href="./furniture.html" class="header__menu-link">
+                                    Производство мебели
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <nav class="footer__menu">
+                        <ul class="footer__menu-list  footer__menu-list--main">
+                            <li class="footer__menu-item">
+                                <a href="tel:+79195698988" class="footer__menu-link">
+                                    <span class="footer__menu-icon">
+                                        <img src="./images/header/icon-phone.svg" alt="">
+                                    </span>
+                                    8 (919) 569 8988
+                                </a>
+                            </li>
+                            <li class="footer__menu-item">
+                                <a href="mailto:zsmstroika@mail.ru" class="footer__menu-link">
+                                    <span class="footer__menu-icon">
+                                        <img src="./images/header/icon-letter.svg" alt="">
+                                    </span>
+                                    zsmstroika@mail.ru
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+
+                <div class="footer__text">
+                    <p>Все права защищены. Политика конфиденциальности.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <dialog class="mobile-overlay visible-mobile" id="mobileOverlay">
+        <form method="dialog" class="mobile-overlay__close-button-wrapper">
+            <a href="./index.html" class="header__logo logo">
+                <img class="logo__image" src="./images/header/logo.svg" alt="Astra-SK" width="207" height="20"
+                    loading="lazy">
+            </a>
+            <button class="mobile-overlay__close-button reset-button" type="submit">
+                <span class="visually-hidden">Close navigation menu</span>
+                <img src="./images/header/close-button.svg" alt="Close navigation menu" width="30" height="30"
+                    loading="lazy">
+            </button>
+        </form>
+        <div class="mobile-overlay__body">
+            <ul class="mobile-overlay__list">
+                <li class="mobile-overlay__item">
+                    <a href="./company.html" class="mobile-overlay__link">О компании</a>
+                </li>
+                <li class="mobile-overlay__item">
+                    <a href="./object.html" class="mobile-overlay__link">Объекты</a>
+                </li>
+                <li class="mobile-overlay__item">
+                    <a href="./contact.html" class="mobile-overlay__link">Контакты</a>
+                </li>
+            </ul>
+            <ul class="mobile-overlay__list">
+                <li class="mobile-overlay__item">
+                    <a href="tel:+79195698988" class="mobile-overlay__link"><span class="header__menu-icon">
+                            <img src="./images/header/icon-phone.svg" alt="">
+                        </span>
+                        8 (919) 569 8988</a>
+                </li>
+                <li class="mobile-overlay__item">
+                    <a href="mailto:zsmstroika@mail.ru" class="mobile-overlay__link"><span class="header__menu-icon">
+                            <img src="./images/header/icon-letter.svg" alt="">
+                        </span>
+                        zsmstroika@mail.ru</a>
+                </li>
+                <li class="mobile-overlay__item">
+                    <button type="button" class="mobile-overlay__link mobile-overlay__link--call reset-button"
+                        onclick="feedbackFormPhone.showModal()">
+                        Заказать звонок
+                    </button>
+                </li>
+            </ul>
+            <ul class="mobile-overlay__list">
+                <li class="mobile-overlay__item">
+                    <a href="/" class="mobile-overlay__link--contacts">Вконтакте</a>
+                </li>
+                <li class="mobile-overlay__item">
+                    <a href="/" class="mobile-overlay__link--contacts">Telegram</a>
+                </li>
+                <li class="mobile-overlay__item">
+                    <a href="/" class="mobile-overlay__link--contacts">WhatsApp</a>
+                </li>
+            </ul>
+        </div>
+    </dialog>
+
+    <dialog class="feedback-form feedback-form--phone" id="feedbackFormPhone">
+        <form method="dialog">
+            <button class="feedback-form__close-button feedback-form__close-button--phone reset-button" type="submit"
+                id="closeButton">
+                <span class="visually-hidden">Close navigation menu</span>
+            </button>
+        </form>
+        <div class="feedback-form__body feedback-form__body--phone">
+            <h3 class="feedback-form__title">
+                Заказать обратный звонок
+            </h3>
+            <div class="feedback-form__description">
+                <p>Укажите данные и наш менеджер свяжется с Вами в ближайшее время.</p>
+            </div>
+        </div>
+
+        <form class="feedback-form__form" id="FormEntryPhone" action="/registration" method="post" novalidate
+            data-js-form>
+            <p class="field">
+                <label class="field__label visually-hidden" for="userName">Ваше имя</label>
+                <input class="field__control" id="userName" name="userName" type="text" placeholder="Ваше имя" required
+                    minlength="3" maxlength="12" aria-errormessage="userName-errors" title="Введите корректное имя">
+                <span class="field__errors" id="userName-errors" data-js-form-field-errors></span>
+            </p>
+            <p class="field">
+                <label class="field__label visually-hidden" for="userPhone">Номер телефона</label>
+                <input class="field__control" id="userPhone" name="userPhone" type="tel"
+                    placeholder="+7 (000) 000 00-00" required minlength="10" maxlength="16" pattern="\d+"
+                    title="Введите корректный номер телефона" aria-errormessage="userPhone-errors">
+                <span class="field__errors" id="userPhone-errors" data-js-form-field-errors></span>
+            </p>
+            <p class="field">
+                <label class="field__label visually-hidden" for="userEmail">Почта</label>
+                <input class="field__control" id="userEmail" name="userEmail" type="email"
+                    placeholder="Example@gmail.com" required minlength="5" maxlength="50"
+                    pattern="[a-z0-9._%+\-]+@[a-z0-9.\-]+\.[a-z]{2,}$" title="Введите корректную почту"
+                    aria-errormessage="userEmail-errors">
+                <span class="field__errors" id="userEmail-errors" data-js-form-field-errors></span>
+            </p>
+            <p class="field">
+                <label class="field__label visually-hidden" for="about">Комментарий</label>
+                <textarea class="field__control" id="about" name="about" placeholder="Комментарий"></textarea>
+            </p>
+            <div class="field checkbox">
+                <input class="checkbox__control" id="agreement" name="agreement" type="checkbox" required
+                    aria-errormessage="agreement-errors">
+                <label class="field__label checkbox__label" for="agreement">Я ознакомлен и согласен с политикой
+                    конфиденциальности</label>
+                <span class="field__errors" id="agreement-errors" data-js-form-field-errors></span>
+            </div>
+            <button class="feedback-form__button button--accent" type="submit">Отправить</button>
+        </form>
+    </dialog>
+
+    <dialog class="feedback-form feedback-form--advice" id="feedbackFormAdvice">
+        <form method="dialog">
+            <button class="feedback-form__close-button reset-button closeButton" type="submit" id="closeButtonAdvice">
+                <span class="visually-hidden">Close navigation menu</span>
+            </button>
+        </form>
+        <div class="feedback-form__body">
+            <h3 class="feedback-form__title">
+                Записаться на консультацию
+            </h3>
+            <div class="feedback-form__description">
+                <p>Укажите данные и наш менеджер свяжется с Вами в ближайшее время.</p>
+            </div>
+        </div>
+
+        <form class="feedback-form__form" id="FormEntryConsult" action="/registration" method="post" novalidate
+            data-js-form>
+            <p class="field">
+                <label class="field__label visually-hidden" for="userName">Ваше имя</label>
+                <input class="field__control" id="userName" name="userName" type="text" placeholder="Ваше имя" required
+                    minlength="3" maxlength="12" aria-errormessage="userName-errors" title="Введите корректное имя">
+                <span class="field__errors" id="userName-errors" data-js-form-field-errors></span>
+            </p>
+            <p class="field">
+                <label class="field__label visually-hidden" for="userPhone">Номер телефона</label>
+                <input class="field__control" id="userPhone" name="userPhone" type="tel"
+                    placeholder="+7 (000) 000 00-00" required minlength="10" maxlength="16" pattern="\d+"
+                    title="Введите корректный номер телефона" aria-errormessage="userPhone-errors">
+                <span class="field__errors" id="userPhone-errors" data-js-form-field-errors></span>
+            </p>
+            <div class="field checkbox">
+                <input class="checkbox__control" id="agreement" name="agreement" type="checkbox" required
+                    aria-errormessage="agreement-errors">
+                <label class="field__label checkbox__label" for="agreement">Я ознакомлен и согласен с политикой
+                    конфиденциальности</label>
+                <span class="field__errors" id="agreement-errors" data-js-form-field-errors></span>
+            </div>
+            <button class="feedback-form__button button--accent" type="submit">Отправить</button>
+        </form>
+    </dialog>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+    <script src="https://code.jquery.com/ui/1.14.0/jquery-ui.js"></script>
+    <script src="js/tab.js"></script>
+    <script src="js/feedback-form.js"></script>
+    <script src="js/gallery-slider.js"></script>
+    <script src="js/slick.min.js"></script>
+</body>
+
+</html>

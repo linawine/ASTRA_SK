@@ -1,0 +1,28 @@
+.special {
+
+    &__inner {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    }
+
+    &__description {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        row-gap: 20px;
+
+        &-text {
+            max-width: 814px;
+        }
+
+        @include mobile-s {
+            flex-direction: column;
+            width: 100%;
+        }
+    }
+
+    &__special-slider {
+        position: relative;
+    }
+}

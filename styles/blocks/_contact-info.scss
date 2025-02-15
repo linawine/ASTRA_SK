@@ -1,0 +1,146 @@
+.contact-info {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+
+    &__inner {
+        display: grid;
+        grid-template-columns: auto 3fr;
+        flex-wrap: wrap;
+        
+        @include mobile {
+            display: flex;
+            flex-direction: column;
+        }
+    }
+
+    &__info-inner {
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        row-gap: 10px;
+        column-gap: 10px;
+
+        @include mobile {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+        }
+    }
+
+    &__info {
+        background-color: var(--color-light-blue);
+
+        &-block {
+            display: flex;
+            flex-direction: column;
+            row-gap: 10px;
+        }
+
+        &-title {
+            @include fluid-text(16, 14);
+            color: rgb(25, 25, 25, 0.7);
+        }
+
+        &-description {
+            @include fluid-text(18, 16);
+            color: rgb(25, 25, 25);
+        }
+
+        &-button {
+            @include flex-center(true);
+
+            height: 32px;
+            padding-inline: 10px;
+            @include fluid-text (14, 12);
+            background-color: var(--color-blue);
+            color: var(--color-light);
+            border: var(--border);
+            border-radius: var(--border-radius);
+            cursor: pointer;
+        }
+
+        &-button::before {
+            content: url(/images/contact/map-button.svg);
+            margin-right: 10px;
+            width: 18px;
+            height: 11px;
+        }
+    }
+
+    &__map {
+        position: relative;
+        background-image: url(/images/contact/map-bg.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 335px
+    }
+}
+
+.contact-map-selector {
+    font-family: var(--font-family-accent);
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    padding: 10px 20px;
+    @include fluid-text(16, 14);
+
+    @include mobile {
+        left: 20px;
+    }
+}
+
+.day-selector {
+    display: inline-block;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    column-gap: 20px;
+    align-items: center;
+    cursor: pointer;
+
+    @include mobile-s {
+        column-gap: 14px;
+    }
+}
+
+.today {
+    color: #345E9F;
+}
+
+.dropdown-menu {
+    position: absolute;
+    left: 100px;
+    top: -10px;
+    display: none;
+    list-style: none;
+    border-radius: var(--border-radius);
+    background-color: var(--color-light);
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+    z-index: 100;
+    transition: opacity 0.2s ease;
+}
+
+.dropdown-image:hover .dropdown-menu {
+    display: block;
+}
+
+.dropdown-menu li {
+    padding: 10px;
+}
+
+.dropdown-menu li:hover {
+    background-color: #f2f2f2;
+}
+
+.dropdown-menu li:first-child {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.dropdown-menu li:last-child {
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}

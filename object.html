@@ -1,0 +1,1357 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./styles/styles.css">
+    <title>Astra-SK</title>
+</head>
+
+<body>
+    <div class="content">
+        <header class="header">
+            <div class="header__inner container">
+                <a href="./index.html" class="header__logo logo">
+                    <img class="logo__image" src="./images/header/logo.svg" alt="Astra-SK" width="207" height="20"
+                        loading="lazy">
+                </a>
+                <nav class="header__menu hidden-desctop">
+                    <ul class="header__menu-list header__menu-list--main">
+                        <li class="header__menu-item">
+                            <a href="./company.html" class="header__menu-link">
+                                О компании
+                            </a>
+                        </li>
+                        <li class="header__menu-item">
+                            <a href="./object.html" class="header__menu-link">
+                                Объекты
+                            </a>
+                        </li>
+                        <li class="header__menu-item">
+                            <a href="./contact.html" class="header__menu-link">
+                                Контакты
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+                <nav class="header__menu hidden-desctop">
+                    <ul class="header__menu-list">
+                        <li class="header__menu-item">
+                            <a href="tel:+79195698988" class="header__menu-link">
+                                <span class="header__menu-icon">
+                                    <img src="./images/header/icon-phone.svg" alt="">
+                                </span>
+                                8 (919) 569 8988
+                            </a>
+                        </li>
+                        <li class="header__menu-item">
+                            <a href="mailto:zsmstroika@mail.ru" class="header__menu-link">
+                                <span class="header__menu-icon">
+                                    <img src="./images/header/icon-letter.svg" alt="">
+                                </span>
+                                zsmstroika@mail.ru
+                            </a>
+                        </li>
+                        <li class="header__menu-item">
+                            <button type="button" class="header__menu-link header__menu-link--call reset-button"
+                                onclick="feedbackFormPhone.showModal()">
+                                Заказать звонок
+                            </button>
+                        </li>
+                    </ul>
+                </nav>
+                <button class="button__burger-menu reset-button visually-desctop" type="button"
+                    onclick="mobileOverlay.showModal()">
+                    <span class="visually-hidden">Open navigation menu</span>
+                    <img src="./images/header/open-button.svg" alt="Open navigation menu" width="30" height="30"
+                        loading="lazy">
+                </button>
+            </div>
+        </header>
+
+        <section class="section container">
+            <div class="location-str">
+                <div class="location-str-base">
+                    <a href="index.html">Главная</a>
+                </div>
+                <div class="location-str-accent">
+                    <a href="company.html">Объекты</a>
+                </div>
+            </div>
+            <div class="object">
+                <div class="object__inner">
+                    <div id="tabs" class="tabs tabs-up">
+                        <h2 class="object__title">Наши объекты в Кургане и области</h2>
+                        <ul class="tabs__list">
+                            <li class="tabs__item"><a href="#tabs-1">Объекты коммерческие</a></li>
+                            <li class="tabs__item"><a href="#tabs-2">Объекты в работе</a></li>
+                            <li class="tabs__item"><a href="#tabs-3">Объекты реализованные</a></li>
+                        </ul>
+                        <div class="info__block" id="tabs-1">
+                            <div class="object__inner-grid commerce">
+                                <div class="place-card">
+                                    <div class="place-card__inner">
+                                        <div class="place-card__image">
+                                            <a href="">
+                                                <img class="place-card__img" src="./images/place-card/place-card-1.svg"
+                                                    alt="Ледовая арена “Юность”">
+                                            </a>
+                                        </div>
+                                        <h4 class="place-card__title">
+                                            <a href="/">Ледовая арена “Юность”</a>
+                                        </h4>
+                                        <div class="plase-card__info">
+                                            <ul class="plase-card__info-list">
+                                                <li class="place-card__item">
+                                                    594 кв.м.
+                                                </li>
+                                                <li class="place-card__item">
+                                                    Длина: 39,6 м; Ширина: 15 м; Высота: 5,5 м
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="place-card__location">
+                                        <button class="place-card__location-button reset-button">
+                                            Курган
+                                        </button>
+                                    </div>
+                                </div>
+                                <div class="place-card">
+                                    <div class="place-card__inner">
+                                        <div class="place-card__image">
+                                            <a href="">
+                                                <img class="place-card__img" src="./images/place-card/place-card-2.svg"
+                                                    alt="Автобусный вокзал">
+                                            </a>
+                                        </div>
+                                        <h4 class="place-card__title">
+                                            <a href="/">Автобусный вокзал</a>
+                                        </h4>
+                                        <div class="plase-card__info">
+                                            <ul class="plase-card__info-list">
+                                                <li class="place-card__item">
+                                                    594 кв.м.
+                                                </li>
+                                                <li class="place-card__item">
+                                                    Длина: 39,6 м; Ширина: 15 м; Высота: 5,5 м
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="place-card__location">
+                                        <button class="place-card__location-button reset-button">
+                                            Курган
+                                        </button>
+                                    </div>
+                                </div>
+                                <div class="place-card">
+                                    <div class="place-card__inner">
+                                        <div class="place-card__image">
+                                            <a href="">
+                                                <img class="place-card__img" src="./images/place-card/place-card-3.svg"
+                                                    alt="Спортивный комплекс “Велес”">
+                                            </a>
+                                        </div>
+                                        <h4 class="place-card__title">
+                                            <a href="/">Спортивный комплекс “Велес”</a>
+                                        </h4>
+                                        <div class="plase-card__info">
+                                            <ul class="plase-card__info-list">
+                                                <li class="place-card__item">
+                                                    594 кв.м.
+                                                </li>
+                                                <li class="place-card__item">
+                                                    Длина: 39,6 м; Ширина: 15 м; Высота: 5,5 м
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="place-card__location">
+                                        <button class="place-card__location-button reset-button">
+                                            Курган
+                                        </button>
+                                    </div>
+                                </div>
+                                <div class="place-card">
+                                    <div class="place-card__inner">
+                                        <div class="place-card__image">
+                                            <a href="">
+                                                <img class="place-card__img" src="./images/place-card/place-card-1.svg"
+                                                    alt="Ледовая арена “Юность”">
+                                            </a>
+                                        </div>
+                                        <h4 class="place-card__title">
+                                            <a href="/">Ледовая арена “Юность”</a>
+                                        </h4>
+                                        <div class="plase-card__info">
+                                            <ul class="plase-card__info-list">
+                                                <li class="place-card__item">
+                                                    594 кв.м.
+                                                </li>
+                                                <li class="place-card__item">
+                                                    Длина: 39,6 м; Ширина: 15 м; Высота: 5,5 м
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="place-card__location">
+                                        <button class="place-card__location-button reset-button">
+                                            Курган
+                                        </button>
+                                    </div>
+                                </div>
+                                <div class="place-card">
+                                    <div class="place-card__inner">
+                                        <div class="place-card__image">
+                                            <a href="">
+                                                <img class="place-card__img" src="./images/place-card/place-card-2.svg"
+                                                    alt="Автобусный вокзал">
+                                            </a>
+                                        </div>
+                                        <h4 class="place-card__title">
+                                            <a href="/">Автобусный вокзал</a>
+                                        </h4>
+                                        <div class="plase-card__info">
+                                            <ul class="plase-card__info-list">
+                                                <li class="place-card__item">
+                                                    594 кв.м.
+                                                </li>
+                                                <li class="place-card__item">
+                                                    Длина: 39,6 м; Ширина: 15 м; Высота: 5,5 м
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="place-card__location">
+                                        <button class="place-card__location-button reset-button">
+                                            Курган
+                                        </button>
+                                    </div>
+                                </div>
+                                <div class="place-card">
+                                    <div class="place-card__inner">
+                                        <div class="place-card__image">
+                                            <a href="">
+                                                <img class="place-card__img" src="./images/place-card/place-card-3.svg"
+                                                    alt="Спортивный комплекс “Велес”">
+                                            </a>
+                                        </div>
+                                        <h4 class="place-card__title">
+                                            <a href="/">Спортивный комплекс “Велес”</a>
+                                        </h4>
+                                        <div class="plase-card__info">
+                                            <ul class="plase-card__info-list">
+                                                <li class="place-card__item">
+                                                    594 кв.м.
+                                                </li>
+                                                <li class="place-card__item">
+                                                    Длина: 39,6 м; Ширина: 15 м; Высота: 5,5 м
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="place-card__location">
+                                        <button class="place-card__location-button reset-button">
+                                            Курган
+                                        </button>
+                                    </div>
+                                </div>
+                                <div class="place-card">
+                                    <div class="place-card__inner">
+                                        <div class="place-card__image">
+                                            <a href="">
+                                                <img class="place-card__img" src="./images/place-card/place-card-1.svg"
+                                                    alt="Ледовая арена “Юность”">
+                                            </a>
+                                        </div>
+                                        <h4 class="place-card__title">
+                                            <a href="/">Ледовая арена “Юность”</a>
+                                        </h4>
+                                        <div class="plase-card__info">
+                                            <ul class="plase-card__info-list">
+                                                <li class="place-card__item">
+                                                    594 кв.м.
+                                                </li>
+                                                <li class="place-card__item">
+                                                    Длина: 39,6 м; Ширина: 15 м; Высота: 5,5 м
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="place-card__location">
+                                        <button class="place-card__location-button reset-button">
+                                            Курган
+                                        </button>
+                                    </div>
+                                </div>
+                                <div class="place-card">
+                                    <div class="place-card__inner">
+                                        <div class="place-card__image">
+                                            <a href="">
+                                                <img class="place-card__img" src="./images/place-card/place-card-2.svg"
+                                                    alt="Автобусный вокзал">
+                                            </a>
+                                        </div>
+                                        <h4 class="place-card__title">
+                                            <a href="/">Автобусный вокзал</a>
+                                        </h4>
+                                        <div class="plase-card__info">
+                                            <ul class="plase-card__info-list">
+                                                <li class="place-card__item">
+                                                    594 кв.м.
+                                                </li>
+                                                <li class="place-card__item">
+                                                    Длина: 39,6 м; Ширина: 15 м; Высота: 5,5 м
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="place-card__location">
+                                        <button class="place-card__location-button reset-button">
+                                            Курган
+                                        </button>
+                                    </div>
+                                </div>
+                                <div class="place-card">
+                                    <div class="place-card__inner">
+                                        <div class="place-card__image">
+                                            <a href="">
+                                                <img class="place-card__img" src="./images/place-card/place-card-3.svg"
+                                                    alt="Спортивный комплекс “Велес”">
+                                            </a>
+                                        </div>
+                                        <h4 class="place-card__title">
+                                            <a href="/">Спортивный комплекс “Велес”</a>
+                                        </h4>
+                                        <div class="plase-card__info">
+                                            <ul class="plase-card__info-list">
+                                                <li class="place-card__item">
+                                                    594 кв.м.
+                                                </li>
+                                                <li class="place-card__item">
+                                                    Длина: 39,6 м; Ширина: 15 м; Высота: 5,5 м
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="place-card__location">
+                                        <button class="place-card__location-button reset-button">
+                                            Курган
+                                        </button>
+                                    </div>
+                                </div>
+                                <div class="place-card visually-hidden">
+                                    <div class="place-card__inner">
+                                        <div class="place-card__image">
+                                            <a href="">
+                                                <img class="place-card__img" src="./images/place-card/place-card-1.svg"
+                                                    alt="Ледовая арена “Юность”">
+                                            </a>
+                                        </div>
+                                        <h4 class="place-card__title">
+                                            <a href="/">Ледовая арена “Юность”</a>
+                                        </h4>
+                                        <div class="plase-card__info">
+                                            <ul class="plase-card__info-list">
+                                                <li class="place-card__item">
+                                                    594 кв.м.
+                                                </li>
+                                                <li class="place-card__item">
+                                                    Длина: 39,6 м; Ширина: 15 м; Высота: 5,5 м
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="place-card__location">
+                                        <button class="place-card__location-button reset-button">
+                                            Курган
+                                        </button>
+                                    </div>
+                                </div>
+                                <div class="place-card visually-hidden">
+                                    <div class="place-card__inner">
+                                        <div class="place-card__image">
+                                            <a href="">
+                                                <img class="place-card__img" src="./images/place-card/place-card-2.svg"
+                                                    alt="Автобусный вокзал">
+                                            </a>
+                                        </div>
+                                        <h4 class="place-card__title">
+                                            <a href="/">Автобусный вокзал</a>
+                                        </h4>
+                                        <div class="plase-card__info">
+                                            <ul class="plase-card__info-list">
+                                                <li class="place-card__item">
+                                                    594 кв.м.
+                                                </li>
+                                                <li class="place-card__item">
+                                                    Длина: 39,6 м; Ширина: 15 м; Высота: 5,5 м
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="place-card__location">
+                                        <button class="place-card__location-button reset-button">
+                                            Курган
+                                        </button>
+                                    </div>
+                                </div>
+                                <div class="place-card visually-hidden">
+                                    <div class="place-card__inner">
+                                        <div class="place-card__image">
+                                            <a href="">
+                                                <img class="place-card__img" src="./images/place-card/place-card-3.svg"
+                                                    alt="Спортивный комплекс “Велес”">
+                                            </a>
+                                        </div>
+                                        <h4 class="place-card__title">
+                                            <a href="/">Спортивный комплекс “Велес”</a>
+                                        </h4>
+                                        <div class="plase-card__info">
+                                            <ul class="plase-card__info-list">
+                                                <li class="place-card__item">
+                                                    594 кв.м.
+                                                </li>
+                                                <li class="place-card__item">
+                                                    Длина: 39,6 м; Ширина: 15 м; Высота: 5,5 м
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="place-card__location">
+                                        <button class="place-card__location-button reset-button">
+                                            Курган
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="news__button">
+                                <button data-section="commerce"
+                                    class="show-more-button news__btn-show button--accent button">Смотреть
+                                    больше</button>
+                            </div>
+                        </div>
+                        <div class="info__block" id="tabs-2">
+                            <div class="object__inner-grid work">
+                                <div class="place-card">
+                                    <div class="place-card__inner">
+                                        <div class="place-card__image">
+                                            <a href="">
+                                                <img class="place-card__img" src="./images/place-card/place-card-1.svg"
+                                                    alt="Ледовая арена “Юность”">
+                                            </a>
+                                        </div>
+                                        <h4 class="place-card__title">
+                                            <a href="/">Ледовая арена “Юность”</a>
+                                        </h4>
+                                        <div class="plase-card__info">
+                                            <ul class="plase-card__info-list">
+                                                <li class="place-card__item">
+                                                    594 кв.м.
+                                                </li>
+                                                <li class="place-card__item">
+                                                    Длина: 39,6 м; Ширина: 15 м; Высота: 5,5 м
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="place-card__location">
+                                        <button class="place-card__location-button reset-button">
+                                            Курган
+                                        </button>
+                                    </div>
+                                </div>
+                                <div class="place-card">
+                                    <div class="place-card__inner">
+                                        <div class="place-card__image">
+                                            <a href="">
+                                                <img class="place-card__img" src="./images/place-card/place-card-2.svg"
+                                                    alt="Автобусный вокзал">
+                                            </a>
+                                        </div>
+                                        <h4 class="place-card__title">
+                                            <a href="/">Автобусный вокзал</a>
+                                        </h4>
+                                        <div class="plase-card__info">
+                                            <ul class="plase-card__info-list">
+                                                <li class="place-card__item">
+                                                    594 кв.м.
+                                                </li>
+                                                <li class="place-card__item">
+                                                    Длина: 39,6 м; Ширина: 15 м; Высота: 5,5 м
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="place-card__location">
+                                        <button class="place-card__location-button reset-button">
+                                            Курган
+                                        </button>
+                                    </div>
+                                </div>
+                                <div class="place-card">
+                                    <div class="place-card__inner">
+                                        <div class="place-card__image">
+                                            <a href="">
+                                                <img class="place-card__img" src="./images/place-card/place-card-3.svg"
+                                                    alt="Спортивный комплекс “Велес”">
+                                            </a>
+                                        </div>
+                                        <h4 class="place-card__title">
+                                            <a href="/">Спортивный комплекс “Велес”</a>
+                                        </h4>
+                                        <div class="plase-card__info">
+                                            <ul class="plase-card__info-list">
+                                                <li class="place-card__item">
+                                                    594 кв.м.
+                                                </li>
+                                                <li class="place-card__item">
+                                                    Длина: 39,6 м; Ширина: 15 м; Высота: 5,5 м
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="place-card__location">
+                                        <button class="place-card__location-button reset-button">
+                                            Курган
+                                        </button>
+                                    </div>
+                                </div>
+                                <div class="place-card">
+                                    <div class="place-card__inner">
+                                        <div class="place-card__image">
+                                            <a href="">
+                                                <img class="place-card__img" src="./images/place-card/place-card-1.svg"
+                                                    alt="Ледовая арена “Юность”">
+                                            </a>
+                                        </div>
+                                        <h4 class="place-card__title">
+                                            <a href="/">Ледовая арена “Юность”</a>
+                                        </h4>
+                                        <div class="plase-card__info">
+                                            <ul class="plase-card__info-list">
+                                                <li class="place-card__item">
+                                                    594 кв.м.
+                                                </li>
+                                                <li class="place-card__item">
+                                                    Длина: 39,6 м; Ширина: 15 м; Высота: 5,5 м
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="place-card__location">
+                                        <button class="place-card__location-button reset-button">
+                                            Курган
+                                        </button>
+                                    </div>
+                                </div>
+                                <div class="place-card">
+                                    <div class="place-card__inner">
+                                        <div class="place-card__image">
+                                            <a href="">
+                                                <img class="place-card__img" src="./images/place-card/place-card-2.svg"
+                                                    alt="Автобусный вокзал">
+                                            </a>
+                                        </div>
+                                        <h4 class="place-card__title">
+                                            <a href="/">Автобусный вокзал</a>
+                                        </h4>
+                                        <div class="plase-card__info">
+                                            <ul class="plase-card__info-list">
+                                                <li class="place-card__item">
+                                                    594 кв.м.
+                                                </li>
+                                                <li class="place-card__item">
+                                                    Длина: 39,6 м; Ширина: 15 м; Высота: 5,5 м
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="place-card__location">
+                                        <button class="place-card__location-button reset-button">
+                                            Курган
+                                        </button>
+                                    </div>
+                                </div>
+                                <div class="place-card">
+                                    <div class="place-card__inner">
+                                        <div class="place-card__image">
+                                            <a href="">
+                                                <img class="place-card__img" src="./images/place-card/place-card-3.svg"
+                                                    alt="Спортивный комплекс “Велес”">
+                                            </a>
+                                        </div>
+                                        <h4 class="place-card__title">
+                                            <a href="/">Спортивный комплекс “Велес”</a>
+                                        </h4>
+                                        <div class="plase-card__info">
+                                            <ul class="plase-card__info-list">
+                                                <li class="place-card__item">
+                                                    594 кв.м.
+                                                </li>
+                                                <li class="place-card__item">
+                                                    Длина: 39,6 м; Ширина: 15 м; Высота: 5,5 м
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="place-card__location">
+                                        <button class="place-card__location-button reset-button">
+                                            Курган
+                                        </button>
+                                    </div>
+                                </div>
+                                <div class="place-card">
+                                    <div class="place-card__inner">
+                                        <div class="place-card__image">
+                                            <a href="">
+                                                <img class="place-card__img" src="./images/place-card/place-card-1.svg"
+                                                    alt="Ледовая арена “Юность”">
+                                            </a>
+                                        </div>
+                                        <h4 class="place-card__title">
+                                            <a href="/">Ледовая арена “Юность”</a>
+                                        </h4>
+                                        <div class="plase-card__info">
+                                            <ul class="plase-card__info-list">
+                                                <li class="place-card__item">
+                                                    594 кв.м.
+                                                </li>
+                                                <li class="place-card__item">
+                                                    Длина: 39,6 м; Ширина: 15 м; Высота: 5,5 м
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="place-card__location">
+                                        <button class="place-card__location-button reset-button">
+                                            Курган
+                                        </button>
+                                    </div>
+                                </div>
+                                <div class="place-card">
+                                    <div class="place-card__inner">
+                                        <div class="place-card__image">
+                                            <a href="">
+                                                <img class="place-card__img" src="./images/place-card/place-card-2.svg"
+                                                    alt="Автобусный вокзал">
+                                            </a>
+                                        </div>
+                                        <h4 class="place-card__title">
+                                            <a href="/">Автобусный вокзал</a>
+                                        </h4>
+                                        <div class="plase-card__info">
+                                            <ul class="plase-card__info-list">
+                                                <li class="place-card__item">
+                                                    594 кв.м.
+                                                </li>
+                                                <li class="place-card__item">
+                                                    Длина: 39,6 м; Ширина: 15 м; Высота: 5,5 м
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="place-card__location">
+                                        <button class="place-card__location-button reset-button">
+                                            Курган
+                                        </button>
+                                    </div>
+                                </div>
+                                <div class="place-card">
+                                    <div class="place-card__inner">
+                                        <div class="place-card__image">
+                                            <a href="">
+                                                <img class="place-card__img" src="./images/place-card/place-card-3.svg"
+                                                    alt="Спортивный комплекс “Велес”">
+                                            </a>
+                                        </div>
+                                        <h4 class="place-card__title">
+                                            <a href="/">Спортивный комплекс “Велес”</a>
+                                        </h4>
+                                        <div class="plase-card__info">
+                                            <ul class="plase-card__info-list">
+                                                <li class="place-card__item">
+                                                    594 кв.м.
+                                                </li>
+                                                <li class="place-card__item">
+                                                    Длина: 39,6 м; Ширина: 15 м; Высота: 5,5 м
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="place-card__location">
+                                        <button class="place-card__location-button reset-button">
+                                            Курган
+                                        </button>
+                                    </div>
+                                </div>
+                                <div class="place-card visually-hidden">
+                                    <div class="place-card__inner">
+                                        <div class="place-card__image">
+                                            <a href="">
+                                                <img class="place-card__img" src="./images/place-card/place-card-1.svg"
+                                                    alt="Ледовая арена “Юность”">
+                                            </a>
+                                        </div>
+                                        <h4 class="place-card__title">
+                                            <a href="/">Ледовая арена “Юность”</a>
+                                        </h4>
+                                        <div class="plase-card__info">
+                                            <ul class="plase-card__info-list">
+                                                <li class="place-card__item">
+                                                    594 кв.м.
+                                                </li>
+                                                <li class="place-card__item">
+                                                    Длина: 39,6 м; Ширина: 15 м; Высота: 5,5 м
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="place-card__location">
+                                        <button class="place-card__location-button reset-button">
+                                            Курган
+                                        </button>
+                                    </div>
+                                </div>
+                                <div class="place-card visually-hidden">
+                                    <div class="place-card__inner">
+                                        <div class="place-card__image">
+                                            <a href="">
+                                                <img class="place-card__img" src="./images/place-card/place-card-2.svg"
+                                                    alt="Автобусный вокзал">
+                                            </a>
+                                        </div>
+                                        <h4 class="place-card__title">
+                                            <a href="/">Автобусный вокзал</a>
+                                        </h4>
+                                        <div class="plase-card__info">
+                                            <ul class="plase-card__info-list">
+                                                <li class="place-card__item">
+                                                    594 кв.м.
+                                                </li>
+                                                <li class="place-card__item">
+                                                    Длина: 39,6 м; Ширина: 15 м; Высота: 5,5 м
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="place-card__location">
+                                        <button class="place-card__location-button reset-button">
+                                            Курган
+                                        </button>
+                                    </div>
+                                </div>
+                                <div class="place-card visually-hidden">
+                                    <div class="place-card__inner">
+                                        <div class="place-card__image">
+                                            <a href="">
+                                                <img class="place-card__img" src="./images/place-card/place-card-3.svg"
+                                                    alt="Спортивный комплекс “Велес”">
+                                            </a>
+                                        </div>
+                                        <h4 class="place-card__title">
+                                            <a href="/">Спортивный комплекс “Велес”</a>
+                                        </h4>
+                                        <div class="plase-card__info">
+                                            <ul class="plase-card__info-list">
+                                                <li class="place-card__item">
+                                                    594 кв.м.
+                                                </li>
+                                                <li class="place-card__item">
+                                                    Длина: 39,6 м; Ширина: 15 м; Высота: 5,5 м
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="place-card__location">
+                                        <button class="place-card__location-button reset-button">
+                                            Курган
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="news__button">
+                                <button data-section="work"
+                                    class="show-more-button news__btn-show button--accent button">Смотреть
+                                    больше</button>
+                            </div>
+                        </div>
+                        <div class="info__block" id="tabs-3">
+                            <div class="object__inner-grid realized">
+                                <div class="place-card">
+                                    <div class="place-card__inner">
+                                        <div class="place-card__image">
+                                            <a href="">
+                                                <img class="place-card__img" src="./images/place-card/place-card-1.svg"
+                                                    alt="Ледовая арена “Юность”">
+                                            </a>
+                                        </div>
+                                        <h4 class="place-card__title">
+                                            <a href="/">Ледовая арена “Юность”</a>
+                                        </h4>
+                                        <div class="plase-card__info">
+                                            <ul class="plase-card__info-list">
+                                                <li class="place-card__item">
+                                                    594 кв.м.
+                                                </li>
+                                                <li class="place-card__item">
+                                                    Длина: 39,6 м; Ширина: 15 м; Высота: 5,5 м
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="place-card__location">
+                                        <button class="place-card__location-button reset-button">
+                                            Курган
+                                        </button>
+                                    </div>
+                                </div>
+                                <div class="place-card">
+                                    <div class="place-card__inner">
+                                        <div class="place-card__image">
+                                            <a href="">
+                                                <img class="place-card__img" src="./images/place-card/place-card-2.svg"
+                                                    alt="Автобусный вокзал">
+                                            </a>
+                                        </div>
+                                        <h4 class="place-card__title">
+                                            <a href="/">Автобусный вокзал</a>
+                                        </h4>
+                                        <div class="plase-card__info">
+                                            <ul class="plase-card__info-list">
+                                                <li class="place-card__item">
+                                                    594 кв.м.
+                                                </li>
+                                                <li class="place-card__item">
+                                                    Длина: 39,6 м; Ширина: 15 м; Высота: 5,5 м
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="place-card__location">
+                                        <button class="place-card__location-button reset-button">
+                                            Курган
+                                        </button>
+                                    </div>
+                                </div>
+                                <div class="place-card">
+                                    <div class="place-card__inner">
+                                        <div class="place-card__image">
+                                            <a href="">
+                                                <img class="place-card__img" src="./images/place-card/place-card-3.svg"
+                                                    alt="Спортивный комплекс “Велес”">
+                                            </a>
+                                        </div>
+                                        <h4 class="place-card__title">
+                                            <a href="/">Спортивный комплекс “Велес”</a>
+                                        </h4>
+                                        <div class="plase-card__info">
+                                            <ul class="plase-card__info-list">
+                                                <li class="place-card__item">
+                                                    594 кв.м.
+                                                </li>
+                                                <li class="place-card__item">
+                                                    Длина: 39,6 м; Ширина: 15 м; Высота: 5,5 м
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="place-card__location">
+                                        <button data-section="work" class="place-card__location-button reset-button">
+                                            Курган
+                                        </button>
+                                    </div>
+                                </div>
+                                <div class="place-card">
+                                    <div class="place-card__inner">
+                                        <div class="place-card__image">
+                                            <a href="">
+                                                <img class="place-card__img" src="./images/place-card/place-card-1.svg"
+                                                    alt="Ледовая арена “Юность”">
+                                            </a>
+                                        </div>
+                                        <h4 class="place-card__title">
+                                            <a href="/">Ледовая арена “Юность”</a>
+                                        </h4>
+                                        <div class="plase-card__info">
+                                            <ul class="plase-card__info-list">
+                                                <li class="place-card__item">
+                                                    594 кв.м.
+                                                </li>
+                                                <li class="place-card__item">
+                                                    Длина: 39,6 м; Ширина: 15 м; Высота: 5,5 м
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="place-card__location">
+                                        <button class="place-card__location-button reset-button">
+                                            Курган
+                                        </button>
+                                    </div>
+                                </div>
+                                <div class="place-card">
+                                    <div class="place-card__inner">
+                                        <div class="place-card__image">
+                                            <a href="">
+                                                <img class="place-card__img" src="./images/place-card/place-card-2.svg"
+                                                    alt="Автобусный вокзал">
+                                            </a>
+                                        </div>
+                                        <h4 class="place-card__title">
+                                            <a href="/">Автобусный вокзал</a>
+                                        </h4>
+                                        <div class="plase-card__info">
+                                            <ul class="plase-card__info-list">
+                                                <li class="place-card__item">
+                                                    594 кв.м.
+                                                </li>
+                                                <li class="place-card__item">
+                                                    Длина: 39,6 м; Ширина: 15 м; Высота: 5,5 м
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="place-card__location">
+                                        <button class="place-card__location-button reset-button">
+                                            Курган
+                                        </button>
+                                    </div>
+                                </div>
+                                <div class="place-card">
+                                    <div class="place-card__inner">
+                                        <div class="place-card__image">
+                                            <a href="">
+                                                <img class="place-card__img" src="./images/place-card/place-card-3.svg"
+                                                    alt="Спортивный комплекс “Велес”">
+                                            </a>
+                                        </div>
+                                        <h4 class="place-card__title">
+                                            <a href="/">Спортивный комплекс “Велес”</a>
+                                        </h4>
+                                        <div class="plase-card__info">
+                                            <ul class="plase-card__info-list">
+                                                <li class="place-card__item">
+                                                    594 кв.м.
+                                                </li>
+                                                <li class="place-card__item">
+                                                    Длина: 39,6 м; Ширина: 15 м; Высота: 5,5 м
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="place-card__location">
+                                        <button class="place-card__location-button reset-button">
+                                            Курган
+                                        </button>
+                                    </div>
+                                </div>
+                                <div class="place-card">
+                                    <div class="place-card__inner">
+                                        <div class="place-card__image">
+                                            <a href="">
+                                                <img class="place-card__img" src="./images/place-card/place-card-1.svg"
+                                                    alt="Ледовая арена “Юность”">
+                                            </a>
+                                        </div>
+                                        <h4 class="place-card__title">
+                                            <a href="/">Ледовая арена “Юность”</a>
+                                        </h4>
+                                        <div class="plase-card__info">
+                                            <ul class="plase-card__info-list">
+                                                <li class="place-card__item">
+                                                    594 кв.м.
+                                                </li>
+                                                <li class="place-card__item">
+                                                    Длина: 39,6 м; Ширина: 15 м; Высота: 5,5 м
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="place-card__location">
+                                        <button class="place-card__location-button reset-button">
+                                            Курган
+                                        </button>
+                                    </div>
+                                </div>
+                                <div class="place-card">
+                                    <div class="place-card__inner">
+                                        <div class="place-card__image">
+                                            <a href="">
+                                                <img class="place-card__img" src="./images/place-card/place-card-2.svg"
+                                                    alt="Автобусный вокзал">
+                                            </a>
+                                        </div>
+                                        <h4 class="place-card__title">
+                                            <a href="/">Автобусный вокзал</a>
+                                        </h4>
+                                        <div class="plase-card__info">
+                                            <ul class="plase-card__info-list">
+                                                <li class="place-card__item">
+                                                    594 кв.м.
+                                                </li>
+                                                <li class="place-card__item">
+                                                    Длина: 39,6 м; Ширина: 15 м; Высота: 5,5 м
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="place-card__location">
+                                        <button class="place-card__location-button reset-button">
+                                            Курган
+                                        </button>
+                                    </div>
+                                </div>
+                                <div class="place-card">
+                                    <div class="place-card__inner">
+                                        <div class="place-card__image">
+                                            <a href="">
+                                                <img class="place-card__img" src="./images/place-card/place-card-3.svg"
+                                                    alt="Спортивный комплекс “Велес”">
+                                            </a>
+                                        </div>
+                                        <h4 class="place-card__title">
+                                            <a href="/">Спортивный комплекс “Велес”</a>
+                                        </h4>
+                                        <div class="plase-card__info">
+                                            <ul class="plase-card__info-list">
+                                                <li class="place-card__item">
+                                                    594 кв.м.
+                                                </li>
+                                                <li class="place-card__item">
+                                                    Длина: 39,6 м; Ширина: 15 м; Высота: 5,5 м
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="place-card__location">
+                                        <button class="place-card__location-button reset-button">
+                                            Курган
+                                        </button>
+                                    </div>
+                                </div>
+                                <div class="place-card visually-hidden">
+                                    <div class="place-card__inner">
+                                        <div class="place-card__image">
+                                            <a href="">
+                                                <img class="place-card__img" src="./images/place-card/place-card-1.svg"
+                                                    alt="Ледовая арена “Юность”">
+                                            </a>
+                                        </div>
+                                        <h4 class="place-card__title">
+                                            <a href="/">Ледовая арена “Юность”</a>
+                                        </h4>
+                                        <div class="plase-card__info">
+                                            <ul class="plase-card__info-list">
+                                                <li class="place-card__item">
+                                                    594 кв.м.
+                                                </li>
+                                                <li class="place-card__item">
+                                                    Длина: 39,6 м; Ширина: 15 м; Высота: 5,5 м
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="place-card__location">
+                                        <button class="place-card__location-button reset-button">
+                                            Курган
+                                        </button>
+                                    </div>
+                                </div>
+                                <div class="place-card visually-hidden">
+                                    <div class="place-card__inner">
+                                        <div class="place-card__image">
+                                            <a href="">
+                                                <img class="place-card__img" src="./images/place-card/place-card-2.svg"
+                                                    alt="Автобусный вокзал">
+                                            </a>
+                                        </div>
+                                        <h4 class="place-card__title">
+                                            <a href="/">Автобусный вокзал</a>
+                                        </h4>
+                                        <div class="plase-card__info">
+                                            <ul class="plase-card__info-list">
+                                                <li class="place-card__item">
+                                                    594 кв.м.
+                                                </li>
+                                                <li class="place-card__item">
+                                                    Длина: 39,6 м; Ширина: 15 м; Высота: 5,5 м
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="place-card__location">
+                                        <button class="place-card__location-button reset-button">
+                                            Курган
+                                        </button>
+                                    </div>
+                                </div>
+                                <div class="place-card visually-hidden">
+                                    <div class="place-card__inner">
+                                        <div class="place-card__image">
+                                            <a href="">
+                                                <img class="place-card__img" src="./images/place-card/place-card-3.svg"
+                                                    alt="Спортивный комплекс “Велес”">
+                                            </a>
+                                        </div>
+                                        <h4 class="place-card__title">
+                                            <a href="/">Спортивный комплекс “Велес”</a>
+                                        </h4>
+                                        <div class="plase-card__info">
+                                            <ul class="plase-card__info-list">
+                                                <li class="place-card__item">
+                                                    594 кв.м.
+                                                </li>
+                                                <li class="place-card__item">
+                                                    Длина: 39,6 м; Ширина: 15 м; Высота: 5,5 м
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="place-card__location">
+                                        <button class="place-card__location-button reset-button">
+                                            Курган
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="news__button">
+                                <button data-section="realized"
+                                    class="show-more-button news__btn-show button--accent button">Смотреть
+                                    больше</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__inner section">
+                <div class="footer__nav">
+                    <div class="footer__logo">
+                        <a href="./index.html" class="footer__logo logo">
+                            <img class="logo__image" src="./images/header/logo.svg" alt="Astra-SK" width="207"
+                                height="20" loading="lazy">
+                        </a>
+                    </div>
+                    <nav class="footer__menu">
+                        <ul class="footer__menu-list">
+                            <li class="footer__menu-item">
+                                <a href="./company.html" class="footer__menu-link">
+                                    О компании
+                                </a>
+                            </li>
+                            <li class="footer__menu-item">
+                                <a href="./object.html" class="header__menu-link">
+                                    Объекты
+                                </a>
+                            </li>
+                            <li class="footer__menu-item">
+                                <a href="./contact.html" class="header__menu-link">
+                                    Контакты
+                                </a>
+                            </li>
+                            <li class="footer__menu-item">
+                                <a href="./furniture.html" class="header__menu-link">
+                                    Производство мебели
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <nav class="footer__menu">
+                        <ul class="footer__menu-list  footer__menu-list--main">
+                            <li class="footer__menu-item">
+                                <a href="tel:+79195698988" class="footer__menu-link">
+                                    <span class="footer__menu-icon">
+                                        <img src="./images/header/icon-phone.svg" alt="">
+                                    </span>
+                                    8 (919) 569 8988
+                                </a>
+                            </li>
+                            <li class="footer__menu-item">
+                                <a href="mailto:zsmstroika@mail.ru" class="footer__menu-link">
+                                    <span class="footer__menu-icon">
+                                        <img src="./images/header/icon-letter.svg" alt="">
+                                    </span>
+                                    zsmstroika@mail.ru
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+
+                <div class="footer__text">
+                    <p>Все права защищены. Политика конфиденциальности.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <dialog class="mobile-overlay visible-mobile" id="mobileOverlay">
+        <form method="dialog" class="mobile-overlay__close-button-wrapper">
+            <a href="./index.html" class="header__logo logo">
+                <img class="logo__image" src="./images/header/logo.svg" alt="Astra-SK" width="207" height="20"
+                    loading="lazy">
+            </a>
+            <button class="mobile-overlay__close-button reset-button" type="submit">
+                <span class="visually-hidden">Close navigation menu</span>
+                <img src="./images/header/close-button.svg" alt="Close navigation menu" width="30" height="30"
+                    loading="lazy">
+            </button>
+        </form>
+        <div class="mobile-overlay__body">
+            <ul class="mobile-overlay__list">
+                <li class="mobile-overlay__item">
+                    <a href="./company.html" class="mobile-overlay__link">О компании</a>
+                </li>
+                <li class="mobile-overlay__item">
+                    <a href="./object.html" class="mobile-overlay__link">Объекты</a>
+                </li>
+                <li class="mobile-overlay__item">
+                    <a href="./contact.html" class="mobile-overlay__link">Контакты</a>
+                </li>
+            </ul>
+            <ul class="mobile-overlay__list">
+                <li class="mobile-overlay__item">
+                    <a href="tel:+79195698988" class="mobile-overlay__link"><span class="header__menu-icon">
+                            <img src="./images/header/icon-phone.svg" alt="">
+                        </span>
+                        8 (919) 569 8988</a>
+                </li>
+                <li class="mobile-overlay__item">
+                    <a href="mailto:zsmstroika@mail.ru" class="mobile-overlay__link"><span class="header__menu-icon">
+                            <img src="./images/header/icon-letter.svg" alt="">
+                        </span>
+                        zsmstroika@mail.ru</a>
+                </li>
+                <li class="mobile-overlay__item">
+                    <button type="button" class="mobile-overlay__link mobile-overlay__link--call reset-button"
+                        onclick="feedbackFormPhone.showModal()">
+                        Заказать звонок
+                    </button>
+                </li>
+            </ul>
+            <ul class="mobile-overlay__list">
+                <li class="mobile-overlay__item">
+                    <a href="/" class="mobile-overlay__link--contacts">Вконтакте</a>
+                </li>
+                <li class="mobile-overlay__item">
+                    <a href="/" class="mobile-overlay__link--contacts">Telegram</a>
+                </li>
+                <li class="mobile-overlay__item">
+                    <a href="/" class="mobile-overlay__link--contacts">WhatsApp</a>
+                </li>
+            </ul>
+        </div>
+    </dialog>
+
+    <dialog class="feedback-form feedback-form--phone" id="feedbackFormPhone">
+        <form method="dialog">
+            <button class="feedback-form__close-button feedback-form__close-button--phone reset-button" type="submit"
+                id="closeButton">
+                <span class="visually-hidden">Close navigation menu</span>
+            </button>
+        </form>
+        <div class="feedback-form__body feedback-form__body--phone">
+            <h3 class="feedback-form__title">
+                Заказать обратный звонок
+            </h3>
+            <div class="feedback-form__description">
+                <p>Укажите данные и наш менеджер свяжется с Вами в ближайшее время.</p>
+            </div>
+        </div>
+
+        <form class="feedback-form__form" id="FormEntryPhone" action="/registration" method="post" novalidate
+            data-js-form>
+            <p class="field">
+                <label class="field__label visually-hidden" for="userName">Ваше имя</label>
+                <input class="field__control" id="userName" name="userName" type="text" placeholder="Ваше имя" required
+                    minlength="3" maxlength="12" aria-errormessage="userName-errors" title="Введите корректное имя">
+                <span class="field__errors" id="userName-errors" data-js-form-field-errors></span>
+            </p>
+            <p class="field">
+                <label class="field__label visually-hidden" for="userPhone">Номер телефона</label>
+                <input class="field__control" id="userPhone" name="userPhone" type="tel"
+                    placeholder="+7 (000) 000 00-00" required minlength="10" maxlength="16" pattern="\d+"
+                    title="Введите корректный номер телефона" aria-errormessage="userPhone-errors">
+                <span class="field__errors" id="userPhone-errors" data-js-form-field-errors></span>
+            </p>
+            <p class="field">
+                <label class="field__label visually-hidden" for="userEmail">Почта</label>
+                <input class="field__control" id="userEmail" name="userEmail" type="email"
+                    placeholder="Example@gmail.com" required minlength="5" maxlength="50"
+                    pattern="[a-z0-9._%+\-]+@[a-z0-9.\-]+\.[a-z]{2,}$" title="Введите корректную почту"
+                    aria-errormessage="userEmail-errors">
+                <span class="field__errors" id="userEmail-errors" data-js-form-field-errors></span>
+            </p>
+            <p class="field">
+                <label class="field__label visually-hidden" for="about">Комментарий</label>
+                <textarea class="field__control" id="about" name="about" placeholder="Комментарий"></textarea>
+            </p>
+            <div class="field checkbox">
+                <input class="checkbox__control" id="agreement" name="agreement" type="checkbox" required
+                    aria-errormessage="agreement-errors">
+                <label class="field__label checkbox__label" for="agreement">Я ознакомлен и согласен с политикой
+                    конфиденциальности</label>
+                <span class="field__errors" id="agreement-errors" data-js-form-field-errors></span>
+            </div>
+            <button class="feedback-form__button button--accent" type="submit">Отправить</button>
+        </form>
+    </dialog>
+
+    <dialog class="feedback-form feedback-form--advice" id="feedbackFormAdvice">
+        <form method="dialog">
+            <button class="feedback-form__close-button reset-button closeButton" type="submit" id="closeButtonAdvice">
+                <span class="visually-hidden">Close navigation menu</span>
+            </button>
+        </form>
+        <div class="feedback-form__body">
+            <h3 class="feedback-form__title">
+                Записаться на консультацию
+            </h3>
+            <div class="feedback-form__description">
+                <p>Укажите данные и наш менеджер свяжется с Вами в ближайшее время.</p>
+            </div>
+        </div>
+
+        <form class="feedback-form__form" id="FormEntryConsult" action="/registration" method="post" novalidate
+            data-js-form>
+            <p class="field">
+                <label class="field__label visually-hidden" for="userName">Ваше имя</label>
+                <input class="field__control" id="userName" name="userName" type="text" placeholder="Ваше имя" required
+                    minlength="3" maxlength="12" aria-errormessage="userName-errors" title="Введите корректное имя">
+                <span class="field__errors" id="userName-errors" data-js-form-field-errors></span>
+            </p>
+            <p class="field">
+                <label class="field__label visually-hidden" for="userPhone">Номер телефона</label>
+                <input class="field__control" id="userPhone" name="userPhone" type="tel"
+                    placeholder="+7 (000) 000 00-00" required minlength="10" maxlength="16" pattern="\d+"
+                    title="Введите корректный номер телефона" aria-errormessage="userPhone-errors">
+                <span class="field__errors" id="userPhone-errors" data-js-form-field-errors></span>
+            </p>
+            <div class="field checkbox">
+                <input class="checkbox__control" id="agreement" name="agreement" type="checkbox" required
+                    aria-errormessage="agreement-errors">
+                <label class="field__label checkbox__label" for="agreement">Я ознакомлен и согласен с политикой
+                    конфиденциальности</label>
+                <span class="field__errors" id="agreement-errors" data-js-form-field-errors></span>
+            </div>
+            <button class="feedback-form__button button--accent" type="submit">Отправить</button>
+        </form>
+    </dialog>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+    <script src="https://code.jquery.com/ui/1.14.0/jquery-ui.js"></script>
+    <script src="js/tab.js"></script>
+    <script src="js/object.js"></script>
+    <script src="js/feedback-form.js"></script>
+</body>
+
+</html>

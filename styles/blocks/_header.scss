@@ -1,0 +1,72 @@
+.header {
+    background-color: var(--color-light-alt);
+    padding: 20px 0;
+    border-bottom: 1px solid rgb(0, 66, 164, 0.1);
+
+    &--index {
+        background-color: transparent;
+        padding: 27px 0 20px 0;
+        position: absolute;
+        z-index: 10;
+        left: 0;
+        right: 0;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+
+        @include desktop {
+            padding-top: 17px;
+        }
+    }
+
+    &__inner {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        column-gap: 74px;
+
+        @include desktop-l {
+            justify-content: space-between
+        }
+    }
+
+    &__menu {
+        font-size: 16px;
+
+        &-list {
+            display: flex;
+            align-items: center;
+            column-gap: 30px;
+
+            &--main {
+                column-gap: 56px;
+
+                @include desktop-l {
+                    flex-direction: column;
+                }
+            }
+        }
+
+        &-link {
+            display: inline-flex;
+            align-items: center;
+            height: 40px;
+
+            @include desktop-l {
+                height: 28px;
+            }
+
+            &--call {
+                font-weight: 600;
+            }
+
+            @include hover {
+                color: var(--color-blue);
+            }
+        }
+
+        &-icon {
+            margin-right: 5px;
+        }
+    }
+}

@@ -1,0 +1,44 @@
+.slider-banner {
+    position: relative;
+
+    &__slide {
+        background-image: url(/images/section-slider/slide.jpg);
+        background-color: rgba(255, 255, 255, 0.7);
+        background-blend-mode: overlay;
+        background-repeat: no-repeat;
+        background-size: cover;
+
+        &--active {
+            background-image: url(/images/section-slider/slide-active.jpg);
+        }
+
+        &--promo {
+            background-image: url(/images/section-slider/slide-promo.jpg);
+        }
+    }
+
+    &__swiper-pagination {
+        color: red;
+    }
+}
+
+.slider-banner .slick-dots button {
+    width: 15px;
+    height: 15px;
+
+    @include mobile {
+        width: 10px;
+        height: 10px;
+    }
+}
+
+.slider-banner .slick-dots {
+    position: absolute;
+    bottom: 34px;
+    left: 120px;
+
+    @include desktop-l {
+        bottom: 30px;
+        left: 20px;
+    }
+}

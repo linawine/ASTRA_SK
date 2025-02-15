@@ -1,0 +1,40 @@
+.object-slider {
+    position: relative;
+    width: 100%;
+}
+
+.object-slider .slick-slide {
+    margin-inline: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.object-slider .slick-arrow {
+    position: absolute;
+    top: 40%;
+    z-index: 10;
+    font-size: 0;
+    width: 40px;
+    height: 40px;
+    border-radius: var(--border-radius-small);
+    border: var(--border);
+
+    @include mobile {
+        width: 30px;
+        height: 30px;
+    }
+}
+
+.object-slider .slick-arrow.slick-prev {
+    background: url(/images/arrow/arrow-prev-light.svg) 0 0 no-repeat;
+    background-color: var(--color-blue);
+    background-position: center center;
+    left: -10px;
+}
+
+.object-slider .slick-arrow.slick-next {
+    background: url(/images/arrow/arrow-next-light.svg) 0 0 no-repeat;
+    background-color: var(--color-blue);
+    background-position: center center;
+    right: -10px;
+}
