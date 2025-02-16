@@ -564,17 +564,17 @@ h5 {
   position: relative;
 }
 .slider-banner__slide {
-  background-image: url(/images/section-slider/slide.jpg);
+  background-image: url(../../images/section-slider/slide.jpg);
   background-color: rgba(255, 255, 255, 0.7);
   background-blend-mode: overlay;
   background-repeat: no-repeat;
   background-size: cover;
 }
 .slider-banner__slide--active {
-  background-image: url(/images/section-slider/slide-active.jpg);
+  background-image: url(../images/section-slider/slide-active.jpg);
 }
 .slider-banner__slide--promo {
-  background-image: url(/images/section-slider/slide-promo.jpg);
+  background-image: url(../images/section-slider/slide-promo.jpg);
 }
 .slider-banner__swiper-pagination {
   color: red;
@@ -694,10 +694,10 @@ h5 {
   height: 30px;
   width: 30px;
   margin-bottom: 10px;
-  background-image: url(/images/feedback-form/close-button.svg);
+  background-image: url(../images/feedback-form/close-button.svg);
 }
 .feedback-form__close-button--phone {
-  background-image: url(/images/feedback-form/close-button--phone.svg);
+  background-image: url(../images/feedback-form/close-button--phone.svg);
   position: absolute;
   top: 20px;
   right: 20px;
@@ -1080,14 +1080,14 @@ h5 {
 }
 
 .slick-arrow.slick-prev {
-  background: url(/images/arrow/arrow-left.svg) 0 0 no-repeat;
+  background: url(../images/arrow/arrow-left.svg) 0 0 no-repeat;
   background-color: rgba(255, 255, 255, 0.5);
   background-position: center center;
   left: 14px;
 }
 
 .slick-arrow.slick-next {
-  background: url(/images/arrow/arrow-prev.svg) 0 0 no-repeat;
+  background: url(../images/arrow/arrow-prev.svg) 0 0 no-repeat;
   background-color: rgba(255, 255, 255, 0.5);
   background-position: center center;
   right: 14px;
@@ -1123,7 +1123,7 @@ h5 {
   font-size: clamp(14px, 1.1111111111vw, 16px);
 }
 .place-card__item::before {
-  content: url(/images/place-card/li-icon.svg);
+  content: url(../images/place-card/li-icon.svg);
   width: 10px;
   height: 10px;
   display: block;
@@ -1146,7 +1146,7 @@ h5 {
   font-size: clamp(14px, 1.1111111111vw, 16px);
 }
 .place-card__location-button:before {
-  content: url(/images/place-card/place-card-icon.svg);
+  content: url(../images/place-card/place-card-icon.svg);
   position: absolute;
   display: block;
   width: 22px;
@@ -1202,14 +1202,14 @@ h5 {
 }
 
 .object-slider .slick-arrow.slick-prev {
-  background: url(/images/arrow/arrow-prev-light.svg) 0 0 no-repeat;
+  background: url(../images/arrow/arrow-prev-light.svg) 0 0 no-repeat;
   background-color: var(--color-blue);
   background-position: center center;
   left: -10px;
 }
 
 .object-slider .slick-arrow.slick-next {
-  background: url(/images/arrow/arrow-next-light.svg) 0 0 no-repeat;
+  background: url(../images/arrow/arrow-next-light.svg) 0 0 no-repeat;
   background-color: var(--color-blue);
   background-position: center center;
   right: -10px;
@@ -1264,7 +1264,7 @@ h5 {
 }
 @media (max-width: 767px) {
   .furniture-slider .slick-arrow.slick-prev {
-    background: url(/images/arrow/arrow-prev-light.svg) 0 0 no-repeat;
+    background: url(../images/arrow/arrow-prev-light.svg) 0 0 no-repeat;
     background-color: var(--color-blue);
     background-position: center center;
   }
@@ -1275,7 +1275,7 @@ h5 {
 }
 @media (max-width: 767px) {
   .furniture-slider .slick-arrow.slick-next {
-    background: url(/images/arrow/arrow-next-light.svg) 0 0 no-repeat;
+    background: url(../images/arrow/arrow-next-light.svg) 0 0 no-repeat;
     background-color: var(--color-blue);
     background-position: center center;
   }
@@ -1401,7 +1401,7 @@ h5 {
 
 .special-slider .slick-arrow.slick-prev {
   left: -10000px;
-  background: url(/images/arrow/arrow-prev-light.svg) 0 0 no-repeat;
+  background: url(../images/arrow/arrow-prev-light.svg) 0 0 no-repeat;
   background-color: var(--color-blue);
   background-position: center center;
 }
@@ -1413,7 +1413,7 @@ h5 {
 
 .special-slider .slick-arrow.slick-next {
   right: -10000px;
-  background: url(/images/arrow/arrow-next-light.svg) 0 0 no-repeat;
+  background: url(../images/arrow/arrow-next-light.svg) 0 0 no-repeat;
   background-color: var(--color-blue);
   background-position: center center;
 }
@@ -1424,21 +1424,21 @@ h5 {
 }
 
 .special-slider--arrow .slick-arrow.slick-prev {
-  background: url(/images/arrow/arrow-prev-light.svg) 0 0 no-repeat;
+  background: url(../images/arrow/arrow-prev-light.svg) 0 0 no-repeat;
   background-color: var(--color-blue);
   background-position: center center;
   left: -7px;
 }
 
 .special-slider--arrow .slick-arrow.slick-next {
-  background: url(/images/arrow/arrow-next-light.svg) 0 0 no-repeat;
+  background: url(../images/arrow/arrow-next-light.svg) 0 0 no-repeat;
   background-color: var(--color-blue);
   background-position: center center;
   right: -7px;
 }
 
 .advantage {
-  background-image: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%), url(/images/advantage/advantage-bg.jpg);
+  background-image: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%), url(../images/advantage/advantage-bg.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -1477,7 +1477,7 @@ h5 {
   color: #212121;
 }
 .advantage-card__title::before {
-  content: url(/images/advantage/icon-advant.svg);
+  content: url(../images/advantage/icon-advant.svg);
   width: 21px;
   height: 21px;
   position: absolute;
@@ -1499,7 +1499,7 @@ h5 {
 
 .advantage-slider .slick-arrow.slick-prev {
   left: -10000px;
-  background: url(/images/arrow/arrow-prev-blue.svg) 0 0 no-repeat;
+  background: url(../images/arrow/arrow-prev-blue.svg) 0 0 no-repeat;
   background-color: var(--color-grey-alt);
   background-position: center center;
 }
@@ -1512,7 +1512,7 @@ h5 {
 
 .advantage-slider .slick-arrow.slick-next {
   right: -10000px;
-  background: url(/images/arrow/arrow-next-blue.svg) 0 0 no-repeat;
+  background: url(../images/arrow/arrow-next-blue.svg) 0 0 no-repeat;
   background-color: var(--color-grey-alt);
   background-position: center center;
 }
@@ -1524,7 +1524,7 @@ h5 {
 }
 
 .advantage-feedback {
-  background-image: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%), url(/images/advantage/advantage-feedback-bg.jpg);
+  background-image: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%), url(../images/advantage/advantage-feedback-bg.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -1555,7 +1555,7 @@ h5 {
 
 .advantage-feedback__slider .slick-arrow.slick-prev {
   left: -10000px;
-  background: url(/images/arrow/arrow-prev-blue.svg) 0 0 no-repeat;
+  background: url(../images/arrow/arrow-prev-blue.svg) 0 0 no-repeat;
   background-color: var(--color-grey-alt);
   background-position: center center;
 }
@@ -1568,7 +1568,7 @@ h5 {
 
 .advantage-feedback__slider .slick-arrow.slick-next {
   right: -10000px;
-  background: url(/images/arrow/arrow-next-blue.svg) 0 0 no-repeat;
+  background: url(../images/arrow/arrow-next-blue.svg) 0 0 no-repeat;
   background-color: var(--color-grey-alt);
   background-position: center center;
 }
@@ -1594,14 +1594,14 @@ h5 {
 }
 
 .standard__slider .slick-arrow.slick-prev {
-  background: url(/images/arrow/arrow-prev-light.svg) 0 0 no-repeat;
+  background: url(../images/arrow/arrow-prev-light.svg) 0 0 no-repeat;
   background-color: var(--color-blue);
   background-position: center center;
   left: -7px;
 }
 
 .standard__slider .slick-arrow.slick-next {
-  background: url(/images/arrow/arrow-next-light.svg) 0 0 no-repeat;
+  background: url(../images/arrow/arrow-next-light.svg) 0 0 no-repeat;
   background-color: var(--color-blue);
   background-position: center center;
   right: -7px;
@@ -1710,7 +1710,7 @@ h5 {
 }
 .production__block-container--prev {
   flex-grow: 1.5;
-  background-image: url(/images/production-section/production-bg.jpg);
+  background-image: url(../images/production-section/production-bg.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   box-shadow: inset 0 0 0 2000px rgba(255, 255, 255, 0.8);
@@ -1807,14 +1807,14 @@ h5 {
 }
 
 .gallery__slider .slick-arrow.slick-prev {
-  background: url(/images/arrow/arrow-prev-light.svg) 0 0 no-repeat;
+  background: url(../images/arrow/arrow-prev-light.svg) 0 0 no-repeat;
   background-color: var(--color-blue);
   background-position: center center;
   left: -7px;
 }
 
 .gallery__slider .slick-arrow.slick-next {
-  background: url(/images/arrow/arrow-next-light.svg) 0 0 no-repeat;
+  background: url(../images/arrow/arrow-next-light.svg) 0 0 no-repeat;
   background-color: var(--color-blue);
   background-position: center center;
   right: -7px;
@@ -1885,7 +1885,7 @@ h5 {
 }
 .object-info__block-image {
   position: relative;
-  background-image: url(/images/object-info/object-info.svg);
+  background-image: url(../images/object-info/object-info.svg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -1984,14 +1984,14 @@ h5 {
   cursor: pointer;
 }
 .contact-info__info-button::before {
-  content: url(/images/contact/map-button.svg);
+  content: url(../images/contact/map-button.svg);
   margin-right: 10px;
   width: 18px;
   height: 11px;
 }
 .contact-info__map {
   position: relative;
-  background-image: url(/images/contact/map-bg.jpg);
+  background-image: url(../images/contact/map-bg.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -2076,7 +2076,7 @@ h5 {
   row-gap: 20px;
 }
 .requisites__inner {
-  background-image: linear-gradient(rgba(230, 237, 246, 0.8), rgba(230, 237, 246, 0.8)), url(/images/contact/req-bg.svg);
+  background-image: linear-gradient(rgba(230, 237, 246, 0.8), rgba(230, 237, 246, 0.8)), url(../images/contact/req-bg.svg);
   padding: 30px;
   border-radius: var(--border-radius);
 }
@@ -2187,14 +2187,14 @@ h5 {
 }
 
 .vacancy__slider .slick-arrow.slick-prev {
-  background: url(/images/arrow/arrow-prev-blue.svg) 0 0 no-repeat;
+  background: url(../images/arrow/arrow-prev-blue.svg) 0 0 no-repeat;
   background-color: var(--color-grey-alt);
   background-position: center center;
   left: -15px;
 }
 
 .vacancy__slider .slick-arrow.slick-next {
-  background: url(/images/arrow/arrow-next-blue.svg) 0 0 no-repeat;
+  background: url(../images/arrow/arrow-next-blue.svg) 0 0 no-repeat;
   background-color: var(--color-grey-alt);
   background-position: center center;
   right: -15px;
@@ -2221,7 +2221,7 @@ h5 {
   padding-left: 30px;
 }
 .vacancy-info__title::before {
-  content: url(/images/vacancy/vacancy-icon.svg);
+  content: url(../images/vacancy/vacancy-icon.svg);
   position: absolute;
   width: 24px;
   height: 20px;
@@ -2259,7 +2259,7 @@ ul.vacancy-info__block-list {
   position: relative;
 }
 .location-str-base::after {
-  content: url(/images/location/location.svg);
+  content: url(../images/location/location.svg);
   height: 24px;
   width: 22px;
   position: absolute;
