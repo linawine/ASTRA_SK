@@ -13,26 +13,22 @@
     &__image {
 
         &--filter {
-            -webkit-transition: 2s;
-            -moz-transition: 2s;
-            -ms-transition: 2s;
-            -o-transition: 2s;
-            transition: 2s;
-            -webkit-filter: grayscale(100%);
+            transition: filter 2s;
             filter: grayscale(100%);
+
+            &:hover {
+                filter: grayscale(0%);
+            }
+
+            @include tablet {
+                filter: none;
+                transition: none;
+
+                &:hover {
+                    filter: none;
+                }
+            }
         }
-
-        &--filter:hover {
-
-            -webkit-transition: 2s;
-            -moz-transition: 2s;
-            -ms-transition: 2s;
-            -o-transition: 2s;
-            transition: 2s;
-            -webkit-filter: grayscale(0%);
-            filter: grayscale(0%);
-        }
-
     }
 
     &__img {
