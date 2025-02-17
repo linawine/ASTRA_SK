@@ -1,8 +1,5 @@
 .checkbox {
-    display: flex;
-    flex-direction: row;
     flex-wrap: wrap;
-    column-gap: 10px;
     flex-basis: 100%;
     font-size: 12px;
     align-items: center;
@@ -13,4 +10,11 @@
         margin: 0;
         border-color: var(--color-dark);
     }
+}
+
+.checkbox:not(:last-child) {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    column-gap: 10px;
 }

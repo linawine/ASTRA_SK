@@ -4,6 +4,9 @@
 
     &__slider {
         position: relative;
+        max-height: 690px;
+        overflow-y: auto;
+        overflow-x: hidden;
     }
 
     &__slide {
@@ -72,5 +75,3 @@
 .vacancy__slider .slick-arrow {
     top: 35%;
 }
-
-

@@ -623,6 +623,11 @@ h5 {
     height: 65vh;
   }
 }
+@media (max-height: 500px) {
+  .content-banner {
+    height: 85vh;
+  }
+}
 .content-banner__inner {
   max-width: 700px;
 }
@@ -782,11 +787,7 @@ h5 {
 }
 
 .checkbox {
-  display: flex;
-  flex-direction: row;
   flex-wrap: wrap;
-  -moz-column-gap: 10px;
-       column-gap: 10px;
   flex-basis: 100%;
   font-size: 12px;
   align-items: center;
@@ -796,6 +797,14 @@ h5 {
   height: 20px;
   margin: 0;
   border-color: var(--color-dark);
+}
+
+.checkbox:not(:last-child) {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  -moz-column-gap: 10px;
+       column-gap: 10px;
 }
 
 .tabs {
@@ -2161,6 +2170,9 @@ h5 {
 }
 .vacancy__slider {
   position: relative;
+  max-height: 690px;
+  overflow-y: auto;
+  overflow-x: hidden;
 }
 .vacancy__slide {
   background-color: var(--color-light-alt);
