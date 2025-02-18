@@ -7,6 +7,10 @@
     margin-inline: 10px;
     display: flex;
     justify-content: center;
+
+    @include mobile-s {
+        margin-inline: 0;
+    }
 }
 
 .object-slider .slick-arrow {
@@ -29,12 +33,12 @@
     background: url(../images/arrow/arrow-prev-light.svg) 0 0 no-repeat;
     background-color: var(--color-blue);
     background-position: center center;
-    left: -10px;
+    left: -15px;
 }
 
 .object-slider .slick-arrow.slick-next {
     background: url(../images/arrow/arrow-next-light.svg) 0 0 no-repeat;
     background-color: var(--color-blue);
     background-position: center center;
-    right: -10px;
+    right: -15px;
 }

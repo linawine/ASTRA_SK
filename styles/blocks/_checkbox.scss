@@ -1,20 +1,38 @@
 .checkbox {
-    flex-wrap: wrap;
-    flex-basis: 100%;
     font-size: 12px;
-    align-items: center;
+
+    @include mobile-min {
+        font-size: 10px;
+    }
 
     &__control {
         width: 20px;
         height: 20px;
         margin: 0;
         border-color: var(--color-dark);
+
+        @include mobile-min {
+            width: 16px;
+            height: 16px;
+        }
     }
 }
 
-.checkbox:not(:last-child) {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    column-gap: 10px;
+.field.checkbox {
+    display: block;  /* Гарантируем, что поле занимает всю ширину */
+}
+
+.checkbox__control {
+    display: inline-block;
+    vertical-align: middle; /* Выравниваем по середине */
+    margin-right: 5px;
+}
+
+.fieldlabel.checkboxlabel {
+    display: inline-block;
+    vertical-align: middle; /* Выравниваем по середине */
+}
+
+.field__errors {
+    display: block; /* Занимает всю ширину и переносит на новую строку */
 }

@@ -54,5 +54,9 @@
         flex-shrink: 0;
         border: none;
         border-radius: var(--border-radius);
+
+        @include mobile {
+            height: 36px;
+        }
     }
 }

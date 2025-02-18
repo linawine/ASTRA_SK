@@ -43,10 +43,10 @@
         &-list {
             display: flex;
             align-items: center;
-            column-gap: 30px;
+            column-gap: 40px;
 
             &--main {
-                column-gap: 40px;
+                column-gap: 20px;
 
                 @include desktop-l {
                     flex-direction: column;

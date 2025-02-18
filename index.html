@@ -6,6 +6,7 @@
     <meta name="viewport"
         content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="icon" href="./images/favicon/icon-fav.svg">
     <link rel="stylesheet" href="./styles/styles.css">
     <title>Astra-SK</title>
 </head>
@@ -73,7 +74,7 @@
         </header>
 
         <main class="section-banner">
-            <div class="section contact">
+            <div class="contact">
                 <ul class="contact__list">
                     <li class="contact__item">
                         <a href="#" class="contact__link">Вконтакте</a>
@@ -152,7 +153,7 @@
         </main>
 
         <section class="section container">
-            <div class="company">
+            <div class="company company--top">
                 <div class="company__inner">
                     <div class="company__info">
                         <div id="tabs" class="tabs tabs-up">
@@ -532,9 +533,9 @@
             <section class="feedback-section">
                 <div class="feedback-section__inner">
                     <div class="feedback-section__forma">
-                        <h3 class="feedback-section__title">
+                        <h2 class="feedback-section__title">
                             Свяжитесь с нами
-                        </h3>
+                        </h2>
                         <div class="feedback-section__description">
                             <p>Мы перезвоним и расскажем о направлениях недвижимости.</p>
                         </div>
@@ -788,11 +789,13 @@
                 <span class="field__errors" id="userPhone-errors" data-js-form-field-errors></span>
             </p>
             <div class="field checkbox">
-                <input class="checkbox__control" id="agreement" name="agreement" type="checkbox" required
-                    aria-errormessage="agreement-errors">
-                <label class="field__label checkbox__label" for="agreement">Я ознакомлен и согласен с политикой
-                    конфиденциальности</label>
-                <span class="field__errors" id="agreement-errors" data-js-form-field-errors></span>
+                <div class="field checkbox">
+                    <input class="checkbox__control" id="agreement" name="agreement" type="checkbox" required
+                        aria-errormessage="agreement-errors">
+                    <label class="fieldlabel checkboxlabel" for="agreement">Я ознакомлен и согласен с политикой
+                        конфиденциальности</label>
+                    <span class="field__errors" id="agreement-errors" data-js-form-field-errors></span>
+                </div>
             </div>
             <button class="feedback-form__button button--accent" type="submit">Отправить</button>
         </form>

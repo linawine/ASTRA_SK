@@ -1,6 +1,14 @@
 .company {
     position: relative;
 
+    &--top {
+        padding-top: 30px;
+
+        @include mobile {
+            padding-top: 20px;
+        }
+    }
+
     &__inner {
         min-width: 0;
         display: flex;

@@ -40,6 +40,7 @@
 
             &--main {
                 column-gap: 56px;
+                font-weight: 450;
 
                 @include desktop-l {
                     flex-direction: column;
@@ -57,7 +58,7 @@
             }
 
             &--call {
-                font-weight: 600;
+                font-weight: 700;
             }
 
             @include hover {

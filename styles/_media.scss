@@ -10,8 +10,10 @@ $tablet-s: 924px;
 $mobile-above: 768px;
 $mobile: 767px;
 $mobile-s: 500px;
+$mobile-min: 380px;
 
-$mobile-height: 500px;
+
+$mobile-height: 630px;
 
 
 @mixin desktop-above {
@@ -68,14 +70,14 @@ $mobile-height: 500px;
     }
 }
 
-@mixin mobile-a {
+@mixin mobile-s {
     @media(max-width: $mobile-s) {
         @content;
     }
 }
 
-@mixin mobile-s {
-    @media(max-width: $mobile-s) {
+@mixin mobile-min {
+    @media(max-width: $mobile-min) {
         @content;
     }
 }

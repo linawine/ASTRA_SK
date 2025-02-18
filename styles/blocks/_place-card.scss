@@ -35,13 +35,21 @@
         min-width: 0;
     }
 
+    &__title {
+        font-weight: 450;
+    }
+
     &__title a:hover {
         color: var(--color-blue);
     }
 
     &__item {
         padding-left: 15px;
-        @include fluid-text (16, 14)
+        @include fluid-text (16, 14);
+    }
+
+    &__item:not(:last-child) {
+        padding-bottom: 5px;
     }
 
     &__item::before {
@@ -68,6 +76,11 @@
         padding-left: 52px;
         cursor: pointer;
         @include fluid-text(16, 14);
+
+        @include mobile {
+            height: 31px;
+            padding-left: 47px;
+        }
     }
 
     &__location-button:before {

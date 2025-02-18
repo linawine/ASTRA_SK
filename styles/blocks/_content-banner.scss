@@ -17,7 +17,7 @@
     }
 
     @include mobile-height {
-        height: 85vh;
+        height: 100vh;
     }
 
     &__inner {
@@ -39,5 +39,9 @@
 
     &__button {
         height: var(--button-height-big);
+
+        @include mobile {
+            height: var(--button-height);
+        }
     }
 }

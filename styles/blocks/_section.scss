@@ -4,4 +4,54 @@
     @include mobile {
         padding-block: var(--section-padding-mobile-y)
     }
+
+    &--company {
+        padding-top: 20px;
+    }
+
+    &--top {
+        padding-top: 20px;
+        padding-bottom: 30px;
+
+        @include mobile {
+            padding-bottom: 20px;
+        }
+    }
+
+    &--buttom {
+        padding-top: 30px;
+        padding-bottom: 60px;
+
+        @include mobile {
+            padding-top: 20px;
+            padding-bottom: 40px;
+        }
+    }
+
+    &--advantage {
+        margin-top: 30px;
+
+        @include mobile {
+            margin-top: 20px;
+        }
+    }
+
+    &--vacancy {
+        padding-top: 20px;
+        padding-bottom: 60px;
+
+        @include mobile {
+            padding-top: 40px;
+            padding-bottom: 40px;
+        }
+    }
+
+    &--news {
+        padding-top: 20px;
+        padding-bottom: 60px;
+
+        @include mobile {
+            padding-bottom: 40px;
+        }
+    }
 }

@@ -1,6 +1,9 @@
 .info {
-    @include mobile-s {
-        &__button {
+
+    &__button {
+        @include fluid-text(16, 14);
+
+        @include mobile-s {
             width: 100%;
         }
     }

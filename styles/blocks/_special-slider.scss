@@ -5,6 +5,10 @@
         margin-inline: 10px;
         display: flex;
         justify-content: center;
+
+        @include mobile-s {
+            margin-inline: 0;
+        }
     }
 }
 
@@ -15,7 +19,7 @@
     background-position: center center;
 
     @include mobile {
-        left: -7px;
+        left: -15px;
     }
 }
 
@@ -26,7 +30,7 @@
     background-position: center center;
 
     @include mobile {
-        right: -7px;
+        right: -15px;
     }
 }
 
