@@ -1,15 +1,15 @@
 .object-slider {
     position: relative;
     width: 100%;
-}
 
-.object-slider .slick-slide {
-    margin-inline: 10px;
-    display: flex;
-    justify-content: center;
+    &__slide {
+        display: flex;
+        justify-content: center;
+    }
 
-    @include mobile-s {
-        margin-inline: 0;
+    &__slide img {
+        width: 100%;
+        object-fit: cover;
     }
 }
 

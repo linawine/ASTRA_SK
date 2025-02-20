@@ -6,21 +6,21 @@ $(function () {
     arrows: true,
     responsive: [
       {
-        breakpoint: 900,
+        breakpoint: 1230,
         settings: {
           slidesToShow: 3,
-          slidesToScroll: 2
+          slidesToScroll: 1
         }
       },
       {
-        breakpoint: 720,
+        breakpoint: 930,
         settings: {
           slidesToShow: 2,
           slidesToScroll: 1
         }
       },
       {
-        breakpoint: 520,
+        breakpoint: 620,
         settings: {
           slidesToShow: 1,
           slidesToScroll: 1
@@ -30,10 +30,8 @@ $(function () {
   });
 
   $(".filter li").on('click', function () {
-    // Удаляем класс active у всех элементов
     $(".filter li").removeClass('active');
 
-    // Добавляем класс active к выбранному элементу
     $(this).addClass('active');
 
     var filter = $(this).data('filter');

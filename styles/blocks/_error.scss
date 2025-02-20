@@ -5,7 +5,7 @@
         row-gap: 20px;
         max-width: 570px;
         margin-top: 77px;
-        margin-bottom: 160px;
+        margin-bottom: 232px;
 
         @include mobile {
             align-items: center;
@@ -26,6 +26,10 @@
     }
 
     &__button {
+        height: 49px;
+        font-size: 16px;
+        font-weight: 600;
+
         @include mobile {
             display: flex;
             width: 100%;

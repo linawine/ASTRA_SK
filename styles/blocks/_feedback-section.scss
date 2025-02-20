@@ -48,4 +48,15 @@
             width: 335px;
         }
     }
+
+    &__image img {
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+
+    &__image-company {
+        min-height: 240px;
+        object-fit: cover;
+    }
 }

@@ -32,6 +32,10 @@
     &__image {
         position: absolute;
         top: 28px;
-        left: -88px;
+        left: -53px;
+
+        @include desktop-l {
+            display: none;
+        }
     }
 }

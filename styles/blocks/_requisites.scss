@@ -7,13 +7,16 @@
         background-image: linear-gradient(rgba(230, 237, 246, 0.8), rgb(230, 237, 246, 0.8)), url(../images/contact/req-bg.svg);
         padding: 30px;
         border-radius: var(--border-radius);
+
+        @include mobile {
+            padding: 20px;
+        }
     }
 
     &__description {
         display: flex;
         justify-content: space-between;
         align-items: center;
-        padding-bottom: 15px;
         column-gap: 30px;
         @include fluid-text(24, 16);
         font-family: var(--font-family-accent);
@@ -42,15 +45,23 @@
     }
 
     &__inner-block {
+        padding-top: 20px;
         border-top: 1px solid rgb(52, 94, 159, 0.3);
-        padding-top: 15px;
+        margin-top: 10px;
+
+        @include mobile {
+            margin-top: 20px;
+        }
     }
 
     &__block {
-        display: flex;
-        justify-content: space-between;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
         column-gap: 10px;
-        font-family: var(--font-family-tertiary);
+        font-family: var(--font-family-accent);
+        font-weight: 500;
+        @include fluid-text(18, 16);
+        line-height: 20px;
     }
 
     &__block p {
@@ -58,13 +69,23 @@
     }
 
     &__block p:last-child {
+        font-family: var(--font-family-tertiary);
+        font-weight: 400;
         text-align: right;
     }
 
     &__block-button {
+        @include fluid-text(16, 14);
+        font-family: var(--font-family-accent);
+        font-weight: 600;
+        line-height: 1.16;
+        height: 49px;
+        margin-top: 10px;
+
         @include mobile-s {
             display: flex;
             width: 100%;
+            height: 36px;
         }
     }
 }

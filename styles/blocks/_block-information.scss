@@ -15,6 +15,8 @@
     }
 
     &__button {
+        @include fluid-text(16, 14);
+        font-weight: 600;
 
         @include mobile-s {
             display: flex;

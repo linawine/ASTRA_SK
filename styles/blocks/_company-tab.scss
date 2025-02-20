@@ -1,9 +1,9 @@
 .tab-btn {
     color: rgb(0, 0, 0, 0.6);
-    padding-bottom: 5px;
 }
 
 .tab-btn-active {
+    padding-bottom: 5px;
     order: -1;
     pointer-events: none;
     color: var(--color-dark);

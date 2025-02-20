@@ -2,13 +2,8 @@
     position: relative;
 
     &__slide {
-        margin-inline: 10px;
         display: flex;
         justify-content: center;
-
-        @include mobile-s {
-            margin-inline: 0;
-        }
     }
 }
 
@@ -38,12 +33,12 @@
     background: url(../images/arrow/arrow-prev-light.svg) 0 0 no-repeat;
     background-color: var(--color-blue);
     background-position: center center;
-    left: -7px;
+    left: -15px;
 }
 
 .special-slider--arrow .slick-arrow.slick-next {
     background: url(../images/arrow/arrow-next-light.svg) 0 0 no-repeat;
     background-color: var(--color-blue);
     background-position: center center;
-    right: -7px;
+    right: -15px;
 }

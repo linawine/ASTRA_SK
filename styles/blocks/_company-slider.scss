@@ -1,20 +1,11 @@
 .company-slider {
     position: relative;
-}
 
-.company-slider .slick-slider {
-    width: 100%;
-}
-
-.company-slider .slick-slide {
-    width: 100%;
-    height: auto;
-}
-
-.company-slider .slick-slide img {
-    display: block;
-    max-width: 100%;
-    height: auto;
+    &__image {
+        width: 100%;
+        object-fit: cover;
+        min-height: 335px;
+    }
 }
 
 .company-slider .slick-dots {

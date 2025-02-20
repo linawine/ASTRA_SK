@@ -7,11 +7,6 @@
         height: 100%;
         box-sizing: border-box;
         padding-bottom: 20px;
-        padding-inline: 10px;
-
-        @include mobile-s {
-            padding-inline: 0;
-        }
     }
 }
 

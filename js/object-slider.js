@@ -22,10 +22,8 @@ $(function() {
   });
 
   $(".filter li").on('click', function(){
-    // Сброс выделения у всех элементов
     $(".filter li").removeClass('active');
 
-    // Выделение текущего элемента
     $(this).addClass('active');
 
     var filter = $(this).data('filter');

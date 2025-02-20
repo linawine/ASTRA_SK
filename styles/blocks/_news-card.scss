@@ -2,7 +2,7 @@
     position: relative;
     max-width: 285px;
     margin: 0 auto;
-
+    
     &__inner {
         display: flex;
         flex-direction: column;
@@ -13,6 +13,11 @@
         display: block;
         max-width: 100%;
         height: auto;
+    }
+
+    &__title {
+        @include fluid-text(18, 16);
+        font-weight: 450;
     }
 
     &__info {

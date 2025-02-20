@@ -25,6 +25,7 @@
     }
 
     &__title {
+        line-height: 1;
         &--accent {
             color: var(--color-blue);
         }
@@ -35,10 +36,17 @@
         padding-top: 20px;
         padding-bottom: 20px;
         text-align: justify;
+        line-height: 1.24;
+
+        @include mobile {
+            text-align: left;
+        }
     }
 
     &__button {
         height: var(--button-height-big);
+        font-weight: 600;
+        color: var(--color-dark);
 
         @include mobile {
             height: var(--button-height);

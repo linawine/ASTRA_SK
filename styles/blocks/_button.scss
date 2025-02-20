@@ -8,6 +8,8 @@
     border: var(--border);
     border-radius: var(--border-radius);
     cursor: pointer;
+    line-height: 1.11;
+    font-weight: 600;
 
     @include mobile {
         height: var(--button-height-media);

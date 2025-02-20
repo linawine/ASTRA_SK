@@ -41,7 +41,9 @@
         width: 100%;
 
         &--call {
-            font-weight: 600;
+            font-weight: 700;
+            line-height: 1;
+            color: var(--color-dark);
         }
 
         &--contacts {

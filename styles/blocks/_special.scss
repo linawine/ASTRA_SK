@@ -20,9 +20,14 @@
             flex-direction: column;
             width: 100%;
         }
+
+        &-button {
+            @include fluid-text(16, 14);
+        }
     }
 
     &__special-slider {
         position: relative;
     }
 }
+
