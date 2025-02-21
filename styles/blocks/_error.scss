@@ -41,13 +41,6 @@
         bottom: 0;
         z-index: -10;
         right: 0;
-
-        @include tablet {
-        }
-
-        @include mobile {
-            
-        }
     }
 
     &__image img{

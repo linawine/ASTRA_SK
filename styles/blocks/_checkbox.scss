@@ -19,20 +19,20 @@
 }
 
 .field.checkbox {
-    display: block;  /* Гарантируем, что поле занимает всю ширину */
+    display: block;
 }
 
 .checkbox__control {
     display: inline-block;
-    vertical-align: middle; /* Выравниваем по середине */
+    vertical-align: middle;
     margin-right: 5px;
 }
 
 .fieldlabel.checkboxlabel {
     display: inline-block;
-    vertical-align: middle; /* Выравниваем по середине */
+    vertical-align: middle;
 }
 
 .field__errors {
-    display: block; /* Занимает всю ширину и переносит на новую строку */
+    display: block;
 }

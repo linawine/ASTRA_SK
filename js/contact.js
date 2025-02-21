@@ -1,9 +1,9 @@
 document.addEventListener('DOMContentLoaded', () => {
-    const todayElement = document.querySelector('.today');
-    const workHoursElement = document.querySelector('.work-hours');
-    const dropdownMenu = document.querySelector('.dropdown-menu');
+    const todayElement = document.querySelector('.selector-day__today');
+    const workHoursElement = document.querySelector('.selector-day__work-hours');
+    const dropdownMenu = document.querySelector('.selector-day__dropdown-menu');
     const dropdownItems = dropdownMenu.querySelectorAll('li');
-    const dropdownImage = document.querySelector('.dropdown-image');
+    const dropdownImage = document.querySelector('.selector-day__dropdown-image');
 
     dropdownItems.forEach(item => {
         item.addEventListener('click', () => {
