@@ -18,7 +18,8 @@
   }
 
   &__error {
-    flex-basis: 100%
+    flex-basis: 100%;
+    display: block;
   }
 
   input,
@@ -53,4 +54,13 @@
   input.error {
     border: 1px solid rgb(181, 2, 2, 0.5);
   }
+}
+
+.field.checkbox {
+    display: block;
+}
+
+.fieldlabel.checkboxlabel {
+    display: inline-block;
+    vertical-align: middle;
 }

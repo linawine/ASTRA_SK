@@ -6,6 +6,9 @@
     }
 
     &__control {
+        display: inline-block;
+        vertical-align: middle;
+        margin-right: 5px;
         width: 20px;
         height: 20px;
         margin: 0;
@@ -16,23 +19,4 @@
             height: 16px;
         }
     }
-}
-
-.field.checkbox {
-    display: block;
-}
-
-.checkbox__control {
-    display: inline-block;
-    vertical-align: middle;
-    margin-right: 5px;
-}
-
-.fieldlabel.checkboxlabel {
-    display: inline-block;
-    vertical-align: middle;
-}
-
-.field__errors {
-    display: block;
 }
