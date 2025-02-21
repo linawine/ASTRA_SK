@@ -28,28 +28,28 @@
         box-sizing: border-box;
         padding-bottom: 20px;
     }
-}
 
-.advantage-feedback__slider .slick-arrow.slick-prev {
-    left: -10000px;
-    background: url(../images/arrow/arrow-prev-blue.svg) 0 0 no-repeat;
-    background-color: var(--color-grey-alt);
-    background-position: center center;
-
-    @include mobile {
-        top: 100%;
-        left: 38%
+    &__slider .slick-arrow.slick-prev {
+        left: -10000px;
+        background: url(../images/arrow/arrow-prev-blue.svg) 0 0 no-repeat;
+        background-color: var(--color-grey-alt);
+        background-position: center center;
+    
+        @include mobile {
+            top: 100%;
+            left: 38%
+        }
     }
-}
 
-.advantage-feedback__slider .slick-arrow.slick-next {
-    right: -10000px;
-    background: url(../images/arrow/arrow-next-blue.svg) 0 0 no-repeat;
-    background-color: var(--color-grey-alt);
-    background-position: center center;
-
-    @include mobile {
-        top: 100%;
-        right: 38%;
+    &__slider .slick-arrow.slick-next {
+        right: -10000px;
+        background: url(../images/arrow/arrow-next-blue.svg) 0 0 no-repeat;
+        background-color: var(--color-grey-alt);
+        background-position: center center;
+    
+        @include mobile {
+            top: 100%;
+            right: 38%;
+        }
     }
 }

@@ -56,6 +56,9 @@
         }
 
         &-link {
+            @include fluid-text(18, 16);
+            color: #151515;
+            font-weight: 450;
             line-height: 24px;
         }
 
@@ -97,6 +100,10 @@
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
+        
+        @include mobile {
+            height: 335px;
+        }
     }
 }
 
@@ -109,6 +116,7 @@
     border-radius: 5px;
     padding: 10px 20px;
     @include fluid-text(16, 14);
+    letter-spacing: -0.3px;
 
     @include mobile {
         left: 20px;
@@ -121,17 +129,20 @@
     display: flex;
     flex-direction: row;
     align-items: center;
+    line-height: 20px;
     cursor: pointer;
     color: rgb(45, 45, 45, 0.7);
     @include fluid-text(16, 14);
+    font-weight: 400;
 }
 
 .today {
     color: #345E9F;
     padding-right: 10px;
+    font-weight: 500;
 
     @include mobile {
-        padding-right: 5px;
+        padding-right: 4px;
     }
 }
 
@@ -154,6 +165,8 @@
 .contact-map-selector-adress {
     padding-top: 10px;
     text-align: center;
+    @include fluid-text(18,16);
+    line-height: 24px;
 
     @include mobile {
         text-align: left;

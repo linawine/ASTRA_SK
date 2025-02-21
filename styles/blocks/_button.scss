@@ -36,6 +36,11 @@
     color: var(--color-black);
 }
 
+.button--accent:focus {
+    color: var(--color-light);
+    background-color: var(--color-blue);
+}
+
 .button[disabled] {
     color: var(--color-black);
     background-color: var(--color-grey);

@@ -58,8 +58,10 @@
             }
 
             &--call {
+                display: inline;
                 font-weight: 700;
                 line-height: 16px;
+                height: 16px;
                 color: var(--color-dark);
             }
 
